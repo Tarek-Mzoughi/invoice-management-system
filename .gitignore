@@ -1,16 +1,22 @@
 # Dependencies
 node_modules/
+.pnp/
+.pnp.js
 
 # Build outputs
 .next/
 dist/
 build/
+out/
 
 # Environment variables
 .env
+.env.*
 .env.local
 .env.development
 .env.production
+!.env.example
+!.env.*.example
 
 # Logs
 logs/
@@ -30,6 +36,7 @@ Thumbs.db
 # Docker / local data
 mysql-data/
 minio-data/
+.docker/
 
 # Uploads / generated files
 uploads/
@@ -37,3 +44,13 @@ storage/
 
 # Coverage
 coverage/
+
+# Caches
+.eslintcache
+.turbo/
+.swc/
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/

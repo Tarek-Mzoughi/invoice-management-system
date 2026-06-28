@@ -1,0 +1,22 @@
+{
+  "name": "invoice-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack invoice management platform with a Next.js frontend and NestJS backend.",
+  "scripts": {
+    "dev:services": "docker compose up -d",
+    "stop:services": "docker compose down",
+    "backend:dev": "yarn --cwd backend start:dev",
+    "backend:build": "yarn --cwd backend build",
+    "backend:lint": "yarn --cwd backend lint",
+    "backend:test": "yarn --cwd backend test",
+    "backend:seed": "yarn --cwd backend seed:all",
+    "frontend:dev": "yarn --cwd frontend dev",
+    "frontend:build": "yarn --cwd frontend build",
+    "frontend:lint": "yarn --cwd frontend lint",
+    "frontend:test": "yarn --cwd frontend test:run"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
