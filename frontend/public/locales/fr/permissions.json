@@ -1,0 +1,218 @@
+{
+  "DASHBOARD": {
+    "singular": "Tableau de bord",
+    "READ_DASHBOARD": {
+      "value": "Lire le tableau de bord",
+      "description": "Permission de consulter le tableau de bord et les indicateurs financiers."
+    }
+  },
+  "ENTERPRISE": {
+    "singular": "Entreprise",
+    "READ_ENTERPRISE": {
+      "value": "Lire l'entreprise",
+      "description": "Permission de consulter les informations de l'entreprise."
+    },
+    "CREATE_ENTERPRISE": {
+      "value": "Créer une entreprise",
+      "description": "Permission de créer une nouvelle entreprise."
+    },
+    "UPDATE_ENTERPRISE": {
+      "value": "Modifier l'entreprise",
+      "description": "Permission de modifier les informations de l'entreprise."
+    },
+    "DELETE_ENTERPRISE": {
+      "value": "Supprimer l'entreprise",
+      "description": "Permission de supprimer une entreprise."
+    }
+  },
+  "SELLING_DOCUMENTS": {
+    "singular": "Ventes",
+    "READ_SELLING_DOCUMENTS": {
+      "value": "Lire les ventes",
+      "description": "Permission de consulter les documents de vente (factures, devis, etc.)."
+    },
+    "CREATE_SELLING_DOCUMENTS": {
+      "value": "Créer des ventes",
+      "description": "Permission de créer des documents de vente."
+    },
+    "UPDATE_SELLING_DOCUMENTS": {
+      "value": "Modifier les ventes",
+      "description": "Permission de modifier les documents de vente."
+    },
+    "DELETE_SELLING_DOCUMENTS": {
+      "value": "Supprimer les ventes",
+      "description": "Permission de supprimer des documents de vente."
+    }
+  },
+  "BUYING_DOCUMENTS": {
+    "singular": "Achats",
+    "READ_BUYING_DOCUMENTS": {
+      "value": "Lire les achats",
+      "description": "Permission de consulter les documents d'achat."
+    },
+    "CREATE_BUYING_DOCUMENTS": {
+      "value": "Créer des achats",
+      "description": "Permission de créer des documents d'achat."
+    },
+    "UPDATE_BUYING_DOCUMENTS": {
+      "value": "Modifier les achats",
+      "description": "Permission de modifier les documents d'achat."
+    },
+    "DELETE_BUYING_DOCUMENTS": {
+      "value": "Supprimer les achats",
+      "description": "Permission de supprimer des documents d'achat."
+    }
+  },
+  "PAYMENTS": {
+    "singular": "Paiements",
+    "READ_PAYMENTS": {
+      "value": "Lire les paiements",
+      "description": "Permission de consulter les paiements."
+    },
+    "CREATE_PAYMENTS": {
+      "value": "Créer des paiements",
+      "description": "Permission de créer de nouveaux paiements."
+    },
+    "UPDATE_PAYMENTS": {
+      "value": "Modifier les paiements",
+      "description": "Permission de modifier les paiements existants."
+    },
+    "DELETE_PAYMENTS": {
+      "value": "Supprimer les paiements",
+      "description": "Permission de supprimer des paiements."
+    }
+  },
+  "SUPPLIERS": {
+    "singular": "Fournisseurs",
+    "READ_SUPPLIERS": {
+      "value": "Lire les fournisseurs",
+      "description": "Permission de consulter la liste des fournisseurs."
+    },
+    "CREATE_SUPPLIERS": {
+      "value": "Créer des fournisseurs",
+      "description": "Permission d'ajouter de nouveaux fournisseurs."
+    },
+    "UPDATE_SUPPLIERS": {
+      "value": "Modifier les fournisseurs",
+      "description": "Permission de modifier les informations des fournisseurs."
+    },
+    "DELETE_SUPPLIERS": {
+      "value": "Supprimer les fournisseurs",
+      "description": "Permission de supprimer des fournisseurs."
+    }
+  },
+  "CLIENTS": {
+    "singular": "Clients",
+    "READ_CLIENTS": {
+      "value": "Lire les clients",
+      "description": "Permission de consulter la liste des clients."
+    },
+    "CREATE_CLIENTS": {
+      "value": "Créer des clients",
+      "description": "Permission d'ajouter de nouveaux clients."
+    },
+    "UPDATE_CLIENTS": {
+      "value": "Modifier les clients",
+      "description": "Permission de modifier les informations des clients."
+    },
+    "DELETE_CLIENTS": {
+      "value": "Supprimer les clients",
+      "description": "Permission de supprimer des clients."
+    }
+  },
+  "PRODUCTS": {
+    "singular": "Articles & Services",
+    "READ_PRODUCTS": {
+      "value": "Lire les articles",
+      "description": "Permission de consulter le catalogue d'articles et services."
+    },
+    "CREATE_PRODUCTS": {
+      "value": "Créer des articles",
+      "description": "Permission d'ajouter de nouveaux articles ou services."
+    },
+    "UPDATE_PRODUCTS": {
+      "value": "Modifier les articles",
+      "description": "Permission de modifier les articles ou services."
+    },
+    "DELETE_PRODUCTS": {
+      "value": "Supprimer les articles",
+      "description": "Permission de supprimer des articles ou services."
+    }
+  },
+  "TREASURY": {
+    "singular": "Trésorerie",
+    "READ_TREASURY": {
+      "value": "Lire la trésorerie",
+      "description": "Permission de consulter les mouvements de trésorerie et comptes bancaires."
+    },
+    "CREATE_TREASURY": {
+      "value": "Créer en trésorerie",
+      "description": "Permission d'ajouter des mouvements de trésorerie."
+    },
+    "UPDATE_TREASURY": {
+      "value": "Modifier la trésorerie",
+      "description": "Permission de modifier les mouvements de trésorerie."
+    },
+    "DELETE_TREASURY": {
+      "value": "Supprimer en trésorerie",
+      "description": "Permission de supprimer des mouvements de trésorerie."
+    }
+  },
+  "PRICE_LISTS": {
+    "singular": "Listes de prix",
+    "READ_PRICE_LISTS": {
+      "value": "Lire les prix",
+      "description": "Permission de consulter les listes de prix."
+    },
+    "CREATE_PRICE_LISTS": {
+      "value": "Créer des prix",
+      "description": "Permission de créer des listes de prix."
+    },
+    "UPDATE_PRICE_LISTS": {
+      "value": "Modifier les prix",
+      "description": "Permission de modifier les listes de prix."
+    },
+    "DELETE_PRICE_LISTS": {
+      "value": "Supprimer les prix",
+      "description": "Permission de supprimer des listes de prix."
+    }
+  },
+  "TAXES": {
+    "singular": "Taxes & Retenues",
+    "READ_TAXES": {
+      "value": "Lire les taxes",
+      "description": "Permission de consulter les configurations de taxes et retenues."
+    },
+    "CREATE_TAXES": {
+      "value": "Créer des taxes",
+      "description": "Permission de créer des taxes ou retenues."
+    },
+    "UPDATE_TAXES": {
+      "value": "Modifier les taxes",
+      "description": "Permission de modifier les taxes ou retenues."
+    },
+    "DELETE_TAXES": {
+      "value": "Supprimer les taxes",
+      "description": "Permission de supprimer des taxes ou retenues."
+    }
+  },
+  "DOCUMENT_SETTINGS": {
+    "singular": "Paramètres documents",
+    "READ_DOCUMENT_SETTINGS": {
+      "value": "Lire les paramètres",
+      "description": "Permission de consulter les modèles et paramètres de documents."
+    },
+    "CREATE_DOCUMENT_SETTINGS": {
+      "value": "Créer des paramètres",
+      "description": "Permission de créer des modèles de documents."
+    },
+    "UPDATE_DOCUMENT_SETTINGS": {
+      "value": "Modifier les paramètres",
+      "description": "Permission de modifier les modèles de documents."
+    },
+    "DELETE_DOCUMENT_SETTINGS": {
+      "value": "Supprimer les paramètres",
+      "description": "Permission de supprimer des modèles de documents."
+    }
+  }
+}

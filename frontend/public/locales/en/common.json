@@ -1,0 +1,591 @@
+{
+  "404": {
+    "go_back": "Go Back to Dashboard",
+    "note1": "Something is missing...",
+    "note2": "Sorry, we can't find this page. You'll find plenty of things to explore on the homepage."
+  },
+  "rbac": {
+    "requiresClientsRead": "This action requires the Customers read permission.",
+    "requiresSuppliersRead": "This action requires the Suppliers read permission.",
+    "requiresProductsRead": "This action requires the Products read permission.",
+    "requiresPaymentsCreate": "This action requires the Payments create permission.",
+    "requiresPaymentsRead": "This action requires the Payments read permission.",
+    "requiresPaymentsUpdate": "This action requires the Payments update permission.",
+    "requiresSellingDocumentsRead": "This action requires the Sales documents read permission.",
+    "requiresSellingDocumentsCreate": "This action requires the Sales documents create permission.",
+    "requiresSellingDocumentsUpdate": "This action requires the Sales documents update permission.",
+    "requiresBuyingDocumentsRead": "This action requires the Purchase documents read permission.",
+    "requiresBuyingDocumentsCreate": "This action requires the Purchase documents create permission.",
+    "requiresBuyingDocumentsUpdate": "This action requires the Purchase documents update permission.",
+    "requiresProductsCreate": "This action requires the Products create permission.",
+    "requiresProductsUpdate": "This action requires the Products update permission.",
+    "requiresClientsCreate": "This action requires the Customers create permission.",
+    "requiresClientsUpdate": "This action requires the Customers update permission.",
+    "requiresSuppliersCreate": "This action requires the Suppliers create permission.",
+    "requiresSuppliersUpdate": "This action requires the Suppliers update permission.",
+    "bankingDetailsHidden": "Banking details are hidden because you do not have access to Treasury.",
+    "taxesWithholdingDisabled": "Taxes and withholding are disabled for this role.",
+    "documentSettingsUnavailable": "Document settings are unavailable for this role.",
+    "sectionUnavailable": "This section is not available for your role."
+  },
+  "routes": {
+    "contacts": {
+      "firm": {
+        "title": "Firm Management",
+        "description": "Manage your firms and their details"
+      },
+      "interlocutor": {
+        "title": "Interlocutor Management",
+        "description": "Manage your interlocutors and their details"
+      }
+    },
+    "selling": {
+      "invoice": {
+        "title": "Invoice Management",
+        "description": "Manage your invoices and their details"
+      },
+      "quotation": {
+        "title": "Quotation Management",
+        "description": "Manage your quotations and their details"
+      },
+      "deliveryNote": {
+        "title": "Delivery Note Management",
+        "description": "Manage your delivery notes and their details"
+      },
+      "goodsIssueNote": {
+        "title": "Goods Issue Note Management",
+        "description": "Manage your goods issue notes and their details"
+      },
+      "customerOrder": {
+        "title": "Customer Order Management",
+        "description": "Manage your customer orders and their details"
+      },
+      "honoraryNote": {
+        "title": "Honorary Note Management",
+        "description": "Manage your honorary notes and their details"
+      },
+      "creditNote": {
+        "title": "Credit Note Management",
+        "description": "Manage your credit notes and their details"
+      },
+      "returnNote": {
+        "title": "Return Note Management",
+        "description": "Manage your return notes and their details"
+      }
+    },
+    "buying": {
+      "invoice": {
+        "title": "Invoice Management",
+        "description": "Manage your invoices and their details"
+      },
+      "quotation": {
+        "title": "Quotation Management",
+        "description": "Manage your quotations and their details"
+      },
+      "deliveryNote": {
+        "title": "Delivery Note Management",
+        "description": "Manage your delivery notes and their details"
+      },
+      "goodsIssueNote": {
+        "title": "Goods Issue Note Management",
+        "description": "Manage your goods issue notes and their details"
+      }
+    }
+  },
+  "add_joints": "Add Attachments",
+  "answer": {
+    "yes": "Yes",
+    "no": "No"
+  },
+  "dialogs": {
+    "confirmDeleteMessage": "Do you really want to delete {{documentLabel}} No. {{sequential}}?",
+    "confirmDuplicateMessage": "Do you really want to duplicate {{documentLabel}} No. {{sequential}}?"
+  },
+  "app_name": "Invoicing System",
+  "app_settings": {
+    "dark": "Dark",
+    "light": "Light",
+    "system": "System",
+    "theme": "Theme"
+  },
+  "coming_soon": {
+    "coming_soon": "Coming Soon",
+    "go_back": "Go Back to Dashboard",
+    "note1": "Something incredible is coming soon!",
+    "note2": "We are working hard to bring you new features. Stay tuned!"
+  },
+  "commands": {
+    "apply": "Apply",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "actions": "Actions",
+    "add": "Add",
+    "accept": "Accept",
+    "cancel": "Cancel",
+    "create": "Create",
+    "copy": "Copy",
+    "close": "Close",
+    "confirm": "Confirm",
+    "back": "Back",
+    "delete": "Delete",
+    "details": "Details",
+    "demote": "Demote",
+    "draft": "Draft",
+    "display": "Display",
+    "download": "Download",
+    "download_pdf": "Download PDF",
+    "download_with_attachments": "Download with attachments",
+    "duplicate": "Duplicate",
+    "edit": "Edit",
+    "hide": "Hide",
+    "initialize": "Initialize",
+    "to_delivery_note": "Delivery note",
+    "to_goods_issue_note": "Goods issue note",
+    "to_invoice": "To Invoice",
+    "inspect": "Inspect",
+    "modify": "Modify",
+    "new": "New",
+    "update": "Update",
+    "reject": "Reject",
+    "resend": "Resend",
+    "save": "Save",
+    "search_by": "Search By",
+    "search_sort_by": "Search/Sort By",
+    "send": "Send",
+    "shrink": "Shrink",
+    "promote": "Promote",
+    "preview": "Preview",
+    "print": "Print",
+    "reset": "Reset",
+    "settings": "Settings",
+    "validate": "Validate",
+    "unassociate": "Unassociate",
+    "download_title": "Download",
+    "download_description": "You can choose the template you prefer",
+    "open": "Open",
+    "transform_to": "Transform to",
+    "more_actions": "More actions",
+    "delete_selection": "Delete selection",
+    "download_selection": "Download selection ({{count}})",
+    "view": "View"
+  },
+  "actions": {
+    "changeStatus": "Change status",
+    "manageAttachments": "Manage attachments"
+  },
+  "buttons": {
+    "profile": "Profile",
+    "account": "Account",
+    "billing": "Billing",
+    "notifications": "Notifications",
+    "settings": "Settings",
+    "logout": "Log out"
+  },
+  "preview_dialog": {
+    "loading": "Loading preview...",
+    "empty": "No preview available"
+  },
+  "elements": "Elements",
+  "files": {
+    "uploading": "Uploading",
+    "uploaded": "Uploaded",
+    "singular": "File",
+    "plural": "Files",
+    "drag_files_sentance": "Drag&drop files here, or click to select files",
+    "multiple_files_max_size_sentence": "You can upload {{count}} files (up to {{size}} each)",
+    "single_file_max_size_sentence": "You can upload a file with size up to {{size}}",
+    "no_selected_file": "No Selected Files",
+    "drop_image": "Drop the image",
+    "select_image": "Click to Select",
+    "rejected_empty_file_warning": "File {{name}} is empty and has been rejected.",
+    "max_one_per_upload_warning": "Cannot upload more than 1 file at a time",
+    "max_file_warning": "Cannot upload more than {{count}} files",
+    "file_rejected": "File {{name}} was rejected",
+    "failed_to_upload": "Failed to upload {{target}}",
+    "attachments": {
+      "update_success": "Attachments updated successfully",
+      "update_failure": "Error while updating attachments",
+      "title": "Manage attachments",
+      "description": "Manage {{document}} attachments",
+      "upload_title": "Click to upload your files",
+      "upload_hint": "Max 10 files • PDF, JPEG, JPG, PNG",
+      "preview_unavailable": "Preview unavailable for this file type",
+      "view_file": "View file"
+    }
+  },
+  "email": {
+    "send_by_email": "Send by email",
+    "subject": "Subject",
+    "recipient": "Recipient",
+    "cc_optional": "CC (optional)",
+    "message": "Message",
+    "send_success": "Email sent successfully"
+  },
+  "whatsapp": {
+    "send_by_whatsapp": "Send by WhatsApp",
+    "phone_number": "Phone number",
+    "send_success": "WhatsApp message sent successfully"
+  },
+  "languages": {
+    "word": "Language",
+    "en": "English 🇬🇧",
+    "fr": "French 🇫🇷"
+  },
+  "menu": {
+    "general": "General",
+    "buying": "Buying",
+    "contacts": "Contacts",
+    "dashboard": "Dashboard",
+    "payments": "Payments",
+    "selling": "Selling",
+    "treasury": "Treasury",
+    "withholding": "Withholding",
+    "clients": "Clients",
+    "suppliers": "Suppliers",
+    "articles": "Articles",
+    "ai_assistant": "AI Assistant",
+    "current_company": "Current company",
+    "administrative_tools": "Administrative Tools",
+    "settings": "Settings"
+  },
+  "notifications": {
+    "sequence_updated": "The sequence number has been updated",
+    "socket_connection_error": "Server connection error"
+  },
+  "order": {
+    "asc": "Ascending",
+    "desc": "Descending"
+  },
+  "pagination": {
+    "enumerate": "Page {{page}} of {{totalPageCount}}",
+    "next": "Next",
+    "previous": "Previous",
+    "rows_per": "Rows per page",
+    "selected_rows": "{{count}} of {{size}} row(s) selected."
+  },
+  "phone-input": {
+    "not_found": "No country found",
+    "search": "Search country"
+  },
+  "pick_date": "Pick a Date",
+  "start_date": "Start Date",
+  "end_date": "End Date",
+  "filters": {
+    "all": "All",
+    "all_customers": "All customers",
+    "all_suppliers": "All suppliers",
+    "search_contact": "Search a contact...",
+    "search_customer": "Search a customer...",
+    "search_documents": "Search documents...",
+    "search_payments": "Search payments...",
+    "search_supplier": "Search a supplier...",
+    "select_customer": "Select a customer...",
+    "select_date": "Select a date",
+    "select_supplier": "Select a supplier...",
+    "search": "Search",
+    "min_amount": "Minimum amount",
+    "max_amount": "Maximum amount",
+    "advanced_search": "Advanced Search"
+  },
+  "submenu": {
+    "account": "Account",
+    "accounts": "Accounts",
+    "checks_and_drafts": "Checks & Drafts",
+    "credit_note": "Credit note",
+    "customer_order": "Customer order",
+    "delivery_note": "Delivery note",
+    "firms": "Firms",
+    "goods_issue_note": "Goods issue note",
+    "goods_receipt_note": "Reception notes",
+    "honorary_note": "Honorary note",
+    "interlocutors": "Interlocutors",
+    "invoices": "Invoices",
+    "other": "Other",
+    "quotations": "Quotations",
+    "payments": "Payments",
+    "purchase_invoice": "Purchase invoices",
+    "purchase_other_withholding": "Purchases/Other WHT",
+    "return_note": "Return note",
+    "sales_withholding": "Sales WHT",
+    "settings_overview": "Overview",
+    "user_management": "User Management",
+    "transactions": "Transactions",
+    "logger": "Logger",
+    "system": "System",
+    "supplier_credit_note": "Supplier credit notes",
+    "supplier_order": "Supplier orders",
+    "supplier_return_note": "Supplier returns",
+    "withholding": "Withholding",
+    "pdf": "PDF",
+    "deliveryNotes": "Delivery note",
+    "goodsIssueNotes": "Goods issue note"
+  },
+  "administrative-tools": {
+    "logger": {},
+    "user_management": {
+      "users": "Users",
+      "roles": "Roles",
+      "permissions": "Permissions"
+    }
+  },
+  "settings": {
+    "account": {
+      "singular": "Account",
+      "plural": "Accounts",
+      "my_profile": "My Profile",
+      "my_cabinet": "My Cabinet"
+    },
+    "system": {
+      "singular": "System",
+      "plural": "Systems",
+      "activity": "Activity",
+      "sequence": "Numerical Sequence",
+      "payment_condition": "Payment Condition",
+      "tax_withholding": "Tax Withholding",
+      "tax": "Tax Synthesis"
+    }
+  },
+  "table": {
+    "delete_prompt": "Are you sure you want to delete",
+    "filter_placeholder": "Filter the {{entity}} ...",
+    "no_results": "No results",
+    "visible_cols": "Visible Columns",
+    "loading": "Loading Data, Please wait...",
+    "lines": "Lines",
+    "page_of": "Page {{page}} of {{total}}",
+    "result_count": "{{count}} result(s)",
+    "no_results_found": "No results found",
+    "items_selected": "{{count}} items selected",
+    "select_all_search_results": "Select all search results",
+    "document_type": "Document Type",
+    "reference": "Reference",
+    "date": "Date",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "words": {
+    "for": "For",
+    "main_m": "Main",
+    "main_f": "Main",
+    "or": "or",
+    "contact": "Contact",
+    "no_interlocutor": "No interlocutor",
+    "no_date": "No date"
+  },
+  "auth": {
+    "login_title": "Log in to your account",
+    "login_description": "Enter your email and password to access your account",
+    "signup_title": "Create an account",
+    "signup_description": "Sign up to start managing your business",
+    "email_or_username": "Email or username",
+    "username": "Username",
+    "username_placeholder": "e.g., tarekmz",
+    "first_name": "First name",
+    "first_name_placeholder": "e.g., Tarek",
+    "last_name": "Last name",
+    "last_name_placeholder": "e.g., Mzoughi",
+    "full_name": "Full name",
+    "email": "Email",
+    "email_placeholder": "e.g., contact@example.com",
+    "phone": "Phone",
+    "phone_placeholder": "e.g., +216 12 345 678",
+    "cin": "CIN",
+    "cin_placeholder": "ID card number",
+    "bio": "Bio",
+    "bio_placeholder": "Tell us a bit about yourself...",
+    "gender": "Gender",
+    "gender_male": "Male",
+    "gender_female": "Female",
+    "date_of_birth": "Date of birth",
+    "profile_picture": "Profile picture",
+    "optional_profile_fields": "All fields in this step are optional",
+    "is_private": "Private profile",
+    "is_private_description": "Hide your profile from other users",
+    "profile_visibility": "Profile visibility",
+    "private_profile": "Private",
+    "public_profile": "Public",
+    "password": "Password",
+    "password_placeholder": "Enter a strong password",
+    "confirm_password": "Confirm password",
+    "confirm_password_placeholder": "Repeat your password",
+    "password_hint": "Password must contain 8-64 characters, uppercase, lowercase, number, and special character",
+    "profile_picture_upload_warning": "The account was created, but the selected profile picture could not be uploaded.",
+    "forgot_password": "Forgot password?",
+    "terms_acceptance": "I have read and accept the terms of use",
+    "signup_steps": {
+      "account": "Account",
+      "account_description": "Create your account",
+      "personal": "Personal info",
+      "personal_description": "Basic information",
+      "profile": "Profile",
+      "profile_description": "Additional details",
+      "review": "Review",
+      "review_description": "Confirm your details"
+    },
+    "login_action": "Log in",
+    "signup_action": "Create account",
+    "no_account": "Do not have an account?",
+    "has_account": "Already have an account?",
+    "go_signup": "Create an account",
+    "go_login": "Log in",
+    "login_success": "Logged in successfully",
+    "signup_success": "Account created successfully",
+    "generic_error": "An error occurred",
+    "signup_error": "An error occurred during registration",
+    "validation": {
+      "login_required": "Email and password are required",
+      "signup_required": "Please complete the required fields",
+      "username_min_length": "Username must contain at least 3 characters",
+      "username_format": "Username can contain only letters, numbers, and underscores",
+      "invalid_email": "Please enter a valid email",
+      "first_name_required": "Please enter your first name",
+      "last_name_required": "Please enter your last name",
+      "age_minimum": "You must be at least 13 years old",
+      "password_min_length": "Password must contain at least 8 characters",
+      "password_max_length": "Password must contain at most 64 characters",
+      "password_strength": "Password must include uppercase, lowercase, number, and special character",
+      "passwords_do_not_match": "Passwords do not match",
+      "terms_required": "You must accept the terms of use"
+    }
+  },
+  "onboarding": {
+    "step_label": "Step {{current}} of {{total}}",
+    "next": "Next",
+    "create_company": "Create company",
+    "submitting": "Creating...",
+    "success": "Company configured successfully",
+    "error": "Unable to complete onboarding",
+    "steps": {
+      "0": {
+        "subtitle": "Activity type",
+        "description": "Select your company's activity type"
+      },
+      "1": {
+        "subtitle": "Person type",
+        "description": "Choose the person type"
+      },
+      "2": {
+        "subtitle": "Basic information",
+        "description": "Enter your company name and tax information"
+      },
+      "3": {
+        "subtitle": "Address",
+        "description": "Provide your company's billing address"
+      },
+      "4": {
+        "subtitle": "Taxes & VAT",
+        "description": "Choose VAT rates and taxes applied to your company"
+      }
+    },
+    "activity_options": {
+      "commercial": {
+        "title": "Commercial",
+        "description": "Purchase and sale of goods"
+      },
+      "service": {
+        "title": "Service",
+        "description": "Service delivery"
+      },
+      "industrial": {
+        "title": "Industrial",
+        "description": "Raw material transformation"
+      },
+      "liberal_profession": {
+        "title": "Liberal profession",
+        "description": "Professional fees"
+      },
+      "craft": {
+        "title": "Craft",
+        "description": "Craft activity"
+      },
+      "other_non_commercial": {
+        "title": "Other non-commercial activities",
+        "description": "Other activities"
+      }
+    },
+    "activity_other": {
+      "title": "Other activity",
+      "description": "I will fill it in later from the company profile"
+    },
+    "person_options": {
+      "physical": "Physical person",
+      "moral": "Moral person"
+    },
+    "fields": {
+      "enterprise_name": "Company name",
+      "tax_id_required": "Fiscal ID",
+      "tax_id_optional": "Fiscal ID (optional)",
+      "logo": "Company logo (optional)",
+      "logo_hint": "Click to select an image",
+      "address": "Address",
+      "city": "City",
+      "postal_code": "Postal code",
+      "country": "Country",
+      "country_placeholder": "Select a country"
+    },
+    "placeholders": {
+      "enterprise_name": "e.g. Finco Consulting",
+      "tax_id": "e.g. 1234567/A/B/C/000",
+      "address": "e.g. 12 Habib Bourguiba Avenue",
+      "city": "e.g. Tunis",
+      "postal_code": "e.g. 1001"
+    },
+    "empty": {
+      "activities": "No activity type is available.",
+      "taxes": "No fiscal template is available."
+    },
+    "taxes": {
+      "vat_title": "VAT rates",
+      "extra_title": "Additional taxes",
+      "tax_stamp": "Fiscal stamp",
+      "fodec": "FODEC"
+    }
+  },
+  "datatable": {
+    "paginationPhrase": "Showing Page {{page}} of {{total}}",
+    "search": "Search {{entity}}...",
+    "noResults": "No results",
+    "visibleColumns": "Visible Columns",
+    "order": {
+      "asc": "Ascending",
+      "desc": "Descending"
+    }
+  },
+  "sidebar": {
+    "cabinet": "Company",
+    "active_cabinet": "Active company",
+    "cabinets": "Companies",
+    "create_new_cabinet": "Create new company",
+    "switch_cabinet": "Switch company",
+    "switch_success": "Company switched successfully",
+    "switch_error": "Failed to switch company",
+    "create_success": "Company created successfully",
+    "create_error": "Failed to create company"
+  },
+  "cabinet": {
+    "create": {
+      "title": "Create New Company",
+      "description": "Set up a new company for your account.",
+      "name": "Company Name",
+      "name_placeholder": "Enter company name",
+      "activity_type": "Activity Type",
+      "activity_type_placeholder": "Select activity type",
+      "email": "Email",
+      "phone": "Phone",
+      "tax_id": "Tax ID Number",
+      "tax_id_placeholder": "Enter tax identification number",
+      "submit": "Create Company",
+      "errors": {
+        "name_required": "Company name is required"
+      },
+      "activity_types": {
+        "commercial": "Commercial",
+        "service": "Service",
+        "industrial": "Industrial",
+        "liberal_profession": "Liberal Profession",
+        "artisanal": "Artisanal",
+        "other": "Other"
+      }
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "DASHBOARD": {
+    "singular": "Dashboard",
+    "READ_DASHBOARD": {
+      "value": "Read Dashboard",
+      "description": "Permission to view the dashboard and financial indicators."
+    }
+  },
+  "ENTERPRISE": {
+    "singular": "Enterprise",
+    "READ_ENTERPRISE": {
+      "value": "Read Enterprise",
+      "description": "Permission to view enterprise information."
+    },
+    "CREATE_ENTERPRISE": {
+      "value": "Create Enterprise",
+      "description": "Permission to create a new enterprise."
+    },
+    "UPDATE_ENTERPRISE": {
+      "value": "Update Enterprise",
+      "description": "Permission to modify enterprise information."
+    },
+    "DELETE_ENTERPRISE": {
+      "value": "Delete Enterprise",
+      "description": "Permission to delete an enterprise."
+    }
+  },
+  "SELLING_DOCUMENTS": {
+    "singular": "Sales",
+    "READ_SELLING_DOCUMENTS": {
+      "value": "Read Sales",
+      "description": "Permission to view sales documents (invoices, quotations, etc.)."
+    },
+    "CREATE_SELLING_DOCUMENTS": {
+      "value": "Create Sales",
+      "description": "Permission to create sales documents."
+    },
+    "UPDATE_SELLING_DOCUMENTS": {
+      "value": "Update Sales",
+      "description": "Permission to modify sales documents."
+    },
+    "DELETE_SELLING_DOCUMENTS": {
+      "value": "Delete Sales",
+      "description": "Permission to delete sales documents."
+    }
+  },
+  "BUYING_DOCUMENTS": {
+    "singular": "Purchases",
+    "READ_BUYING_DOCUMENTS": {
+      "value": "Read Purchases",
+      "description": "Permission to view purchase documents."
+    },
+    "CREATE_BUYING_DOCUMENTS": {
+      "value": "Create Purchases",
+      "description": "Permission to create purchase documents."
+    },
+    "UPDATE_BUYING_DOCUMENTS": {
+      "value": "Update Purchases",
+      "description": "Permission to modify purchase documents."
+    },
+    "DELETE_BUYING_DOCUMENTS": {
+      "value": "Delete Purchases",
+      "description": "Permission to delete purchase documents."
+    }
+  },
+  "PAYMENTS": {
+    "singular": "Payments",
+    "READ_PAYMENTS": {
+      "value": "Read Payments",
+      "description": "Permission to view payments."
+    },
+    "CREATE_PAYMENTS": {
+      "value": "Create Payments",
+      "description": "Permission to create new payments."
+    },
+    "UPDATE_PAYMENTS": {
+      "value": "Update Payments",
+      "description": "Permission to modify existing payments."
+    },
+    "DELETE_PAYMENTS": {
+      "value": "Delete Payments",
+      "description": "Permission to delete payments."
+    }
+  },
+  "SUPPLIERS": {
+    "singular": "Suppliers",
+    "READ_SUPPLIERS": {
+      "value": "Read Suppliers",
+      "description": "Permission to view the supplier list."
+    },
+    "CREATE_SUPPLIERS": {
+      "value": "Create Suppliers",
+      "description": "Permission to add new suppliers."
+    },
+    "UPDATE_SUPPLIERS": {
+      "value": "Update Suppliers",
+      "description": "Permission to modify supplier information."
+    },
+    "DELETE_SUPPLIERS": {
+      "value": "Delete Suppliers",
+      "description": "Permission to delete suppliers."
+    }
+  },
+  "CLIENTS": {
+    "singular": "Clients",
+    "READ_CLIENTS": {
+      "value": "Read Clients",
+      "description": "Permission to view the client list."
+    },
+    "CREATE_CLIENTS": {
+      "value": "Create Clients",
+      "description": "Permission to add new clients."
+    },
+    "UPDATE_CLIENTS": {
+      "value": "Update Clients",
+      "description": "Permission to modify client information."
+    },
+    "DELETE_CLIENTS": {
+      "value": "Delete Clients",
+      "description": "Permission to delete clients."
+    }
+  },
+  "PRODUCTS": {
+    "singular": "Products & Services",
+    "READ_PRODUCTS": {
+      "value": "Read Products",
+      "description": "Permission to view the products and services catalog."
+    },
+    "CREATE_PRODUCTS": {
+      "value": "Create Products",
+      "description": "Permission to add new products or services."
+    },
+    "UPDATE_PRODUCTS": {
+      "value": "Update Products",
+      "description": "Permission to modify products or services."
+    },
+    "DELETE_PRODUCTS": {
+      "value": "Delete Products",
+      "description": "Permission to delete products or services."
+    }
+  },
+  "TREASURY": {
+    "singular": "Treasury",
+    "READ_TREASURY": {
+      "value": "Read Treasury",
+      "description": "Permission to view treasury movements and bank accounts."
+    },
+    "CREATE_TREASURY": {
+      "value": "Create Treasury",
+      "description": "Permission to add treasury movements."
+    },
+    "UPDATE_TREASURY": {
+      "value": "Update Treasury",
+      "description": "Permission to modify treasury movements."
+    },
+    "DELETE_TREASURY": {
+      "value": "Delete Treasury",
+      "description": "Permission to delete treasury movements."
+    }
+  },
+  "PRICE_LISTS": {
+    "singular": "Price Lists",
+    "READ_PRICE_LISTS": {
+      "value": "Read Price Lists",
+      "description": "Permission to view price lists."
+    },
+    "CREATE_PRICE_LISTS": {
+      "value": "Create Price Lists",
+      "description": "Permission to create price lists."
+    },
+    "UPDATE_PRICE_LISTS": {
+      "value": "Update Price Lists",
+      "description": "Permission to modify price lists."
+    },
+    "DELETE_PRICE_LISTS": {
+      "value": "Delete Price Lists",
+      "description": "Permission to delete price lists."
+    }
+  },
+  "TAXES": {
+    "singular": "Taxes & Withholdings",
+    "READ_TAXES": {
+      "value": "Read Taxes",
+      "description": "Permission to view tax and withholding configurations."
+    },
+    "CREATE_TAXES": {
+      "value": "Create Taxes",
+      "description": "Permission to create taxes or withholdings."
+    },
+    "UPDATE_TAXES": {
+      "value": "Update Taxes",
+      "description": "Permission to modify taxes or withholdings."
+    },
+    "DELETE_TAXES": {
+      "value": "Delete Taxes",
+      "description": "Permission to delete taxes or withholdings."
+    }
+  },
+  "DOCUMENT_SETTINGS": {
+    "singular": "Document Settings",
+    "READ_DOCUMENT_SETTINGS": {
+      "value": "Read Settings",
+      "description": "Permission to view document templates and settings."
+    },
+    "CREATE_DOCUMENT_SETTINGS": {
+      "value": "Create Settings",
+      "description": "Permission to create document templates."
+    },
+    "UPDATE_DOCUMENT_SETTINGS": {
+      "value": "Update Settings",
+      "description": "Permission to modify document templates."
+    },
+    "DELETE_DOCUMENT_SETTINGS": {
+      "value": "Delete Settings",
+      "description": "Permission to delete document templates."
+    }
+  }
+}

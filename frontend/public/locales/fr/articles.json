@@ -1,0 +1,154 @@
+{
+  "singular": "Article",
+  "plural": "Articles",
+  "portal": {
+    "title": "Articles",
+    "description": "Gérez vos articles, services et immobilisations",
+    "empty": "Aucun article trouvé",
+    "actions": "Actions",
+    "rows": "Lignes",
+    "results_summary_empty": "Aucun résultat",
+    "results_summary": "{{count}} résultat(s)"
+  },
+  "pages": {
+    "create_title": "Créer un nouvel article",
+    "update_title": "Modifier l'article"
+  },
+  "filters": {
+    "search": "Recherche",
+    "destination": "Destination",
+    "type": "Type",
+    "all": "Tous",
+    "article_type": "Type d'article",
+    "family": "Famille",
+    "sub_family": "Sous-famille",
+    "brand": "Marque"
+  },
+  "sections": {
+    "destination": "Destination",
+    "article_type": "Type d'article",
+    "price_lists": "Listes de prix",
+    "family_brand": "Famille et marque",
+    "attachments": "Pièces jointes",
+    "usual_discount": "Remise habituelle"
+  },
+  "destination": {
+    "selling": "Vente",
+    "buying": "Achat",
+    "both": "Vente et Achat"
+  },
+  "type": {
+    "product": "Produit",
+    "service": "Service",
+    "asset": "Immobilisation"
+  },
+  "fields": {
+    "article": "Article",
+    "article_name": "Nom de l'article",
+    "service_name": "Nom du service",
+    "asset_name": "Nom de l'immobilisation",
+    "reference": "Référence",
+    "description": "Description",
+    "image": "Image de l'article",
+    "vat": "TVA",
+    "additional_taxes": "Taxes supplémentaires",
+    "sale_price": "Prix de vente",
+    "purchase_price": "Prix d'achat",
+    "production_cost": "Coût de production (HT)",
+    "unit": "Unité",
+    "family": "Famille",
+    "sub_family": "Sous-famille",
+    "brand": "Marque",
+    "barcode": "Code-barres",
+    "private_notes": "Notes privées",
+    "sale_discount": "Remise de vente",
+    "purchase_discount": "Remise d'achat",
+    "default_discount": "Remise par défaut",
+    "destination": "Destination",
+    "article_type": "Type",
+    "price": "Prix"
+  },
+  "discount_type": {
+    "percentage": "Pourcentage",
+    "amount": "Montant"
+  },
+  "actions": {
+    "add": "Ajouter un article",
+    "add_vat": "Ajouter une TVA",
+    "add_additional_tax": "Ajouter une taxe",
+    "add_price_list": "Ajouter Nouvelle Liste de Prix",
+    "create_price_list": "Créer",
+    "remove_image": "Supprimer l'image",
+    "view_image": "Voir la photo",
+    "download_attachments": "Télécharger les pièces jointes",
+    "export_excel": "Exporter Excel",
+    "import_excel": "Importer depuis Excel"
+  },
+  "placeholders": {
+    "search": "Rechercher des articles...",
+    "search_portal": "Rechercher par nom, référence ou description",
+    "article_name": "Saisissez le nom de l'article",
+    "service_name": "Saisissez le nom du service",
+    "asset_name": "Saisissez le nom de l'immobilisation",
+    "reference": "Saisissez la référence de l'article",
+    "description": "Saisissez la description de l'article",
+    "upload_image": "Cliquez, glissez ou collez une image",
+    "select_price_list": "Sélectionnez une liste de prix",
+    "search_price_lists": "Rechercher listes de prix...",
+    "select_unit": "Sélectionnez l'unité",
+    "select_family": "Sélectionnez une famille",
+    "select_sub_family": "Sélectionnez une sous-famille",
+    "select_brand": "Sélectionnez une marque",
+    "barcode": "Saisissez le code-barres",
+    "private_notes": "Saisissez les notes privées",
+    "upload_attachments": "Cliquez pour télécharger vos fichiers",
+    "upload_attachments_hint": "10 fichiers max. • PDF, JPEG, JPG, PNG"
+  },
+  "descriptions": {
+    "price_lists": "Configurez des tarifs spécifiques selon les groupes de clients ou les quantités achetées",
+    "private_notes": "Usage interne uniquement — non visible sur les documents",
+    "usual_discount": "Définissez une remise par défaut qui sera automatiquement appliquée lors de l'ajout de cet article aux documents"
+  },
+  "messages": {
+    "create_success": "Article créé avec succès",
+    "create_error": "Impossible de créer l'article",
+    "update_success": "Article mis à jour avec succès",
+    "update_error": "Impossible de mettre à jour l'article",
+    "delete_success": "Article supprimé avec succès",
+    "delete_error": "Impossible de supprimer l'article",
+    "load_error": "Impossible de charger les articles",
+    "delete_confirm": "Supprimer l'article {{title}} ?",
+    "existing_attachments_kept": "{{count}} fichier(s) déjà associé(s) seront conservés",
+    "export_success": "Export des articles effectué",
+    "import_placeholder": "L'import depuis Excel sera bientôt disponible",
+    "image_preview_empty": "Aucune photo disponible.",
+    "image_preview_error": "Impossible d'afficher la photo de l'article.",
+    "attachments_download_success": "{{count}} pièce(s) jointe(s) téléchargée(s).",
+    "attachments_download_error": "Impossible de télécharger les pièces jointes.",
+    "no_price_lists": "Aucune liste de prix trouvée"
+  },
+  "errors": {
+    "title_required": "Le nom de l'article est obligatoire",
+    "destination_required": "La destination est obligatoire",
+    "type_required": "Le type d'article est obligatoire",
+    "discount_value_invalid": "La remise par défaut doit être positive"
+  },
+  "options": {
+    "unit_piece": "Pièce",
+    "unit_kg": "Kg",
+    "unit_hour": "Heure",
+    "unit_day": "Jour",
+    "family_default": "Famille par défaut",
+    "family_products": "Produits",
+    "family_services": "Services",
+    "family_assets": "Immobilisations",
+    "sub_family_default": "Sous-famille par défaut",
+    "sub_family_standard": "Standard",
+    "sub_family_premium": "Premium",
+    "brand_default": "Marque par défaut",
+    "brand_generic": "Générique",
+    "price_list_standard": "Liste standard",
+    "price_list_pro": "Professionnels",
+    "price_list_wholesale": "Grossistes"
+  }
+}

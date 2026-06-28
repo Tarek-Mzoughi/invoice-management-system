@@ -1,0 +1,154 @@
+{
+  "singular": "Article",
+  "plural": "Articles",
+  "portal": {
+    "title": "Articles",
+    "description": "Manage your products, services, and assets",
+    "empty": "No article found",
+    "actions": "Actions",
+    "rows": "Rows",
+    "results_summary_empty": "No results",
+    "results_summary": "{{count}} result(s)"
+  },
+  "pages": {
+    "create_title": "Create a New Article",
+    "update_title": "Update Article"
+  },
+  "filters": {
+    "search": "Search",
+    "destination": "Destination",
+    "type": "Type",
+    "all": "All",
+    "article_type": "Article Type",
+    "family": "Family",
+    "sub_family": "Sub-family",
+    "brand": "Brand"
+  },
+  "sections": {
+    "destination": "Destination",
+    "article_type": "Article Type",
+    "price_lists": "Price Lists",
+    "family_brand": "Family and Brand",
+    "attachments": "Attachments",
+    "usual_discount": "Default Discount"
+  },
+  "destination": {
+    "selling": "Selling",
+    "buying": "Buying",
+    "both": "Selling and Buying"
+  },
+  "type": {
+    "product": "Product",
+    "service": "Service",
+    "asset": "Asset"
+  },
+  "fields": {
+    "article": "Article",
+    "article_name": "Article Name",
+    "service_name": "Service Name",
+    "asset_name": "Asset Name",
+    "reference": "Reference",
+    "description": "Description",
+    "image": "Article Image",
+    "vat": "VAT",
+    "additional_taxes": "Additional Taxes",
+    "sale_price": "Sale Price",
+    "purchase_price": "Purchase Price",
+    "production_cost": "Production Cost (EXCL.)",
+    "unit": "Unit",
+    "family": "Family",
+    "sub_family": "Sub-family",
+    "brand": "Brand",
+    "barcode": "Barcode",
+    "private_notes": "Private Notes",
+    "sale_discount": "Sale Discount",
+    "purchase_discount": "Purchase Discount",
+    "default_discount": "Default Discount",
+    "destination": "Destination",
+    "article_type": "Type",
+    "price": "Price"
+  },
+  "discount_type": {
+    "percentage": "Percentage",
+    "amount": "Amount"
+  },
+  "actions": {
+    "add": "Add article",
+    "add_vat": "Add VAT",
+    "add_additional_tax": "Add tax",
+    "add_price_list": "Add New Price List",
+    "create_price_list": "Create",
+    "remove_image": "Remove image",
+    "view_image": "View photo",
+    "download_attachments": "Download attachments",
+    "export_excel": "Export Excel",
+    "import_excel": "Import from Excel"
+  },
+  "placeholders": {
+    "search": "Search articles...",
+    "search_portal": "Search by name, reference or description",
+    "article_name": "Enter the article name",
+    "service_name": "Enter the service name",
+    "asset_name": "Enter the asset name",
+    "reference": "Enter the article reference",
+    "description": "Enter the article description",
+    "upload_image": "Click, drag, or paste an image",
+    "select_price_list": "Select a price list",
+    "search_price_lists": "Search price lists...",
+    "select_unit": "Select unit",
+    "select_family": "Select a family",
+    "select_sub_family": "Select a sub-family",
+    "select_brand": "Select a brand",
+    "barcode": "Enter the barcode",
+    "private_notes": "Enter private notes",
+    "upload_attachments": "Click to upload your files",
+    "upload_attachments_hint": "Max 10 files • PDF, JPEG, JPG, PNG"
+  },
+  "descriptions": {
+    "price_lists": "Configure special prices for different customer groups or purchase quantities",
+    "private_notes": "Internal use only — not visible on documents",
+    "usual_discount": "Define a default discount automatically applied when this article is added to documents"
+  },
+  "messages": {
+    "create_success": "Article created successfully",
+    "create_error": "Unable to create the article",
+    "update_success": "Article updated successfully",
+    "update_error": "Unable to update the article",
+    "delete_success": "Article deleted successfully",
+    "delete_error": "Unable to delete the article",
+    "load_error": "Unable to load articles",
+    "delete_confirm": "Delete article {{title}}?",
+    "existing_attachments_kept": "{{count}} existing attachment(s) will be kept",
+    "export_success": "Article export started",
+    "import_placeholder": "Excel import will be available soon",
+    "image_preview_empty": "No photo available.",
+    "image_preview_error": "Unable to display the article photo.",
+    "attachments_download_success": "{{count}} attachment(s) downloaded.",
+    "attachments_download_error": "Unable to download attachments.",
+    "no_price_lists": "No price list found"
+  },
+  "errors": {
+    "title_required": "Article name is required",
+    "destination_required": "Destination is required",
+    "type_required": "Article type is required",
+    "discount_value_invalid": "Default discount must be positive"
+  },
+  "options": {
+    "unit_piece": "Piece",
+    "unit_kg": "Kg",
+    "unit_hour": "Hour",
+    "unit_day": "Day",
+    "family_default": "Default family",
+    "family_products": "Products",
+    "family_services": "Services",
+    "family_assets": "Assets",
+    "sub_family_default": "Default sub-family",
+    "sub_family_standard": "Standard",
+    "sub_family_premium": "Premium",
+    "brand_default": "Default brand",
+    "brand_generic": "Generic",
+    "price_list_standard": "Standard list",
+    "price_list_pro": "Professional",
+    "price_list_wholesale": "Wholesale"
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "common": {
+    "address": {
+      "address": "Address",
+      "address2": "Complementary Address",
+      "country": "Country",
+      "region": "Region",
+      "zip_code": "Zip Code"
+    },
+    "contact_information": "Contact Information",
+    "firm_information": "Firm Information",
+    "quotations_list": "Quotations List"
+  },
+  "firm": {
+    "action_add_failure": "Error while creating the firm",
+    "action_add_success": "Firm successfully added",
+    "action_update_failure": "Error while updating the firm",
+    "action_update_success": "Firm updated successfully",
+    "action_remove_failure": "Error while removing the firm",
+    "action_remove_success": "Firm successfully removed",
+    "add_button_label": "New Firm",
+    "context": {
+      "clients": {
+        "label": "Clients",
+        "singular": "Client",
+        "list_title": "Client management",
+        "list_description": "Manage your clients and their information.",
+        "create_button_label": "New client",
+        "create_page_title": "Create a new client",
+        "create_page_description": "Fill in the client information in a clear and structured form.",
+        "update_page_title": "Edit client",
+        "update_page_description": "Update {{firmName}} as a client.",
+        "empty_table": "No client found"
+      },
+      "suppliers": {
+        "label": "Suppliers",
+        "singular": "Supplier",
+        "list_title": "Supplier management",
+        "list_description": "Manage your suppliers and their information.",
+        "create_button_label": "New supplier",
+        "create_page_title": "Create a new supplier",
+        "create_page_description": "Fill in the supplier information in a clear and structured form.",
+        "update_page_title": "Edit supplier",
+        "update_page_description": "Update {{firmName}} as a supplier.",
+        "empty_table": "No supplier found"
+      }
+    },
+    "modules": {
+      "clients": {
+        "title": "Clients",
+        "description": "Manage your clients and their information.",
+        "add": "Add client",
+        "empty": "No client found",
+        "detail_title": "Client profile",
+        "edit_title": "Edit client",
+        "delete_title": "Delete this client?",
+        "delete_description": "This action will delete the client if no document blocks deletion. This action is irreversible.",
+        "delete_success": "Client deleted successfully.",
+        "delete_error": "Unable to delete this client."
+      },
+      "suppliers": {
+        "title": "Suppliers",
+        "description": "Manage your suppliers and their information.",
+        "add": "Add supplier",
+        "empty": "No supplier found",
+        "detail_title": "Supplier profile",
+        "edit_title": "Edit supplier",
+        "delete_title": "Delete this supplier?",
+        "delete_description": "This action will delete the supplier if no document blocks deletion. This action is irreversible.",
+        "delete_success": "Supplier deleted successfully.",
+        "delete_error": "Unable to delete this supplier."
+      }
+    },
+    "actions": {
+      "activate_deactivate": "Activate / Deactivate",
+      "activate_success": "Company activated successfully.",
+      "activate_error": "Unable to activate this company.",
+      "deactivate_success": "Company deactivated successfully.",
+      "deactivate_error": "Unable to deactivate this company.",
+      "history": "History",
+      "open": "Open",
+      "planned": "This feature will be available soon.",
+      "view": "View"
+    },
+    "attributes": {
+      "activity": "Activity",
+      "bank_account_agency": "Agency",
+      "bank_account_currency": "Currency",
+      "bank_account_iban": "IBAN",
+      "created_at": "Date of Creation",
+      "currency": "Currency",
+      "delivery_address": "Delivery Address",
+      "entreprise_name": "Company Name",
+      "entreprise_type": "Company",
+      "main_interlocurtor_name": "Main Contact First Name",
+      "main_interlocurtor_surname": "Main Contact Last Name",
+      "invoicing_address": "Invoicing Address",
+      "inactive": "Inactive",
+      "notes": "Notes",
+      "particular_entreprise_type": "Individual",
+      "payment_conditions": "Payment Terms",
+      "phone": "Phone",
+      "tax_number": "Tax Identification Number",
+      "type": "Company Type",
+      "website": "Website"
+    },
+    "card_description": "This section provides a clear and structured overview of all companies, with quick access to the main actions.",
+    "errors": {
+      "empty_entreprise_name": "Firm name is required",
+      "firm_name_already_taken": "Firm name is already taken",
+      "tax_number_already_taken": "Tax number is already taken",
+      "tax_number_required": "Tax identification number is required",
+      "invalid_website": "Website is invalid",
+      "payment_condition_required": "Payment terms are required",
+      "invoicing_address_required": "Invoicing address is required",
+      "invoicing_address_zip_code_number": "Invoicing address zip code must be a number",
+      "invoicing_address_zip_code_length": "Invoicing address zip code must contain at most 5 digits",
+      "delivery_address_required": "Delivery address is required",
+      "delivery_address_zip_code_number": "Delivery address zip code must be a number",
+      "delivery_address_zip_code_length": "Delivery address zip code must contain at most 5 digits",
+      "bank_account_name_required": "Agency name is required",
+      "bank_account_name_min_length": "Agency name must be at least 3 characters",
+      "bank_account_currency_required": "Bank account currency is required",
+      "bank_account_iban_invalid": "IBAN format must be valid",
+      "bank_accounts_save_failed": "Error saving bank accounts",
+      "bank_accounts_update_failed": "Error updating bank accounts"
+    },
+    "delete_label": "Delete Firm",
+    "delete_prompt": "Do you really want to delete",
+    "deleteLabel": "Deletion of Firm",
+    "deletePrompt": "Do you really want to delete the firm",
+    "detailmenu": {
+      "title": "{{firmName}}'s Details",
+      "description": "You can review and edit all details of {{firmName}} here.",
+      "overview": "Overview",
+      "interlocutors": "Interlocutors",
+      "chronological": "Chronological",
+      "quotations": "Quotations",
+      "invoices": "Invoices",
+      "payments": "Payments"
+    },
+    "create_page_title": "Create a New Firm",
+    "create_page_description": "Fill in the company information in one clear, structured form.",
+    "introduce_info": "Enter the company information",
+    "introduce_info_description": "Please provide the required details of the new company in the fields below.",
+    "edit_info": "Edit {{firmName}} Information",
+    "edit_info_description": "You can edit the {{firmName}} here by providing the required information.",
+    "update_page_title": "Edit Firm",
+    "update_page_description": "Update {{firmName}} with the same visual structure used across the site.",
+    "empty_table": "No firms found",
+    "empty_cells": {
+      "phone": "No Phone",
+      "website": "No Website",
+      "activity": "No Activity",
+      "currency": "No Currency",
+      "tax_number": "No Tax Number"
+    },
+    "new": "New Firm",
+    "commands": {
+      "add_bank_account": "Add Account",
+      "add_first_bank_account": "Add the first bank account",
+      "copy_invoicing_address": "Copy invoicing address"
+    },
+    "filters": {
+      "search": "Search",
+      "type": "Type",
+      "all": "All"
+    },
+    "pagination": {
+      "lines": "Rows",
+      "page": "Page",
+      "of": "of",
+      "no_results": "No results",
+      "next_page": "Next page",
+      "previous_page": "Previous page",
+      "results_one": "{{count}} result",
+      "results_other": "{{count}} results"
+    },
+    "placeholders": {
+      "search": "Search firms...",
+      "enterprise_name": "Enter the company name",
+      "website": "Enter the website",
+      "phone": "Enter the phone number",
+      "name": "Enter the first name",
+      "surname": "Enter the last name",
+      "position": "Enter the position",
+      "email": "Enter the email",
+      "tax_number": "Enter the tax number",
+      "address": "Enter the street address",
+      "address2": "Enter the address complement",
+      "region": "Enter the city",
+      "zip_code": "Enter the zip code",
+      "bank_account_agency": "Enter the agency name",
+      "no_bank_accounts": "No bank accounts added",
+      "notes": "Enter internal notes for this firm"
+    },
+    "plural": "Firms",
+    "presented_by": "presented by",
+    "sections": {
+      "type": "Company Type",
+      "bank_accounts": "Bank Accounts",
+      "business_information": "Company Information",
+      "main_contact": "Main Contact",
+      "invoicing_address": "Invoicing Address",
+      "delivery_address": "Delivery Address",
+      "notes": "Private Note",
+      "list": "Company List"
+    },
+    "singular": "Firm"
+  },
+  "interlocutor": {
+    "action_add_failure": "Error while creating the interlocutor",
+    "action_add_success": "Interlocutor successfully added",
+    "action_associate_failure": "Error while associating the interlocutor",
+    "action_associate_success": "Interlocutor successfully associated",
+    "action_disassociate_failure": "Error while disassociating the interlocutor",
+    "action_disassociate_success": "Interlocutor successfully disassociated",
+    "action_promote_failure": "Error while promoting the interlocutor",
+    "action_promote_success": "Interlocutor successfully promoted",
+    "action_remove_failure": "Error while removing the interlocutor",
+    "action_remove_success": "Interlocutor successfully removed",
+    "action_update_failure": "Error while updating the interlocutor",
+    "action_update_success": "Interlocutor successfully updated",
+    "associate_firm": "Add Firm",
+    "associate_firm_when empty": "No firm association, Add the first association ?",
+    "associate_firm_prompt": "Select Firm",
+    "add_button_label": "New Interlocutor",
+    "attributes": {
+      "created_at": "Date of Creation",
+      "email": "Email",
+      "is_main": "Main",
+      "name": "Name",
+      "phone": "Phone",
+      "position": "Position",
+      "surname": "Surname",
+      "title": "Title",
+      "firms": "Firms"
+    },
+    "card_description": "This section offers a comprehensive and structured overview of all interlocutors, ensuring clarity and ease of access.",
+
+    "create_dialog_description": "Use this menu to create a new interlocutor or associate an existing one. Make sure all required fields are filled before saving.",
+    "update_dialog_description": "Enter the details to update the interlocutor. Make sure all required fields are filled before saving.",
+    "disassociate_dialog_description": "This action is permanent and cannot be undone. All associations with this company will also be removed.",
+    "promote_dialog_description": "Ensure this action aligns with their responsibilities, as it may impact system functionality.",
+    "delete_dialog_description": "This action is permanent and cannot be undone. All associations with this interlocutor will also be removed.",
+
+    "delete_label": "Deletion of Interlocutor",
+
+    "disassociate_prompt": "Do you really want to disassociate the interlocutor",
+    "promote_prompt": "Do you really want to promote the interlocutor",
+    "delete_prompt": "Do you really want to delete the interlocutor",
+
+    "empty_cells": {
+      "phone": "No Phone",
+      "position": "No Position"
+    },
+    "create_or_associate": {
+      "new": "New Interlocutor",
+      "associate": "Existing Interlocutor"
+    },
+    "errors": {
+      "surpassed_firm_limit": "You have already linked all available firms",
+      "title_required": "Title is required",
+      "surname_required": "Last name is required",
+      "surname_alpha": "The contact last name must contain only letters",
+      "name_required": "First name is required",
+      "name_alpha": "The contact first name must contain only letters",
+      "email_recommended": "It is recommended to provide an email address",
+      "email_invalid": "Email address is invalid",
+      "phone_recommended": "It is recommended to provide a phone number"
+    },
+    "list": "List of Interlocutors",
+    "new": "New Interlocutor",
+    "update": "Update Interlocutor",
+    "plural": "Interlocutors",
+    "singular": "Interlocutor"
+  }
+}

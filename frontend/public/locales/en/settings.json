@@ -1,0 +1,1401 @@
+{
+  "account": {
+    "singular": "Account Settings",
+    "description": "The Account Settings provides a centralized vue to manage personal information, access cabinet, and oversee linked bank accounts."
+  },
+  "home": {
+    "title": "Settings",
+    "description": "Manage your account, company and application settings",
+    "sections": {
+      "account": "Account Settings",
+      "business": "Company Settings",
+      "system": "System Settings",
+      "admin_tools": "Administrative Tools",
+      "pdf": "PDF Settings"
+    },
+    "cards": {
+      "profile": {
+        "title": "Profile",
+        "description": "Update your name, e-mail and other personal details"
+      },
+      "subscription": {
+        "title": "Subscription",
+        "description": "Manage your subscription plan and billing"
+      },
+      "modules": {
+        "title": "Modules",
+        "description": "Enable or disable application modules"
+      },
+      "enterprise": {
+        "title": "Company",
+        "description": "Manage your company information and settings"
+      },
+      "electronic_billing": {
+        "title": "Electronic Billing",
+        "description": "Configure the electronic signature and TTN sending"
+      },
+      "user_management": {
+        "title": "User Management",
+        "description": "Add and manage users and their permissions"
+      },
+      "roles": {
+        "title": "Roles",
+        "description": "Create and manage application access roles"
+      },
+      "permissions": {
+        "title": "Permissions",
+        "description": "Browse and organize the available permissions"
+      },
+      "taxes": {
+        "title": "Taxes",
+        "description": "Configure VAT rates and custom taxes"
+      },
+      "activity_types": {
+        "title": "Activity Types",
+        "description": "Organize the activities used across the application"
+      },
+      "payment_conditions": {
+        "title": "Payment Conditions",
+        "description": "Define the payment conditions available in the system"
+      },
+      "withholding": {
+        "title": "Withholding",
+        "description": "Manage withholding rates and related settings"
+      },
+      "pdf_templates": {
+        "title": "PDF Templates",
+        "description": "Manage PDF document templates"
+      },
+      "price_lists": {
+        "title": "Price Lists",
+        "description": "Create and manage product price lists"
+      },
+      "documents": {
+        "title": "Documents",
+        "description": "Configure document types and settings"
+      },
+      "document_numbering": {
+        "title": "Document Numbering",
+        "description": "Configure numbering sequences"
+      },
+      "activity_logs": {
+        "title": "Activity Logs",
+        "description": "Track application events and user actions"
+      },
+      "custom_fields": {
+        "title": "Custom Fields",
+        "description": "Add custom fields to your documents"
+      },
+      "integrations": {
+        "title": "Integrations",
+        "description": "Connect third-party services and APIs"
+      }
+    },
+    "messages": {
+      "coming_soon": "{{item}} will be available soon"
+    }
+  },
+  "profile": {
+    "title": "Profile Settings",
+    "description": "Update your personal information and secure access to your account.",
+    "general_information": "General Information",
+    "security_information": "Security & Password",
+    "profile_information": "Profile Information",
+    "picture": "Profile Picture",
+    "general_information_description": "Core account identity and contact credentials.",
+    "security_information_description": "Update your password with current-password confirmation.",
+    "profile_information_description": "Optional public profile details and privacy preferences.",
+    "picture_description": "Profile image used across the workspace.",
+    "email_verified": "Verified email",
+    "email_unverified": "Email not verified",
+    "email_fallback": "No email address",
+    "role_fallback": "Workspace user",
+    "status": {
+      "saved": "All changes saved",
+      "saving": "Saving changes...",
+      "unsaved": "Unsaved changes"
+    },
+    "sections": {
+      "password": "Change Password"
+    },
+    "attributes": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "E-mail Address",
+      "current_password": "Current Password",
+      "new_password": "New Password",
+      "confirm_password": "Confirm New Password",
+      "phone": "Phone",
+      "cin": "National ID (CIN)",
+      "bio": "Bio",
+      "gender": "Gender",
+      "gender_male": "Male",
+      "gender_female": "Female",
+      "is_private": "Private Profile",
+      "is_private_description": "Hide your profile from other users"
+    },
+    "placeholders": {
+      "first_name": "Enter your first name",
+      "last_name": "Enter your last name",
+      "email": "Enter your e-mail address",
+      "current_password": "Enter your current password",
+      "new_password": "Enter your new password",
+      "confirm_password": "Confirm your new password",
+      "bio": "Tell us about yourself"
+    },
+    "actions": {
+      "update_profile": "Update",
+      "update_password": "Change Password"
+    },
+    "messages": {
+      "profile_update_success": "Profile updated successfully",
+      "profile_update_error": "Failed to update profile",
+      "password_update_success": "Password updated successfully",
+      "password_update_error": "Failed to update password"
+    },
+    "validation": {
+      "first_name_required": "Please enter your first name",
+      "last_name_required": "Please enter your last name",
+      "invalid_username": "Username must contain at least 3 characters",
+      "invalid_username_format": "Username can contain only letters, numbers, and underscores",
+      "invalid_email": "Please enter a valid e-mail address",
+      "age_minimum": "You must be at least 13 years old",
+      "invalid_phone": "Please enter a valid phone number",
+      "invalid_cin": "CIN must contain exactly 8 digits",
+      "current_password_required": "Please enter your current password",
+      "new_password_min_length": "The new password must be at least 8 characters long",
+      "confirm_password_required": "Please confirm your new password",
+      "passwords_do_not_match": "Passwords do not match"
+    },
+    "errors": {
+      "invalid_current_password": "The current password is incorrect",
+      "password_change_unavailable": "Password change is not available for this account"
+    }
+  },
+  "modules_page": {
+    "title": "Modules",
+    "description": "Enable or disable the modules visible in the application navigation.",
+    "card_title": "Application Modules",
+    "card_description": "Control which modules are available in your application. Disabled modules will be hidden from the navigation.",
+    "actions": {
+      "save": "Save changes"
+    },
+    "messages": {
+      "save_success": "Modules updated successfully"
+    },
+    "items": {
+      "selling": {
+        "title": "Selling",
+        "description": "Manage quotations, invoices, delivery notes, and sales documents"
+      },
+      "buying": {
+        "title": "Buying",
+        "description": "Manage supplier orders, invoices, and purchasing documents"
+      },
+      "payments": {
+        "title": "Payments",
+        "description": "Track and manage payments from customers and to suppliers"
+      },
+      "treasury": {
+        "title": "Treasury",
+        "description": "Manage treasury accounts, transactions, checks, and drafts"
+      },
+      "suppliers": {
+        "title": "Suppliers",
+        "description": "Manage your suppliers and their information"
+      },
+      "clients": {
+        "title": "Clients",
+        "description": "Manage your clients and their information"
+      },
+      "articles": {
+        "title": "Articles",
+        "description": "Manage your product catalog and pricing"
+      },
+      "ai_assistant": {
+        "title": "AI Assistant",
+        "description": "Access the AI assistant from the navigation menu"
+      },
+      "ai_floating_button": {
+        "title": "AI Floating Button",
+        "description": "Show the floating circular button for quick access to the AI assistant"
+      },
+      "withholding": {
+        "title": "Withholding",
+        "description": "Manage withholding certificates for sales and purchases"
+      }
+    }
+  },
+  "system": {
+    "singular": "System Settings",
+    "description": "The System Settings page provides a centralized interface for administrators to configure and manage essential system settings."
+  },
+  "user_management": {
+    "singular": "User Management",
+    "description": "Manage user accounts, roles, and permissions effortlessly to ensure secure and efficient access control."
+  },
+  "pdf": {},
+  "cabinet": {
+    "title": "Company Settings",
+    "description": "Manage the information, preferences, and visual assets used by your company.",
+    "general_information": "General Information",
+    "financial_information": "Financial Information",
+    "assets": "Assets",
+    "sections": {
+      "basic_information": "Basic Information",
+      "contact_information": "Contact Information",
+      "preferences": "Preferences",
+      "billing_address": "Billing Address",
+      "delivery_address": "Delivery Address",
+      "stamp": "Add Company Stamp",
+      "signature": "Add Company Signature"
+    },
+    "attributes": {
+      "name": "Cabinet Name",
+      "enterprise_name": "Company Name",
+      "type": "Type",
+      "activity_types": "Activity Types",
+      "phone": "Phone",
+      "phone_numbers": "Phone Numbers",
+      "email": "E-mail",
+      "website": "Website",
+      "tax_number": "Tax Identification Number",
+      "currency": "Currency",
+      "country": "Country",
+      "activity": "Activity",
+      "onboarding_activity": "Activity selected during onboarding",
+      "invoice_display_type": "Selling Document Label",
+      "address": "Address",
+      "city": "City",
+      "zip_code": "Postal Code",
+      "logo": "Logo",
+      "signature": "Signature",
+      "stamp": "Stamp"
+    },
+    "placeholders": {
+      "enterprise_name": "Enter the company name",
+      "email": "example@company.com",
+      "website": "https://www.company.com",
+      "tax_number": "Enter the tax number",
+      "address": "Enter the address",
+      "city": "Enter the city",
+      "zip_code": "Enter the postal code",
+      "select_country": "Select a country",
+      "select_currency": "Select a currency",
+      "select_activities": "Select one or more activity types",
+      "activities_selected": "{{count}} activity type(s) selected",
+      "search_activity": "Search an activity...",
+      "no_activity": "No activity found"
+    },
+    "options": {
+      "company": "Legal Entity",
+      "person": "Individual",
+      "invoice": "Invoice",
+      "honorary_note": "Honorary Note"
+    },
+    "status": {
+      "saved": "All changes saved",
+      "saving": "Saving...",
+      "unsaved": "Unsaved changes"
+    },
+    "hero": {
+      "active_workspace": "Active workspace",
+      "tax_id": "Tax ID"
+    },
+    "section_descriptions": {
+      "basic_information": "Legal identity, activities and company logo.",
+      "contact_information": "Contact details used on documents and communications.",
+      "preferences": "Currency, country and sales document format.",
+      "billing_address": "Address shown on invoices and quotations.",
+      "delivery_address": "Address used for deliveries.",
+      "visual_assets": "Stamp and signature applied to official documents."
+    },
+    "actions": {
+      "update": "Update",
+      "add_phone": "Add a phone number",
+      "choose_image": "Choose an image",
+      "remove_image": "Remove image"
+    },
+    "descriptions": {
+      "stamp": "Upload the company stamp as a PNG or JPG file.",
+      "signature": "Upload the company signature used on documents as a PNG or JPG file."
+    },
+    "messages": {
+      "update_success": "Cabinet updated successfully",
+      "update_error": "Failed to update cabinet",
+      "load_error": "Failed to load cabinet"
+    },
+    "errors": {
+      "enterprise_name_required": "The company name is required",
+      "invalid_email": "Please enter a valid e-mail address",
+      "invalid_website": "Please enter a valid website URL",
+      "tax_number_required": "The tax identification number is required",
+      "invoice_display_type_required": "The selling document label is required",
+      "invoicing_address_required": "The billing address is required",
+      "invoicing_address_zip_code_number": "The billing address postal code must be numeric",
+      "invoicing_address_zip_code_length": "The billing address postal code must contain at most 5 digits"
+    }
+  },
+  "bank_account": {
+    "title": "Treasury Accounts",
+    "description": "Manage your cash and bank accounts, then track their balance in real time from one place.",
+    "action_add_failure": "Error while creating treasury account",
+    "action_add_success": "Treasury account created successfully",
+    "action_edit_failure": "Error while updating treasury account",
+    "action_edit_success": "Treasury account updated successfully",
+    "action_remove_failure": "Error while deleting treasury account",
+    "action_remove_success": "Treasury account deleted successfully",
+    "action_promote_failure": "Error while promoting treasury account",
+    "action_promote_success": "Treasury account {{name}} promoted successfully",
+    "add_button_label": "Add Account",
+    "actions": {
+      "view_transactions": "View transactions",
+      "add_expense": "Add expense",
+      "deposit": "Deposit",
+      "transfer": "Transfer"
+    },
+    "attributes": {
+      "name": "Account Name",
+      "type": "Type",
+      "type_cash": "Cash",
+      "type_bank": "Bank Account",
+      "agency": "Branch",
+      "bic": "BIC/SWIFT",
+      "currency": "Currency",
+      "rib": "RIB",
+      "iban": "IBAN",
+      "balance": "Balance",
+      "isMain": "Main Account"
+    },
+    "placeholders": {
+      "name": "Enter the account name",
+      "bic": "ABCCTNTTXXX",
+      "rib": "12345678901234567890",
+      "agency": "Enter the branch name",
+      "iban": "TN59XXXXXXXXXXXXXXXXXXXXXX",
+      "currency": "Select a currency"
+    },
+    "card_description": "This section lets users manage treasury accounts and the movements that impact their balance.",
+    "hints": {
+      "create_dialog_hint": "Choose the account type, then fill in the information required to save it.",
+      "update_dialog_hint": "Update the information of the selected treasury account.",
+      "internal_name": "Internal name visible only to you",
+      "is_main": "The main account is suggested by default in treasury operations.",
+      "first_account_main": "The first account created is automatically set as the main account.",
+      "main_locked": "This account is already the main one. Promote another account before removing this status."
+    },
+    "new": "Create Treasury Account",
+    "update": "Edit Treasury Account",
+    "singular": "Treasury Account",
+    "plural": "Treasury Accounts",
+    "pagination": {
+      "rows": "Rows",
+      "page": "Page {{page}} of {{total}}",
+      "range": "Showing {{start}} to {{end}} of {{total}} results"
+    },
+    "errors": {
+      "name_required": "Account name is required",
+      "name_min_length": "Account name must contain at least 3 characters",
+      "currency_required": "Currency is required",
+      "bic_required": "BIC/SWIFT is required",
+      "rib_required": "RIB is required",
+      "agency_required": "Branch name is required",
+      "iban_required": "IBAN is required",
+      "main_required": "The account must be main",
+      "main_locked": "Promote another main account before removing this status."
+    },
+    "promote_prompt": "Are you sure you want to promote '<label>{{label}}</label>' as your main account?",
+    "delete_dialog": {
+      "title": "Delete treasury account",
+      "description": "Are you sure you want to delete this treasury account? This action cannot be undone.",
+      "account_label": "Account"
+    },
+    "expense": {
+      "title": "Add Expense",
+      "description": "Record a manual outgoing movement and update the account balance immediately.",
+      "add_button_label": "Add Expense",
+      "action_add_success": "Expense added successfully",
+      "action_add_failure": "Error while adding expense",
+      "default_label": "Expense",
+      "fields": {
+        "account": "Account",
+        "label": "Label",
+        "amount": "Amount",
+        "movementDate": "Date",
+        "notes": "Notes",
+        "category": "Expense category",
+        "withholding": "Apply withholding tax?",
+        "project": "Project (Optional)",
+        "reason": "Reason (Optional)",
+        "attachments": "Attachments (Optional)"
+      },
+      "placeholders": {
+        "account": "Select an account",
+        "label": "Enter the expense label",
+        "notes": "Add an internal note if needed",
+        "amount": "0",
+        "project": "Select a project",
+        "no_project": "No project",
+        "reason": "Enter the reason or description of the expense"
+      },
+      "actions": {
+        "manage_categories": "Manage expense categories",
+        "add_category": "Add New Category"
+      },
+      "categories": {
+        "salaries": "Salaries",
+        "taxes": "Taxes",
+        "rent": "Rent",
+        "other": "Other"
+      },
+      "category_dialog": {
+        "title": "Manage expense categories"
+      },
+      "attachments": {
+        "upload_title": "Click to upload your files",
+        "helper": "Max {{count}} files • PDF, JPEG, JPG, PNG"
+      },
+      "errors": {
+        "account_required": "Please select an account",
+        "amount_required": "Please enter a valid amount",
+        "label_required": "Please enter a label",
+        "date_required": "Please select a date",
+        "unsupported_file": "Unsupported file \"{{name}}\". Accepted types: {{accepted}}",
+        "max_files": "Maximum {{count}} files allowed"
+      },
+      "currency_hint": "This expense will be recorded in {{currency}}."
+    },
+    "deposit": {
+      "title": "New Deposit",
+      "description": "Add funds to your account",
+      "add_button_label": "Create",
+      "action_add_success": "Deposit added successfully",
+      "action_add_failure": "Error while adding deposit",
+      "default_label": "Deposit",
+      "fields": {
+        "amount": "Amount",
+        "movementDate": "Date",
+        "account": "Treasury Account",
+        "reason": "Reason"
+      },
+      "placeholders": {
+        "account": "Select the account",
+        "reason": "Enter the reason or description of the deposit"
+      },
+      "errors": {
+        "account_required": "Account is required.",
+        "amount_required": "Amount is required and must be valid.",
+        "date_required": "Date is required."
+      }
+    },
+    "transfer": {
+      "title": "New Transfer",
+      "description": "Create a transfer between your treasury accounts",
+      "add_button_label": "Confirm",
+      "action_add_success": "Transfer completed successfully",
+      "action_add_failure": "Failed to save the transfer",
+      "default_label": "Treasury transfer",
+      "fields": {
+        "amount": "Amount",
+        "movementDate": "Date",
+        "source_account": "Source Account",
+        "destination_account": "Destination Account",
+        "reason": "Reason",
+        "attachments": "Attachments (Optional)"
+      },
+      "placeholders": {
+        "source_account": "Select the source account",
+        "destination_account": "Select the destination account",
+        "reason": "Enter the reason or description of the transfer"
+      },
+      "attachments": {
+        "upload_title": "Click to upload your files",
+        "helper": "Max {{count}} files • PDF, JPEG, JPG, PNG"
+      },
+      "errors": {
+        "source_account_required": "Source account is required.",
+        "destination_account_required": "Destination account is required.",
+        "same_account": "Source and destination accounts must be different.",
+        "amount_required": "Amount is required and must be valid.",
+        "date_required": "Date is required.",
+        "unsupported_file": "Unsupported file \"{{name}}\". Accepted types: {{accepted}}",
+        "max_files": "Maximum {{count}} files allowed"
+      }
+    }
+  },
+  "treasury_transaction": {
+    "title": "Transactions",
+    "description": "Browse and manage all treasury transactions",
+    "filters": {
+      "account": "Treasury Account",
+      "kind": "Transaction Type",
+      "date_start": "Start date",
+      "date_end": "End date",
+      "search": "Search",
+      "amount_range": "Min - Max amount",
+      "advanced": "Advanced filters"
+    },
+    "placeholders": {
+      "all_accounts": "All Accounts",
+      "all_kinds": "All Types",
+      "search": "Search transactions...",
+      "source_account": "Select the source account",
+      "destination_account": "Select the destination account",
+      "max_amount": "∞"
+    },
+    "table": {
+      "reference": "Reference",
+      "account": "Account",
+      "debit": "Debit",
+      "credit": "Credit",
+      "balance": "Balance",
+      "reason": "Reason"
+    },
+    "actions": {
+      "view": "View",
+      "view_receipt": "View receipt",
+      "view_attachments": "View attachments",
+      "delete": "Delete",
+      "export": "Export",
+      "export_pdf": "Export to PDF",
+      "export_excel": "Export to Excel"
+    },
+    "toasts": {
+      "delete_success": "Transaction deleted successfully",
+      "delete_error": "Failed to delete the transaction",
+      "export_pdf_success": "PDF export generated successfully",
+      "export_pdf_error": "Failed to export PDF",
+      "export_excel_success": "Excel export generated successfully",
+      "export_excel_error": "Failed to export Excel",
+      "export_empty": "No transactions to export"
+    },
+    "pagination": {
+      "rows": "Rows per page",
+      "page": "Page {{page}} of {{total}}",
+      "range": "{{start}}-{{end}} of {{total}}"
+    },
+    "empty": "No transactions found",
+    "kinds": {
+      "expense": "Expense",
+      "income": "Income",
+      "transfer": "Transfer",
+      "adjustment": "Adjustment"
+    },
+    "directions": {
+      "in": "Incoming (Credit)",
+      "out": "Outgoing (Debit)"
+    },
+    "delete_dialog": {
+      "title": "Delete transaction",
+      "description": "Are you sure you want to delete this transaction? This action cannot be undone.",
+      "reference_label": "Reference"
+    },
+    "receipt": {
+      "title": "Transaction receipt",
+      "window_title": "Receipt - {{reference}}",
+      "header_title": "TRANSACTION RECEIPT",
+      "reference_label": "Reference",
+      "date_label": "Date",
+      "amount_in_label": "Amount received",
+      "amount_out_label": "Amount paid",
+      "details_title": "Transaction details",
+      "account_label": "Treasury account",
+      "operation_date_label": "Operation date",
+      "type_label": "Type",
+      "credit_amount_label": "Credit amount",
+      "debit_amount_label": "Debit amount",
+      "category_label": "Category",
+      "reason_label": "Reason",
+      "payer_signature": "Payer signature",
+      "beneficiary_signature": "Beneficiary signature",
+      "company_fallback": "My company"
+    },
+    "export": {
+      "filename_prefix": "treasury_transactions",
+      "sheet_name": "Treasury Transactions",
+      "generated_at": "Generated on {{date}}",
+      "period": "From: {{from}}   To: {{to}}",
+      "account_scope": "Accounts: {{account}}",
+      "all_accounts": "All accounts",
+      "total": "Total"
+    }
+  },
+  "treasury_checks_and_drafts": {
+    "title": "Checks & Drafts",
+    "description": "Manage checks and drafts (deposit/reject)",
+    "tabs": {
+      "client": "Client",
+      "supplier": "Supplier"
+    },
+    "filters": {
+      "search": "Search",
+      "type": "Type",
+      "status": "Status",
+      "account": "Treasury Account",
+      "due_start": "Due Date from",
+      "due_end": "Due Date to"
+    },
+    "placeholders": {
+      "search": "Search by reference, entity, or note...",
+      "all_types": "All types",
+      "all_statuses": "All statuses",
+      "all_accounts": "All accounts"
+    },
+    "table": {
+      "type": "Type",
+      "reference": "Reference",
+      "entity": "Entity",
+      "amount": "Amount",
+      "due_date": "Due Date",
+      "account": "Treasury Account",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "actions": {
+      "filters": "Filters",
+      "view_details": "View details",
+      "deposit": "Deposit to bank account",
+      "mark_paid": "Mark as paid",
+      "reject": "Mark as rejected",
+      "cancel_deposit": "Cancel deposit"
+    },
+    "types": {
+      "check": "Check",
+      "bill_of_exchange": "Draft",
+      "unknown": "Instrument"
+    },
+    "statuses": {
+      "pending": "Pending",
+      "deposited": "Deposited to bank",
+      "paid": "Paid",
+      "rejected": "Rejected",
+      "cancelled": "Cancelled",
+      "deposited_supplier": "Deposited to supplier",
+      "paid_supplier": "Paid to supplier"
+    },
+    "directions": {
+      "in": "Incoming",
+      "out": "Outgoing"
+    },
+    "empty": "No checks or drafts found",
+    "pagination": {
+      "rows": "Rows",
+      "page": "Page {{page}} of {{totalPages}}",
+      "range": "Showing {{start}} to {{end}} of {{total}} results"
+    },
+    "details": {
+      "description": "Review the details of this check or draft.",
+      "entity": "Entity",
+      "reference": "Reference",
+      "due_date": "Due date",
+      "emitter": "Emitter",
+      "beneficiary": "Beneficiary",
+      "treasury_account": "Treasury account",
+      "deposit_date": "Deposit date",
+      "payment_date": "Payment date",
+      "rejected_at": "Rejected at",
+      "original_account": "Original account",
+      "date": "Date",
+      "mode": "Type",
+      "notes": "Notes",
+      "rejection_reason": "Rejection reason"
+    },
+    "deposit_dialog": {
+      "title": "Deposit {{type}} {{reference}}",
+      "description": "Select the bank account where this instrument will be deposited",
+      "bank_account": "Bank Account",
+      "bank": "Bank: ",
+      "agency": "Branch: ",
+      "iban": "IBAN: ",
+      "rib": "RIB: ",
+      "empty_bank_accounts": "No bank account is available to deposit this instrument.",
+      "empty_matching_bank_accounts": "No bank account with the same currency as this instrument is available for deposit.",
+      "conversion_notice": "The amount will be converted to {{amount}} using the rate {{rate}}.",
+      "missing_rate_notice": "A valid exchange rate is required to deposit this instrument into a bank account with a different currency.",
+      "confirm": "Deposit"
+    },
+    "pay_dialog": {
+      "title": "Mark as Paid",
+      "description": "Are you sure you want to mark {{type}} {{reference}} as paid (collected) into {{account}}?",
+      "due_date_notice": "The due date is {{dueDate}}. You can still record this payment right away if needed.",
+      "currency_mismatch_notice": "The deposited bank account does not use the same currency as this instrument. Cancel the deposit and choose a bank account with the same currency before marking it as paid.",
+      "conversion_notice": "This payment will be recorded as {{amount}} in this bank account using the rate {{rate}}.",
+      "missing_rate_notice": "A valid exchange rate is required to mark this instrument as paid in a bank account with a different currency."
+    },
+    "reject_dialog": {
+      "title": "Mark as Rejected",
+      "description": "Are you sure you want to mark {{type}} {{reference}} as failed? This action cannot be undone.",
+      "reason_label": "Rejection reason (optional)",
+      "reason_placeholder": "Enter the rejection reason..."
+    },
+    "cancel_deposit_dialog": {
+      "title": "Cancel Deposit",
+      "description_deposited": "Are you sure you want to cancel the deposit for {{type}} {{reference}}? This will move it back to pending.",
+      "description_paid": "Are you sure you want to cancel the deposit for {{type}} {{reference}}? This will reverse the related bank collection and move it back to pending."
+    },
+    "toasts": {
+      "deposit_success": "Instrument deposited successfully",
+      "deposit_error": "Failed to deposit the instrument",
+      "mark_paid_success": "Instrument marked as paid successfully",
+      "mark_paid_error": "Failed to mark the instrument as paid",
+      "reject_success": "Instrument marked as rejected successfully",
+      "reject_error": "Failed to reject the instrument",
+      "cancel_deposit_success": "Deposit cancelled successfully",
+      "cancel_deposit_error": "Failed to cancel the deposit"
+    }
+  },
+  "default_condition": {
+    "action_edit_failure": "Error while altering the default conditions",
+    "action_edit_success": "Default conditions updated successfully",
+    "card_description": "This section allows users to efficiently manage default conditions by performing the key actions related to saved conditions",
+    "elements": {
+      "quotation": "Quotations",
+      "invoice": "Invoices"
+    },
+    "not_set": "There are no default conditions set. Please configure them in the settings menu.",
+    "section": {
+      "selling": "Default Conditions of Selling",
+      "buying": "Default Conditions of Buying"
+    },
+    "singular": "Default Conditions"
+  },
+  "activity": {
+    "attributes": {
+      "id": "ID",
+      "label": "Label"
+    },
+    "add_button_label": "New Activity",
+    "card_description": "This section allows users to efficiently manage activities by performing the key actions related to saved activities",
+    "new": "New Activity",
+    "singular": "Activity",
+    "plural": "Activities",
+    "messages": {
+      "create_success": "Activity added successfully",
+      "create_error": "Error while creating the activity",
+      "update_success": "Activity updated successfully",
+      "update_error": "Error while updating the activity",
+      "delete_success": "Activity deleted successfully",
+      "delete_error": "Error while deleting the activity"
+    }
+  },
+  "sequence": {
+    "action_update_failure": "Error while updating sequences",
+    "action_update_success": "Sequences updated successfully",
+    "attributes": {
+      "prefix": "Prefix",
+      "dynamic_sequence": "Dynamic Sequence",
+      "next": "Next Number"
+    },
+    "elements": {
+      "quotation": "Quotations",
+      "invoice": "Invoices",
+      "delivery_note": "Delivery notes",
+      "goods_issue_note": "Goods issue notes",
+      "customer_order": "Customer orders",
+      "honorary_note": "Honorary notes",
+      "credit_note": "Credit notes",
+      "return_note": "Return notes"
+    },
+    "card_description": "This section allows users to efficiently manage sequences by performing the key actions related to predefined sequences",
+    "invoice_sequence": "Invoice Sequence",
+    "quotation_sequence": "Quotation Sequence",
+    "title": "Configuring the numbering sequence"
+  },
+  "payment_condition": {
+    "attributes": {
+      "label": "Label",
+      "description": "Description"
+    },
+    "add_button_label": "New Payment Condition",
+    "card_description": "This section allows users to efficiently manage payment conditions by performing the key actions related to saved conditions",
+    "new": "New Payment Condition",
+    "singular": "Payment Condition",
+    "plural": "Payment Conditions",
+    "messages": {
+      "create_success": "Payment Condition added successfully",
+      "create_error": "Error while creating the payment condition",
+      "update_success": "Payment Condition updated successfully",
+      "update_error": "Error while updating the payment condition",
+      "delete_success": "Payment Condition deleted successfully",
+      "delete_error": "Error while deleting the payment condition"
+    }
+  },
+  "price_lists": {
+    "title": "Price List Settings",
+    "description": "Create and manage product price lists",
+    "fields": {
+      "name": "Price List Name",
+      "active": "Active"
+    },
+    "placeholders": {
+      "name": "Enter the price list name"
+    },
+    "hints": {
+      "name": "Enter a unique name for your price list",
+      "active": "Activate or deactivate this price list"
+    },
+    "actions": {
+      "add": "Add Price List"
+    },
+    "table": {
+      "name": "Name",
+      "status": "Status",
+      "actions": "Actions",
+      "empty": "No price list found"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "dialogs": {
+      "create_title": "Create Price List",
+      "create_description": "Add a price list that can be used in article records.",
+      "update_title": "Edit Price List",
+      "update_description": "Update the name or status of this price list.",
+      "delete_title": "Delete Price List",
+      "delete_description": "Do you really want to delete \"{{name}}\"? Deletion is blocked if the list is used by articles."
+    },
+    "pagination": {
+      "rows": "Rows",
+      "page": "Page {{page}} of {{pageCount}}",
+      "summary": "Showing {{first}} to {{last}} of {{total}} results"
+    },
+    "messages": {
+      "create_success": "Price list created successfully",
+      "create_error": "Error while creating the price list",
+      "update_success": "Price list updated successfully",
+      "update_error": "Error while updating the price list",
+      "delete_success": "Price list deleted successfully",
+      "delete_error": "Error while deleting the price list",
+      "load_error": "Error while loading price lists"
+    },
+    "validation": {
+      "name_required": "Please enter a valid price list name"
+    }
+  },
+  "withholding": {
+    "singular": "Tax Withholding",
+    "plural": "Tax Withholdings",
+    "attributes": {
+      "label": "Label",
+      "rate": "Rate"
+    },
+    "card_description": "This section allows users to efficiently manage tax witholding by performing the key actions related to saved taxes",
+    "add_button_label": "New Tax Withholding",
+    "messages": {
+      "create_success": "Tax Withholding added successfully",
+      "create_error": "Error while creating the tax withholding",
+      "update_success": "Tax Withholding updated successfully",
+      "update_error": "Error while updating the tax withholding",
+      "delete_success": "Tax Withholding deleted successfully",
+      "delete_error": "Error while deleting the tax withholding"
+    }
+  },
+  "pdf_templates": {
+    "title": "PDF Templates",
+    "description": "Manage document templates for sales and purchases.",
+    "library": "Template library",
+    "search_placeholder": "Search templates",
+    "all_document_types": "All document types",
+    "all_statuses": "All statuses",
+    "no_templates": "No templates found",
+    "new_template": "New template",
+    "create_title": "Create PDF template",
+    "form": {
+      "name": "Name",
+      "name_placeholder": "New invoice template",
+      "document_type": "Document type",
+      "preset": "Preset",
+      "presets": {
+        "classic": {
+          "label": "Classic invoice",
+          "description": "Structured business invoice with dark table header"
+        },
+        "modern": {
+          "label": "Modern invoice",
+          "description": "Clean blue accent with soft document blocks"
+        },
+        "minimal": {
+          "label": "Minimal invoice",
+          "description": "Quiet monochrome layout with light table styling"
+        }
+      }
+    },
+    "table": {
+      "name": "Name",
+      "type": "Document type",
+      "status": "Status",
+      "version": "Version",
+      "actions": "Actions"
+    },
+    "actions": {
+      "edit": "Edit",
+      "duplicate": "Duplicate",
+      "set_default": "Set default",
+      "delete": "Delete"
+    },
+    "badges": {
+      "default": "Default"
+    },
+    "messages": {
+      "create_success": "Template created successfully",
+      "create_error": "Unable to create template",
+      "duplicate_success": "Template duplicated successfully",
+      "duplicate_error": "Unable to duplicate template",
+      "delete_success": "Template deleted successfully",
+      "delete_error": "Unable to delete template",
+      "set_default_success": "Default template updated",
+      "set_default_error": "Unable to update default template"
+    }
+  },
+  "pdf_editor": {
+    "builder_title": "PDF template builder",
+    "default_name": "PDF template",
+    "unsaved": "Unsaved",
+    "header": {
+      "preview": "Preview",
+      "generate": "Generate",
+      "set_default": "Set Default",
+      "publish": "Publish",
+      "save": "Save",
+      "back": "Back",
+      "tooltips": {
+        "save_before_generate": "Save before generating a PDF",
+        "generate_pdf": "Generate PDF"
+      }
+    },
+    "left_panel": {
+      "elements": "Elements",
+      "search_placeholder": "Search elements",
+      "add": "Add",
+      "sections": {
+        "elements": "Elements",
+        "blocks": "Document blocks"
+      },
+      "types": {
+        "text": "Text",
+        "dynamic": "Dynamic",
+        "logo": "Logo",
+        "image": "Image",
+        "table": "Table",
+        "company_block": "Company block",
+        "client_block": "Client block"
+      },
+      "descriptions": {
+        "text": "Static label or paragraph",
+        "dynamic": "Bound variable text",
+        "logo": "Company logo placeholder",
+        "image": "Image placeholder",
+        "table": "Line items table",
+        "company_block": "Prepared company fields",
+        "client_block": "Prepared client fields"
+      }
+    },
+    "right_panel": {
+      "tabs": {
+        "props": "Props",
+        "vars": "Vars",
+        "layers": "Layers",
+        "history": "History"
+      },
+      "props": {
+        "sections": {
+          "basic": "Basic",
+          "content": "Content",
+          "position_size": "Position & Size",
+          "typography": "Typography",
+          "colors": "Colors",
+          "border": "Border",
+          "table_design": "Table design",
+          "columns": "Columns",
+          "selection": "Selection",
+          "move": "Move",
+          "align": "Align",
+          "actions": "Actions"
+        },
+        "fields": {
+          "layer_name": "Layer name",
+          "visible": "Visible",
+          "locked": "Locked",
+          "text_content": "Text content",
+          "variable_binding": "Variable binding",
+          "x": "X",
+          "y": "Y",
+          "width": "Width",
+          "height": "Height",
+          "layer_depth": "Layer",
+          "font_size": "Font size",
+          "weight": "Weight",
+          "align": "Align",
+          "text_color": "Text",
+          "fill_color": "Fill",
+          "border_color": "Border color",
+          "data_binding": "Data binding",
+          "header_fill": "Header fill",
+          "header_text": "Header text",
+          "row_height": "Row height",
+          "padding": "Padding",
+          "row_font": "Row font"
+        },
+        "options": {
+          "regular": "Regular",
+          "medium": "Medium",
+          "semibold": "Semi bold",
+          "bold": "Bold",
+          "left": "Left",
+          "center": "Center",
+          "right": "Right",
+          "top": "Top",
+          "middle": "Middle",
+          "bottom": "Bottom"
+        },
+        "multi_selection": {
+          "elements_selected": "{{count}} elements selected",
+          "status_summary": "{{visible}} visible, {{locked}} locked"
+        },
+        "no_selection": "No element selected",
+        "select_to_edit": "Select an element to edit its properties."
+      },
+      "vars": {
+        "title": "Variables",
+        "description": "Drag a variable to the page or insert it as dynamic text.",
+        "insert": "Insert",
+        "bind": "Bind",
+        "image_badge": "Image"
+      },
+      "layers": {
+        "title": "Layers",
+        "description": "Top layers appear first.",
+        "selected_count": "{{count}} layers selected",
+        "no_layers": "Add an element to see it in the layer stack.",
+        "tooltips": {
+          "duplicate": "Duplicate",
+          "delete": "Delete",
+          "lock": "Lock",
+          "unlock": "Unlock",
+          "hide": "Hide",
+          "show": "Show",
+          "move_up": "Move up",
+          "move_down": "Move down"
+        }
+      },
+      "history": {
+        "title": "Versions",
+        "description": "Restore a previous saved version.",
+        "no_history": "Version history will appear after the template is saved.",
+        "restore": "Restore"
+      }
+    },
+    "toolbar": {
+      "portrait": "A4 portrait",
+      "landscape": "A4 landscape",
+      "grid": "Grid",
+      "fit_width": "Fit width"
+    },
+    "messages": {
+      "save_success": "Template saved",
+      "save_error": "Unable to save template",
+      "preview_error": "Unable to preview template",
+      "save_before_generate": "Save changes before generating a PDF.",
+      "generate_success": "PDF generated",
+      "generate_error": "Unable to generate PDF",
+      "save_before_default": "Save changes before setting this template as default.",
+      "set_default_success": "Default template updated",
+      "set_default_error": "Unable to set default template",
+      "restore_success": "Version restored",
+      "restore_error": "Unable to restore version"
+    }
+  },
+  "tax": {
+    "attributes": {
+      "label": "Label",
+      "label_description": "Enter a unique name for the tax (e.g., VAT, FODEC)",
+      "label_length_error": "Label must be at least 3 characters long",
+      "value": "Value",
+      "value_description": "Specify the tax rate as a number",
+      "value_interval_error": "Value must be a positive number",
+      "type": "Type",
+      "type_description": "Choose percentage or a fixed value per transaction",
+      "is_special": "Special",
+      "is_special_description": "Une taxe spéciale est appliquée sur le montant après que les taxes normales ont déjà été calculées.",
+      "currency": "Currency",
+      "currency_description": "Choose the currency of the tax",
+      "currency_checkbox": "Set a specific currency for this tax",
+      "applicable_on_all": "Applicable with all currencies"
+    },
+    "validation": {
+      "label_required": "Please enter a tax name with at least 3 characters",
+      "value_required": "Please enter a tax value",
+      "value_positive": "Please enter a fixed value greater than 0",
+      "rate_range": "Please enter a valid rate between 0 and 99",
+      "currency_required": "Please select a currency for the tax"
+    },
+    "types": {
+      "rate": "Percentage",
+      "fixed": "Fixed amount"
+    },
+    "create_prompt": "Create Tax",
+    "create_dialog_description": "Please enter the required values to create a new tax",
+    "update_prompt": "Update Tax",
+    "update_dialog_description": "Please enter the new values to update the existing tax.",
+    "delete_prompt": "Are you sure you want to delete the tax",
+    "delete_dialog_description": "This action is irreversible and cannot be undone",
+    "add_button_label": "New Tax",
+    "card_description": "This section allows users to efficiently manage taxes by performing the key actions related to saved taxes",
+    "new": "New Tax",
+    "singular": "Tax",
+    "plural": "Taxes",
+    "tabs": {
+      "vat": "VAT",
+      "custom": "Custom taxes"
+    },
+    "sections": {
+      "vat": "VAT settings",
+      "custom": "Custom taxes"
+    },
+    "table": {
+      "rate": "Rate",
+      "name": "Name",
+      "value": "Value",
+      "scope": "Type",
+      "status": "Status",
+      "actions": "Actions",
+      "empty_vat": "No VAT rate is available.",
+      "empty_custom": "No custom tax is available."
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "scope": {
+      "template": "Global template",
+      "private": "Private"
+    },
+    "actions": {
+      "add_vat": "Add VAT",
+      "add_custom": "Add Tax"
+    },
+    "vat_form": {
+      "create_title": "Create a VAT rate",
+      "create_description": "Add a private VAT rate for the current company.",
+      "rate_label": "VAT rate (%)",
+      "rate_placeholder": "e.g. 20",
+      "rate_hint": "Enter only the numeric rate. The label will be generated automatically.",
+      "rate_error": "Please enter a valid VAT rate between 0 and 99."
+    },
+    "custom_form": {
+      "create_title": "Create a custom tax",
+      "create_description": "Add a private tax for the current company.",
+      "update_title": "Update a custom tax",
+      "update_description": "Update this private tax information.",
+      "name_label": "Tax name / label",
+      "name_placeholder": "e.g. Fiscal stamp, FODEC 1%",
+      "name_hint": "This name will be used in lists and documents.",
+      "type_label": "Tax type",
+      "value_label": "Tax value",
+      "value_rate_placeholder": "e.g. 1",
+      "value_fixed_placeholder": "e.g. 1.000",
+      "apply_timing_label": "Applied when",
+      "apply_before_vat": "Before VAT",
+      "apply_after_vat": "After VAT",
+      "specific_currency_label": "Set a specific currency",
+      "currency_placeholder": "Select a currency"
+    },
+    "messages": {
+      "load_error": "Error while loading taxes",
+      "create_success": "Tax added successfully",
+      "create_error": "Error while creating the tax",
+      "update_success": "Tax updated successfully",
+      "update_error": "Error while updating the tax",
+      "delete_success": "Tax deleted successfully",
+      "delete_error": "Error while deleting the tax"
+    }
+  },
+  "users": {
+    "singular": "User",
+    "plural": "Users",
+    "description": "View, manage, and customize user accounts to streamline access and ensure security.",
+    "portal_description": "Add, edit, and manage users across your companies.",
+    "attributes": {
+      "general": "General Information",
+      "account": "Account Information",
+      "id": "ID",
+      "username": "Username",
+      "email": "E-mail",
+      "first_name": "First Name",
+      "no_first_name": "Missing First Name",
+      "last_name": "Last Name",
+      "no_last_name": "Missing Last Name",
+      "date_of_birth": "Date of Birth",
+      "no_date_of_birth": "Missing Date of Birth",
+      "role": "Role",
+      "no_role": "No Role is assigned",
+      "active": "Active",
+      "password": "New Password",
+      "confirm_password": "Confirm Password",
+      "phone": "Phone Number",
+      "enterprises": "Companies"
+    },
+    "add_button_label": "New User",
+    "new": "New User",
+    "update": "Update a User",
+    "update_password": "Change User's Password",
+    "activate": "Activate a User",
+    "deactivate": "Deactivate User",
+    "hints": {
+      "create_dialog_hint": "Enter the details to create a new user. Make sure all the required fields are filled before saving.",
+      "update_dialog_hint": "Enter the details to update the user. Make sure all the required fields are filled before saving.",
+      "activate_dialog_hint": "This action will reactivate the user and restore their associated roles and permissions. Ensure this action aligns with your intended changes",
+      "deactivate_dialog_hint": "This action is irreversible and permanent. Deactivating the user will remove all associated roles and connections, affecting their access and permissions. Please proceed with caution.",
+      "update_password_hint": "Check this option if you want to change {{name}} {{surname}}'s password",
+      "password": "Minimum 8 characters with letters and numbers",
+      "admin_multi_enterprise": "Admins can be assigned to multiple companies.",
+      "single_enterprise": "Collaborators and custom roles are limited to one company."
+    },
+    "require_password": "Require Password Update",
+    "require_password_hint": "Users will be prompted to update their password on their next login.",
+    "sections": {
+      "basic_information": "Basic Information",
+      "user_role": "User Role",
+      "permissions": "Permissions"
+    },
+    "actions": {
+      "add_user": "Add User",
+      "new_user": "New User",
+      "edit_user": "Edit User",
+      "hide_permissions": "Hide Permissions",
+      "show_permissions": "Show Permissions",
+      "select_all": "Select All"
+    },
+    "placeholders": {
+      "first_name": "Enter the first name",
+      "last_name": "Enter the last name",
+      "email": "Enter the email address",
+      "password": "Enter the password",
+      "select_enterprise": "Select a company",
+      "select_enterprises": "Select one or more companies",
+      "search_enterprise": "Search a company",
+      "no_enterprise": "No company found"
+    },
+    "list": {
+      "columns": {
+        "name": "Name",
+        "role": "Role",
+        "phone": "Phone Number",
+        "enterprises": "Companies",
+        "actions": "Actions"
+      },
+      "empty": "No users found",
+      "range": "Showing {{start}} to {{end}} of {{total}} results"
+    },
+    "roles": {
+      "admin": "Admin",
+      "collaborator": "Collaborator",
+      "custom": "Custom Role",
+      "principal_admin": "Principal admin"
+    },
+    "role_cards": {
+      "admin": {
+        "title": "Admin",
+        "description": "Full access"
+      },
+      "collaborator": {
+        "title": "Collaborator",
+        "description": "Standard access for employees"
+      },
+      "custom": {
+        "title": "Custom Role",
+        "description": "Configure custom permissions"
+      },
+      "custom_role_description": "Custom role for {{email}}"
+    },
+    "permissions": {
+      "enterprise_selector": "Select a Company",
+      "columns": {
+        "resource": "Resource",
+        "read": "Read",
+        "create": "Create",
+        "update": "Update",
+        "delete": "Delete",
+        "all": "All"
+      }
+    },
+    "permission_resources": {
+      "dashboard": "Dashboard",
+      "enterprise": "Enterprise",
+      "selling_documents": "Sales Documents",
+      "buying_documents": "Purchase Documents",
+      "payments": "Payments",
+      "suppliers": "Suppliers",
+      "clients": "Clients",
+      "products": "Products",
+      "treasury": "Treasury",
+      "price_lists": "Price Lists",
+      "taxes": "Taxes",
+      "document_settings": "Document Settings"
+    },
+    "messages": {
+      "create_success": "User created successfully",
+      "create_error": "Error while creating the user",
+      "update_success": "User updated successfully",
+      "update_error": "Error while updating the user",
+      "activate_success": "User activated successfully",
+      "activate_error": "Error while activating the user",
+      "deactivate_success": "User deactivated successfully",
+      "deactivate_error": "Error while deactivating the user",
+      "delete_success": "User deleted successfully",
+      "delete_error": "Error while deleting the user",
+      "access_denied": "You do not have access to this section.",
+      "admin_permissions_locked": "An administrator automatically has every permission in the company."
+    },
+    "validation": {
+      "first_name_required": "Please enter the first name",
+      "last_name_required": "Please enter the last name",
+      "invalid_email": "Please enter a valid email address",
+      "password_min_length": "The password must contain at least 8 characters",
+      "enterprise_required": "Please select at least one company",
+      "single_enterprise_required": "Only admins can be assigned to multiple companies",
+      "admin_role_missing": "The Admin role could not be found",
+      "collaborator_role_missing": "The Collaborator role could not be found"
+    }
+  },
+  "rbac": {
+    "requiredPermissionsAutoAdded": "Some required permissions were automatically added to avoid access errors.",
+    "optionalPermissionsRecommended": "Recommended permissions for a complete experience: {{permissions}}.",
+    "permissionRemovalBlocked": "This permission is required by another active permission and cannot be removed.",
+    "contextualPermissionsInfo": "Some required data will be accessible only within this module context."
+  },
+  "roles": {
+    "singular": "Role",
+    "plural": "Roles",
+    "description": "Define and assign roles to streamline permissions and access control for users.",
+    "attributes": {
+      "label": "Label",
+      "description": "Description",
+      "no_description": "No Description",
+      "permissions": "Permissions",
+      "no_permissions": "No Permissions"
+    },
+    "add_button_label": "New Role",
+    "new": "New Role",
+    "update": "Update a Role",
+    "delete": "Delete Role",
+    "duplicate": "Duplicate Role",
+    "hints": {
+      "create_dialog_hint": "Enter the details to create a new role. Make sure all the required fields are filled before saving.",
+      "update_dialog_hint": "Enter the details to update the role. Make sure all the required fields are filled before saving.",
+      "delete_dialog_hint": "This action is permanent and cannot be undone. All associations with this role will also be removed.",
+      "duplicate_dialog_hint": "This action will duplicate the role, including all its associations. You can undo this action later if needed."
+    }
+  },
+  "permissions": {
+    "singular": "Permission",
+    "plural": "Permissions",
+    "description": "Set and manage permissions to control access to features and resources securely and efficiently.",
+    "attributes": {
+      "label": "Label",
+      "description": "Description",
+      "no_description": "No Description"
+    }
+  }
+}

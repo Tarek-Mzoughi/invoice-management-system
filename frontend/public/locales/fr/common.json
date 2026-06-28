@@ -1,0 +1,581 @@
+{
+  "404": {
+    "go_back": "Retour au tableau de bord",
+    "note1": "Il manque quelque chose...",
+    "note2": "Désolé, nous ne pouvons pas trouver cette page. Vous trouverez beaucoup de choses à explorer sur la page d'accueil."
+  },
+  "rbac": {
+    "requiresClientsRead": "Cette action nécessite la permission Lecture clients.",
+    "requiresSuppliersRead": "Cette action nécessite la permission Lecture fournisseurs.",
+    "requiresProductsRead": "Cette action nécessite la permission Lecture articles.",
+    "requiresPaymentsCreate": "Cette action nécessite la permission Création paiements.",
+    "requiresPaymentsRead": "Cette action nécessite la permission Lecture paiements.",
+    "requiresPaymentsUpdate": "Cette action nécessite la permission Modification paiements.",
+    "requiresSellingDocumentsRead": "Cette action nécessite la permission Lecture documents de vente.",
+    "requiresSellingDocumentsCreate": "Cette action nécessite la permission Création documents de vente.",
+    "requiresSellingDocumentsUpdate": "Cette action nécessite la permission Modification documents de vente.",
+    "requiresBuyingDocumentsRead": "Cette action nécessite la permission Lecture documents d’achat.",
+    "requiresBuyingDocumentsCreate": "Cette action nécessite la permission Création documents d’achat.",
+    "requiresBuyingDocumentsUpdate": "Cette action nécessite la permission Modification documents d’achat.",
+    "requiresProductsCreate": "Cette action nécessite la permission Création articles.",
+    "requiresProductsUpdate": "Cette action nécessite la permission Modification articles.",
+    "requiresClientsCreate": "Cette action nécessite la permission Création clients.",
+    "requiresClientsUpdate": "Cette action nécessite la permission Modification clients.",
+    "requiresSuppliersCreate": "Cette action nécessite la permission Création fournisseurs.",
+    "requiresSuppliersUpdate": "Cette action nécessite la permission Modification fournisseurs.",
+    "bankingDetailsHidden": "Les coordonnées bancaires sont masquées car vous n’avez pas accès à la trésorerie.",
+    "taxesWithholdingDisabled": "Les taxes et retenues sont désactivées pour ce rôle.",
+    "documentSettingsUnavailable": "Les paramètres document sont indisponibles pour ce rôle.",
+    "sectionUnavailable": "Cette section n’est pas disponible pour votre rôle."
+  },
+  "routes": {
+    "contacts": {
+      "firm": {
+        "title": "Gestion des entreprises",
+        "description": "Gérez vos entreprises et leurs détails"
+      },
+      "interlocutor": {
+        "title": "Gestion des interlocuteurs",
+        "description": "Gérez vos interlocuteurs et leurs détails"
+      }
+    },
+    "selling": {
+      "invoice": {
+        "title": "Gestion des factures",
+        "description": "Gérez vos factures et leurs détails"
+      },
+      "quotation": {
+        "title": "Gestion des devis",
+        "description": "Gérez vos devis et leurs détails"
+      },
+      "deliveryNote": {
+        "title": "Gestion des bons de livraison",
+        "description": "Gérez vos bons de livraison et leurs détails"
+      },
+      "goodsIssueNote": {
+        "title": "Gestion des bons de sortie",
+        "description": "Gérez vos bons de sortie et leurs détails"
+      },
+      "customerOrder": {
+        "title": "Gestion des commandes client",
+        "description": "Gérez vos commandes client et leurs détails"
+      },
+      "honoraryNote": {
+        "title": "Gestion des notes d'honoraires",
+        "description": "Gérez vos notes d'honoraires et leurs détails"
+      },
+      "creditNote": {
+        "title": "Gestion des avoirs",
+        "description": "Gérez vos avoirs et leurs détails"
+      },
+      "returnNote": {
+        "title": "Gestion des bons de retour",
+        "description": "Gérez vos bons de retour et leurs détails"
+      }
+    },
+    "buying": {
+      "invoice": {
+        "title": "Gestion des factures",
+        "description": "Gérez vos factures et leurs détails"
+      },
+      "quotation": {
+        "title": "Gestion des devis",
+        "description": "Gérez vos devis et leurs détails"
+      },
+      "deliveryNote": {
+        "title": "Gestion des bons de livraison",
+        "description": "Gérez vos bons de livraison et leurs détails"
+      },
+      "goodsIssueNote": {
+        "title": "Gestion des bons de sortie",
+        "description": "Gérez vos bons de sortie et leurs détails"
+      }
+    }
+  },
+  "add_joints": "Ajouter des Pièces Jointes",
+  "answer": {
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "dialogs": {
+    "confirmDeleteMessage": "Voulez-vous vraiment supprimer {{documentLabel}} N° {{sequential}} ?",
+    "confirmDuplicateMessage": "Voulez-vous vraiment dupliquer {{documentLabel}} N° {{sequential}} ?"
+  },
+  "app_name": "Système de facturation",
+  "app_settings": {
+    "dark": "Sombre",
+    "light": "Clair",
+    "system": "Système",
+    "theme": "Thème"
+  },
+  "coming_soon": {
+    "coming_soon": "Bientôt disponible",
+    "go_back": "Retour au tableau de bord",
+    "note1": "Quelque chose d'incroyable arrive bientôt !",
+    "note2": "Nous travaillons dur pour vous apporter de nouvelles fonctionnalités. Restez à l'écoute !"
+  },
+  "commands": {
+    "apply": "Appliquer",
+    "activate": "Activer",
+    "deactivate": "Désactiver",
+    "actions": "Actions",
+    "add": "Ajouter",
+    "accept": "Accepter",
+    "cancel": "Annuler",
+    "create": "Créer",
+    "copy": "Copier",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "back": "Retour",
+    "delete": "Supprimer",
+    "details": "Détails",
+    "demote": "Rétrograder",
+    "draft": "Brouillon",
+    "display": "Afficher",
+    "download": "Télécharger",
+    "download_pdf": "Télécharger PDF",
+    "download_with_attachments": "Télécharger avec pièces jointes",
+    "duplicate": "Dupliquer",
+    "edit": "Modifier",
+    "hide": "Masquer",
+    "initialize": "Initialiser",
+    "to_delivery_note": "Bon de Livraison",
+    "to_goods_issue_note": "Bon de sortie",
+    "to_invoice": "Facturer",
+    "inspect": "Inspecter",
+    "modify": "Modifier",
+    "new": "Nouveau",
+    "update": "Mise à jour",
+    "reject": "Rejeter",
+    "resend": "Renvoyer",
+    "save": "Enregistrer",
+    "search_by": "Recherche par",
+    "search_sort_by": "Rechercher/Trier par",
+    "send": "Envoyer",
+    "shrink": "Réduire",
+    "promote": "Promouvoir",
+    "preview": "Aperçu",
+    "print": "Imprimer",
+    "reset": "Réinitialiser",
+    "settings": "Paramètres",
+    "validate": "Valider",
+    "unassociate": "Dissocier",
+    "download_title": "Téléchargement",
+    "download_description": "Vous pouvez choisir le modèle que vous souhaitez",
+    "open": "Ouvrir",
+    "transform_to": "Transformer en",
+    "more_actions": "Plus d'actions",
+    "delete_selection": "Supprimer la sélection",
+    "download_selection": "Télécharger la sélection ({{count}})",
+    "view": "Voir"
+  },
+  "actions": {
+    "changeStatus": "Changer le statut",
+    "manageAttachments": "Gérer les pièces jointes"
+  },
+  "buttons": {
+    "profile": "Profil",
+    "account": "Compte",
+    "billing": "Facturation",
+    "notifications": "Notifications",
+    "settings": "Paramètres",
+    "logout": "Déconnexion"
+  },
+  "preview_dialog": {
+    "loading": "Chargement de l'aperçu...",
+    "empty": "Aucun aperçu disponible"
+  },
+  "elements": "Éléments",
+  "files": {
+    "uploading": "Téléchargement",
+    "uploaded": "Téléchargé",
+    "singular": "Fichier",
+    "plural": "Fichiers",
+    "drag_files_sentance": "Faites glisser et déposez les fichiers ici ou cliquez pour sélectionner les fichiers",
+    "multiple_files_max_size_sentence": "Vous pouvez télécharger {{count}} fichiers (jusqu'à {{size}} chacun)",
+    "single_file_max_size_sentence": "Vous pouvez télécharger un fichier d'une taille maximale de {{size}}",
+    "no_selected_file": "Aucun fichier sélectionné",
+    "drop_image": "Faites glisser l'image",
+    "select_image": "Cliquez pour sélectionner",
+    "rejected_empty_file_warning": "Le fichier {{name}} est vide et a été rejeté.",
+    "max_one_per_upload_warning": "Impossible de télécharger plus d'un fichier à la fois",
+    "max_file_warning": "Impossible de télécharger plus de {{count}} fichiers",
+    "file_rejected": "Le fichier {{name}} a été rejeté",
+    "failed_to_upload": "Impossible de télécharger {{target}}",
+    "attachments": {
+      "update_success": "Pièces jointes mises à jour avec succès",
+      "update_failure": "Erreur lors de la mise à jour des pièces jointes",
+      "title": "Gérer les pièces jointes",
+      "description": "Gérer les pièces jointes du {{document}}",
+      "upload_title": "Cliquez pour télécharger vos fichiers",
+      "upload_hint": "Max 10 fichiers • PDF, JPEG, JPG, PNG",
+      "preview_unavailable": "Aperçu non disponible pour ce type de fichier",
+      "view_file": "Voir le fichier"
+    }
+  },
+  "email": {
+    "send_by_email": "Envoyer par email",
+    "subject": "Objet",
+    "recipient": "Destinataire",
+    "cc_optional": "CC (optionnel)",
+    "message": "Message",
+    "send_success": "Simulation d'envoi de l'email réussie"
+  },
+  "whatsapp": {
+    "send_by_whatsapp": "Envoyer par WhatsApp",
+    "phone_number": "Numéro de téléphone",
+    "send_success": "Simulation d'envoi WhatsApp réussie"
+  },
+  "languages": {
+    "word": "Langue",
+    "en": "Anglais 🇬🇧",
+    "fr": "Français 🇫🇷"
+  },
+  "menu": {
+    "general": "Général",
+    "buying": "Achat",
+    "contacts": "Contacts",
+    "dashboard": "Tableau de bord",
+    "payments": "Paiements",
+    "selling": "Vente",
+    "treasury": "Trésorerie",
+    "withholding": "Retenue à la source",
+    "clients": "Clients",
+    "suppliers": "Fournisseurs",
+    "articles": "Articles",
+    "ai_assistant": "Assistant IA",
+    "current_company": "Entreprise actuelle",
+    "administrative_tools": "Outils Administratifs",
+    "settings": "Paramètres"
+  },
+  "notifications": {
+    "sequence_updated": "Le numéro séquentiel a été mis à jour",
+    "socket_connection_error": "Erreur de connexion au serveur"
+  },
+  "order": {
+    "asc": "Croissant",
+    "desc": "Décroissant"
+  },
+  "pagination": {
+    "enumerate": "Page {{page}} sur {{totalPageCount}}",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "rows_per": "Lignes par page",
+    "selected_rows": "{{count}} sur {{size}} ligne(s) sélectionnée(s)."
+  },
+  "phone-input": {
+    "not_found": "Aucun pays trouvé",
+    "search": "Rechercher un pays"
+  },
+  "pick_date": "Choisissez une Date",
+  "start_date": "Date de début",
+  "end_date": "Date de fin",
+  "filters": {
+    "all": "Tous",
+    "all_customers": "Tous les clients",
+    "all_suppliers": "Tous les fournisseurs",
+    "search_contact": "Rechercher un contact...",
+    "search_customer": "Rechercher un client...",
+    "search_documents": "Rechercher des documents...",
+    "search_payments": "Rechercher des paiements...",
+    "search_supplier": "Rechercher un fournisseur...",
+    "select_customer": "Sélectionner un client...",
+    "select_date": "Sélectionner une date",
+    "select_supplier": "Sélectionner un fournisseur...",
+    "search": "Recherche",
+    "min_amount": "Montant minimum",
+    "max_amount": "Montant maximum",
+    "advanced_search": "Recherche avancée"
+  },
+  "submenu": {
+    "accounts": "Comptes",
+    "articles": "Liste des articles",
+    "checks_and_drafts": "Chèques et Traites",
+    "credit_note": "Avoirs",
+    "customer_order": "Commandes client",
+    "delivery_note": "Bons de livraison",
+    "goods_issue_note": "Bons de sortie",
+    "goods_receipt_note": "Bons de réception",
+    "honorary_note": "Notes d'honoraires",
+    "invoices": "Factures",
+    "logger": "Journal",
+    "payments": "Paiements",
+    "purchase_invoice": "Factures d’achat",
+    "purchase_other_withholding": "RS Achats/Autres",
+    "quotations": "Devis",
+    "return_note": "Bons de retour",
+    "sales_withholding": "RS Ventes",
+    "supplier_credit_note": "Avoirs fournisseurs",
+    "supplier_order": "Commandes fournisseurs",
+    "supplier_return_note": "Retours fournisseurs",
+    "transactions": "Transactions"
+  },
+  "settings": {
+    "account": {
+      "singular": "Compte",
+      "plural": "Comptes",
+      "my_profile": "Mon Profil",
+      "my_cabinet": "Mon Cabinet"
+    },
+    "system": {
+      "singular": "Système",
+      "plural": "Systèmes",
+      "activity": "Activité",
+      "sequence": "Séquence de numérotation",
+      "payment_condition": "Conditions de paiement",
+      "tax_withholding": "Retenue à la source",
+      "tax": "Synthèse des taxes"
+    },
+    "user_management": {
+      "users": "Utilisateurs",
+      "roles": "Rôles",
+      "permissions": "Permissions"
+    }
+  },
+  "table": {
+    "delete_prompt": "Voulez-vous vraiment supprimer",
+    "filter_placeholder": "Filtrer les {{entity}} ...",
+    "no_results": "Aucun résultat",
+    "visible_cols": "Colonnes Visibles",
+    "loading": "Chargement des données, veuillez patienter...",
+    "lines": "Lignes",
+    "page_of": "Page {{page}} sur {{total}}",
+    "result_count": "{{count}} résultat(s)",
+    "no_results_found": "Aucun résultat trouvé",
+    "items_selected": "{{count}} éléments sélectionnés",
+    "select_all_search_results": "Sélectionner tous les éléments de la recherche",
+    "document_type": "Type de Document",
+    "reference": "Référence",
+    "date": "Date",
+    "status": "Statut",
+    "actions": "Actions"
+  },
+  "words": {
+    "for": "Pour",
+    "main_m": "Principal",
+    "main_f": "Principale",
+    "or": "ou",
+    "contact": "Contact",
+    "no_interlocutor": "Aucun interlocuteur",
+    "no_date": "Sans date"
+  },
+  "auth": {
+    "login_title": "Connectez-vous à votre compte",
+    "login_description": "Saisissez votre email et votre mot de passe pour accéder à votre compte",
+    "signup_title": "Créer un compte",
+    "signup_description": "Inscrivez-vous pour commencer à gérer votre entreprise",
+    "email_or_username": "Email ou nom d'utilisateur",
+    "username": "Nom d'utilisateur",
+    "username_placeholder": "ex: tarekmz",
+    "first_name": "Prénom",
+    "first_name_placeholder": "ex: Tarek",
+    "last_name": "Nom",
+    "last_name_placeholder": "ex: Mzoughi",
+    "full_name": "Nom complet",
+    "email": "Email",
+    "email_placeholder": "ex: contact@exemple.com",
+    "phone": "Téléphone",
+    "phone_placeholder": "ex: +216 12 345 678",
+    "cin": "CIN",
+    "cin_placeholder": "Numéro de carte d'identité",
+    "bio": "Biographie",
+    "bio_placeholder": "Parlez-nous un peu de vous...",
+    "full_name": "Nom complet",
+    "gender": "Genre",
+    "gender_male": "Homme",
+    "gender_female": "Femme",
+    "date_of_birth": "Date de naissance",
+    "profile_picture": "Photo de profil",
+    "optional_profile_fields": "Tous les champs de cette étape sont optionnels",
+    "is_private": "Profil privé",
+    "is_private_description": "Masquer votre profil aux autres utilisateurs",
+    "profile_visibility": "Visibilité du profil",
+    "private_profile": "Privé",
+    "public_profile": "Public",
+    "password": "Mot de passe",
+    "password_placeholder": "Saisissez un mot de passe fort",
+    "confirm_password": "Confirmer le mot de passe",
+    "confirm_password_placeholder": "Répétez votre mot de passe",
+    "password_hint": "Le mot de passe doit contenir 8 à 64 caractères, une majuscule, une minuscule, un chiffre et un caractère spécial",
+    "profile_picture_upload_warning": "Le compte a été créé, mais la photo de profil sélectionnée n'a pas pu être envoyée.",
+    "forgot_password": "Mot de passe oublié ?",
+    "terms_acceptance": "J'ai lu et j'accepte les conditions d'utilisation",
+    "signup_steps": {
+      "account": "Compte",
+      "account_description": "Créer votre compte",
+      "personal": "Informations personnelles",
+      "personal_description": "Informations de base",
+      "profile": "Profil",
+      "profile_description": "Détails complémentaires",
+      "review": "Vérification",
+      "review_description": "Confirmer vos informations"
+    },
+    "login_action": "Se connecter",
+    "signup_action": "Créer le compte",
+    "no_account": "Vous n'avez pas de compte ?",
+    "has_account": "Vous avez déjà un compte ?",
+    "go_signup": "Créer un compte",
+    "go_login": "Se connecter",
+    "login_success": "Connexion réussie",
+    "signup_success": "Compte créé avec succès",
+    "generic_error": "Une erreur est survenue",
+    "signup_error": "Une erreur est survenue lors de l'inscription",
+    "validation": {
+      "login_required": "Email et mot de passe sont obligatoires",
+      "signup_required": "Veuillez compléter les champs obligatoires",
+      "username_min_length": "Le nom d'utilisateur doit contenir au moins 3 caractères",
+      "username_format": "Le nom d'utilisateur ne peut contenir que des lettres, chiffres et underscores",
+      "invalid_email": "Veuillez saisir un email valide",
+      "first_name_required": "Veuillez saisir votre prénom",
+      "last_name_required": "Veuillez saisir votre nom",
+      "age_minimum": "Vous devez avoir au moins 13 ans",
+      "password_min_length": "Le mot de passe doit contenir au moins 8 caractères",
+      "password_max_length": "Le mot de passe doit contenir au maximum 64 caractères",
+      "password_strength": "Le mot de passe doit contenir une majuscule, une minuscule, un chiffre et un caractère spécial",
+      "passwords_do_not_match": "Les mots de passe ne correspondent pas",
+      "terms_required": "Vous devez accepter les conditions d'utilisation"
+    }
+  },
+  "onboarding": {
+    "step_label": "Étape {{current}} sur {{total}}",
+    "next": "Suivant",
+    "create_company": "Créer l'entreprise",
+    "submitting": "Création en cours...",
+    "success": "Entreprise configurée avec succès",
+    "error": "Impossible de terminer l'onboarding",
+    "steps": {
+      "0": {
+        "subtitle": "Type d'activité",
+        "description": "Sélectionnez le type d'activité de votre entreprise"
+      },
+      "1": {
+        "subtitle": "Type de personne",
+        "description": "Choisissez le type de personne"
+      },
+      "2": {
+        "subtitle": "Informations de base",
+        "description": "Saisissez le nom de votre entreprise et les informations fiscales"
+      },
+      "3": {
+        "subtitle": "Adresse",
+        "description": "Fournissez l'adresse de facturation de votre entreprise"
+      },
+      "4": {
+        "subtitle": "Taxes & TVA",
+        "description": "Choisissez les taux de TVA et les taxes appliqués à votre entreprise"
+      }
+    },
+    "activity_options": {
+      "commercial": {
+        "title": "Commerciale",
+        "description": "Activité d'achat et vente de marchandises"
+      },
+      "service": {
+        "title": "Service",
+        "description": "Prestations de services"
+      },
+      "industrial": {
+        "title": "Industrielle",
+        "description": "Transformation de matières premières"
+      },
+      "liberal_profession": {
+        "title": "Profession Libérale",
+        "description": "Honoraires"
+      },
+      "craft": {
+        "title": "Artisanale",
+        "description": "Activité artisanale"
+      },
+      "other_non_commercial": {
+        "title": "Autres activités diverses non commerciales",
+        "description": "Autres activités"
+      }
+    },
+    "activity_other": {
+      "title": "Autre activité",
+      "description": "Je la renseignerai plus tard dans le profil de l'entreprise"
+    },
+    "person_options": {
+      "physical": "Personne Physique",
+      "moral": "Personne Morale"
+    },
+    "fields": {
+      "enterprise_name": "Nom de l'entreprise",
+      "tax_id_required": "Matricule fiscal",
+      "tax_id_optional": "Matricule fiscal (optionnel)",
+      "logo": "Logo de l'entreprise (optionnel)",
+      "logo_hint": "Cliquez pour sélectionner une image",
+      "address": "Adresse",
+      "city": "Ville",
+      "postal_code": "Code postal",
+      "country": "Pays",
+      "country_placeholder": "Sélectionnez un pays"
+    },
+    "placeholders": {
+      "enterprise_name": "Ex. Finco Consulting",
+      "tax_id": "Ex. 1234567/A/B/C/000",
+      "address": "Ex. 12 avenue Habib Bourguiba",
+      "city": "Ex. Tunis",
+      "postal_code": "Ex. 1001"
+    },
+    "empty": {
+      "activities": "Aucun type d'activité n'est disponible.",
+      "taxes": "Aucun template fiscal n'est disponible."
+    },
+    "taxes": {
+      "vat_title": "Taux de TVA",
+      "extra_title": "Taxes supplémentaires",
+      "tax_stamp": "Timbre fiscal",
+      "fodec": "FODEC"
+    }
+  },
+  "datatable": {
+    "elements_selected": "{{count}} éléments sélectionnés",
+    "select_all_search": "Sélectionner tous les éléments de la recherche",
+    "paginationPhrase": "Affichage de la page {{page}} sur {{total}}",
+    "search": "Rechercher {{entity}}...",
+    "noResults": "Aucun résultat",
+    "visibleColumns": "Colonnes Visibles",
+    "order": {
+      "asc": "Croissant",
+      "desc": "Décroissant"
+    }
+  },
+  "sidebar": {
+    "cabinet": "Cabinet",
+    "active_cabinet": "Cabinet actif",
+    "cabinets": "Cabinets",
+    "create_new_cabinet": "Créer un nouveau cabinet",
+    "switch_cabinet": "Changer de cabinet",
+    "switch_success": "Cabinet changé avec succès",
+    "switch_error": "Échec du changement de cabinet",
+    "create_success": "Cabinet créé avec succès",
+    "create_error": "Échec de la création du cabinet"
+  },
+  "cabinet": {
+    "create": {
+      "title": "Créer un nouveau cabinet",
+      "description": "Configurez un nouveau cabinet pour votre compte.",
+      "name": "Nom du cabinet",
+      "name_placeholder": "Entrez le nom du cabinet",
+      "activity_type": "Type d'activité",
+      "activity_type_placeholder": "Sélectionnez le type d'activité",
+      "email": "Email",
+      "phone": "Téléphone",
+      "tax_id": "Matricule fiscal",
+      "tax_id_placeholder": "Entrez le matricule fiscal",
+      "submit": "Créer le cabinet",
+      "errors": {
+        "name_required": "Le nom du cabinet est obligatoire"
+      },
+      "activity_types": {
+        "commercial": "Commercial",
+        "service": "Service",
+        "industrial": "Industriel",
+        "liberal_profession": "Profession libérale",
+        "artisanal": "Artisanal",
+        "other": "Autre"
+      }
+    }
+  }
+}

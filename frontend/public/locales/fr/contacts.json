@@ -1,0 +1,276 @@
+{
+  "common": {
+    "address": {
+      "address": "Adresse",
+      "address2": "Complément d'adresse",
+      "country": "Pays",
+      "region": "Gouvernorat",
+      "zip_code": "Code postal"
+    },
+    "contact_information": "Informations de contact",
+    "firm_information": "Informations de l'entreprise",
+    "quotations_list": "Liste des Devis"
+  },
+  "firm": {
+    "action_add_failure": "Erreur lors de la création de l'entreprise",
+    "action_add_success": "Entreprise ajoutée avec succès",
+    "action_update_failure": "Erreur lors de la modification de l'entreprise",
+    "action_update_success": "Entreprise modifiée avec succès",
+    "action_remove_failure": "Erreur lors de la suppression de l'entreprise",
+    "action_remove_success": "Entreprise supprimée avec succès",
+    "add_button_label": "Nouvelle entreprise",
+    "context": {
+      "clients": {
+        "label": "Clients",
+        "singular": "Client",
+        "list_title": "Gestion des clients",
+        "list_description": "Gérez vos clients et leurs informations.",
+        "create_button_label": "Nouveau client",
+        "create_page_title": "Créer un nouveau client",
+        "create_page_description": "Renseignez les informations du client dans un formulaire clair et structuré.",
+        "update_page_title": "Modifier le client",
+        "update_page_description": "Mettez à jour les informations de {{firmName}} comme client.",
+        "empty_table": "Aucun client trouvé"
+      },
+      "suppliers": {
+        "label": "Fournisseurs",
+        "singular": "Fournisseur",
+        "list_title": "Gestion des fournisseurs",
+        "list_description": "Gérez vos fournisseurs et leurs informations.",
+        "create_button_label": "Nouveau fournisseur",
+        "create_page_title": "Créer un nouveau fournisseur",
+        "create_page_description": "Renseignez les informations du fournisseur dans un formulaire clair et structuré.",
+        "update_page_title": "Modifier le fournisseur",
+        "update_page_description": "Mettez à jour les informations de {{firmName}} comme fournisseur.",
+        "empty_table": "Aucun fournisseur trouvé"
+      }
+    },
+    "modules": {
+      "clients": {
+        "title": "Clients",
+        "description": "Gérez vos clients et leurs informations.",
+        "add": "Ajouter un client",
+        "empty": "Aucun client trouvé",
+        "detail_title": "Fiche client",
+        "edit_title": "Modifier le client",
+        "delete_title": "Supprimer ce client ?",
+        "delete_description": "Cette action supprimera le client si aucun document ne bloque sa suppression. Cette action est irréversible.",
+        "delete_success": "Client supprimé avec succès.",
+        "delete_error": "Impossible de supprimer ce client."
+      },
+      "suppliers": {
+        "title": "Fournisseurs",
+        "description": "Gérez vos fournisseurs et leurs informations.",
+        "add": "Ajouter un fournisseur",
+        "empty": "Aucun fournisseur trouvé",
+        "detail_title": "Fiche fournisseur",
+        "edit_title": "Modifier le fournisseur",
+        "delete_title": "Supprimer ce fournisseur ?",
+        "delete_description": "Cette action supprimera le fournisseur si aucun document ne bloque sa suppression. Cette action est irréversible.",
+        "delete_success": "Fournisseur supprimé avec succès.",
+        "delete_error": "Impossible de supprimer ce fournisseur."
+      }
+    },
+    "actions": {
+      "activate_deactivate": "Activer / Désactiver",
+      "activate_success": "Entreprise activée avec succès.",
+      "activate_error": "Impossible d'activer cette entreprise.",
+      "deactivate_success": "Entreprise désactivée avec succès.",
+      "deactivate_error": "Impossible de désactiver cette entreprise.",
+      "history": "Historique",
+      "open": "Ouvrir",
+      "planned": "Fonctionnalité disponible prochainement.",
+      "view": "Voir"
+    },
+    "attributes": {
+      "activity": "Activité",
+      "bank_account_agency": "Agence",
+      "bank_account_currency": "Devise",
+      "bank_account_iban": "IBAN",
+      "created_at": "Date de création",
+      "currency": "Devise",
+      "delivery_address": "Adresse de livraison",
+      "entreprise_name": "Nom de l'entreprise",
+      "entreprise_type": "Entreprise",
+      "main_interlocurtor_name": "Nom de l'interlocuteur",
+      "main_interlocurtor_surname": "Prénom de l'interlocuteur",
+      "invoicing_address": "Adresse de facturation",
+      "inactive": "Inactif",
+      "notes": "Remarques",
+      "particular_entreprise_type": "Particulier",
+      "payment_conditions": "Conditions de paiement",
+      "phone": "Téléphone",
+      "tax_number": "Numéro d'identification fiscale",
+      "type": "Type d'entreprise",
+      "website": "Site web"
+    },
+    "card_description": "Cette section offre un aperçu complet et structuré de l'ensemble des entreprises, avec un accès rapide aux actions principales.",
+    "errors": {
+      "empty_entreprise_name": "Le nom de l'entreprise est obligatoire",
+      "firm_name_already_taken": "Le nom de l'entreprise est déjà utilisé",
+      "tax_number_already_taken": "Le numéro fiscal est déjà utilisé",
+      "tax_number_required": "Le numéro d'identification fiscale est obligatoire",
+      "invalid_website": "Le site web est invalide",
+      "payment_condition_required": "La condition de paiement est obligatoire",
+      "invoicing_address_required": "L'adresse de facturation est obligatoire",
+      "invoicing_address_zip_code_number": "Le code postal de l'adresse de facturation doit être un nombre",
+      "invoicing_address_zip_code_length": "Le code postal de l'adresse de facturation doit contenir au maximum 5 chiffres",
+      "delivery_address_required": "L'adresse de livraison est obligatoire",
+      "delivery_address_zip_code_number": "Le code postal de l'adresse de livraison doit être un nombre",
+      "delivery_address_zip_code_length": "Le code postal de l'adresse de livraison doit contenir au maximum 5 chiffres",
+      "bank_account_name_required": "Le nom de l'agence est obligatoire",
+      "bank_account_name_min_length": "Le nom de l'agence doit comporter au moins 3 caractères",
+      "bank_account_currency_required": "La devise du compte bancaire est obligatoire",
+      "bank_account_iban_invalid": "Le format de l'IBAN doit être valide",
+      "bank_accounts_save_failed": "Erreur lors de la sauvegarde des comptes bancaires",
+      "bank_accounts_update_failed": "Erreur lors de la mise à jour des comptes bancaires"
+    },
+    "delete_label": "Suppression de l'entreprise",
+    "delete_prompt": "Voulez-vous vraiment supprimer",
+    "detailmenu": {
+      "title": "Détails de {{firmName}}",
+      "description": "Vous pouvez consulter et modifier tous les détails de {{firmName}} ici.",
+      "overview": "Aperçu général",
+      "interlocutors": "Interlocuteurs",
+      "chronological": "Chronologie",
+      "quotations": "Devis",
+      "invoices": "Factures",
+      "payments": "Paiements"
+    },
+    "create_page_title": "Créer une nouvelle entreprise",
+    "create_page_description": "Renseignez les informations de l'entreprise dans un seul formulaire clair et structuré.",
+    "introduce_info": "Saisissez les informations de l'entreprise",
+    "introduce_info_description": "Veuillez renseigner les détails de la nouvelle entreprise en fournissant toutes les informations requises.",
+    "edit_info": "Modifier les informations de {{firmName}}",
+    "edit_info_description": "Vous pouvez modifier {{firmName}} en renseignant les informations requises.",
+    "update_page_title": "Modifier l'entreprise",
+    "update_page_description": "Mettez à jour les informations de {{firmName}} dans le même format que le reste du site.",
+    "empty_table": "Aucune entreprise trouvée",
+    "empty_cells": {
+      "phone": "Aucun téléphone",
+      "website": "Aucun site web",
+      "activity": "Aucune activité",
+      "currency": "Aucune devise",
+      "tax_number": "Aucun numéro d'identification fiscale"
+    },
+    "new": "Nouvelle entreprise",
+    "commands": {
+      "add_bank_account": "Ajouter un Compte",
+      "add_first_bank_account": "Ajouter le premier compte bancaire",
+      "copy_invoicing_address": "Copier l'adresse de facturation"
+    },
+    "filters": {
+      "search": "Recherche",
+      "type": "Type",
+      "all": "Tous"
+    },
+    "pagination": {
+      "lines": "Lignes",
+      "page": "Page",
+      "of": "sur",
+      "no_results": "Aucun résultat",
+      "next_page": "Page suivante",
+      "previous_page": "Page précédente",
+      "results_one": "{{count}} résultat",
+      "results_other": "{{count}} résultats"
+    },
+    "placeholders": {
+      "search": "Rechercher des entreprises...",
+      "enterprise_name": "Saisissez le nom de l'entreprise",
+      "website": "Saisissez le site web",
+      "phone": "Saisissez le numéro de téléphone",
+      "name": "Saisissez le nom",
+      "surname": "Saisissez le prénom",
+      "position": "Saisissez la fonction",
+      "email": "Saisissez l'email",
+      "tax_number": "Saisissez le matricule fiscal",
+      "address": "Saisissez l'adresse de la rue",
+      "address2": "Saisissez le complément d'adresse",
+      "region": "Saisissez la ville",
+      "zip_code": "Saisissez le code postal",
+      "bank_account_agency": "Nom de l'agence",
+      "no_bank_accounts": "Aucun compte bancaire ajouté",
+      "notes": "Saisissez des notes internes sur cette entreprise"
+    },
+    "presented_by": "présenté par",
+    "plural": "Entreprises",
+    "sections": {
+      "type": "Type d'entreprise",
+      "bank_accounts": "Comptes Bancaires",
+      "business_information": "Informations de l'entreprise",
+      "main_contact": "Contact principal",
+      "invoicing_address": "Adresse de facturation",
+      "delivery_address": "Adresse de livraison",
+      "notes": "Note privée",
+      "list": "Liste des entreprises"
+    },
+    "singular": "Entreprise"
+  },
+  "interlocutor": {
+    "action_add_failure": "Erreur lors de la création de l'interlocuteur",
+    "action_add_success": "Interlocuteur ajouté avec succès",
+    "action_associate_failure": "Erreur lors de l'association de l'interlocuteur",
+    "action_associate_success": "Interlocuteur associé avec succès",
+    "action_disassociate_failure": "Erreur lors de la dissociation de l'interlocuteur",
+    "action_disassociate_success": "Interlocuteur dissocié avec succès",
+    "action_promote_failure": "Erreur lors de la promotion de l'interlocuteur",
+    "action_promote_success": "Interlocuteur promotionné avec succès",
+    "action_remove_failure": "Erreur lors de la suppression de l'interlocuteur",
+    "action_remove_success": "Interlocuteur supprimé avec succès",
+    "action_update_failure": "Erreur lors de la mise à jour de l'interlocuteur",
+    "action_update_success": "Interlocuteur mis à jour avec succès",
+    "associate_firm": "Ajouter une entreprise",
+    "associate_firm_when empty": "Aucune association d'entreprise. Ajouter la première association ?",
+    "associate_firm_prompt": "Choisir une entreprise",
+    "add_button_label": "Nouvel interlocuteur",
+    "attributes": {
+      "created_at": "Date de création",
+      "email": "Email",
+      "is_main": "Principal",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "position": "Position",
+      "surname": "Prénom",
+      "title": "Titre",
+      "firms": "Entreprises"
+    },
+    "card_description": "Cette section offre un aperçu complet et structuré de l'ensemble des interlocuteurs, garantissant clarté et facilité d'accès.",
+
+    "create_dialog_description": "Utilisez ce menu pour créer un nouvel interlocuteur ou associer un interlocuteur existant. Assurez-vous de remplir tous les champs obligatoires avant d'enregistrer vos modifications.",
+    "update_dialog_description": "Saisissez les détails pour mettre à jour l'interlocuteur. Assurez-vous que tous les champs obligatoires sont remplis avant d'enregistrer.",
+    "disassociate_dialog_description": "Cette action est permanente et ne peut pas être annulée. Toutes les associations avec cette entreprise seront également supprimées.",
+    "promote_dialog_description": "Assurez-vous que cette action correspond à leurs responsabilités, car elle peut avoir un impact sur la fonctionnalité du système.",
+    "delete_dialog_description": "Cette action est permanente et ne peut pas être annulée. Toutes les associations avec cet interlocuteur seront également supprimées.",
+
+    "delete_label": "Suppression de l'interlocuteur",
+
+    "disassociate_prompt": "Voulez-vous vraiment dissocier l'interlocuteur",
+    "promote_prompt": "Voulez-vous vraiment promouvoir l'interlocuteur",
+    "delete_prompt": "Voulez-vous vraiment supprimer",
+
+    "empty_cells": {
+      "phone": "Aucun téléphone",
+      "position": "Aucune position"
+    },
+    "create_or_associate": {
+      "new": "Nouvel Interlocuteur",
+      "associate": "Interlocuteur existant"
+    },
+    "errors": {
+      "surpassed_firm_limit": "Vous avez mentionné toutes les entreprises disponibles",
+      "title_required": "Le titre est obligatoire",
+      "surname_required": "Le prénom est obligatoire",
+      "surname_alpha": "Le prénom de l'interlocuteur doit être alphabétique",
+      "name_required": "Le nom est obligatoire",
+      "name_alpha": "Le nom de l'interlocuteur doit être alphabétique",
+      "email_recommended": "Il est préférable de renseigner l'adresse e-mail",
+      "email_invalid": "L'adresse e-mail est invalide",
+      "phone_recommended": "Il est préférable de renseigner le numéro de téléphone"
+    },
+    "list": "Liste des interlocuteurs",
+    "new": "Nouvel interlocuteur",
+    "update": "Mise à jour de l'interlocuteur",
+    "plural": "Interlocuteurs",
+    "singular": "Interlocuteur"
+  }
+}

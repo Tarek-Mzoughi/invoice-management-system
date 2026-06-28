@@ -1,0 +1,1 @@
+export { useBankAccountFormStructure } from './useBankAccountFormStructureShared';

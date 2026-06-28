@@ -1,0 +1,1401 @@
+{
+  "account": {
+    "singular": "Réglage du compte",
+    "description": "Les paramètres du compte fournissent une vue centralisée pour gérer les informations personnelles, accéder au cabinet et superviser les comptes bancaires liés."
+  },
+  "home": {
+    "title": "Paramètres",
+    "description": "Gérez votre compte, entreprise et paramètres de l'application",
+    "sections": {
+      "account": "Paramètres du compte",
+      "business": "Paramètres de l'entreprise",
+      "system": "Paramètres système",
+      "admin_tools": "Outils administratifs",
+      "pdf": "Paramètres PDF"
+    },
+    "cards": {
+      "profile": {
+        "title": "Profil",
+        "description": "Mettez à jour votre nom, e-mail et autres détails personnels"
+      },
+      "subscription": {
+        "title": "Abonnement",
+        "description": "Gérez votre plan d'abonnement et la facturation"
+      },
+      "modules": {
+        "title": "Modules",
+        "description": "Activez ou désactivez les modules de l'application"
+      },
+      "enterprise": {
+        "title": "Entreprise",
+        "description": "Gérez les informations et paramètres de votre entreprise"
+      },
+      "electronic_billing": {
+        "title": "Facturation électronique",
+        "description": "Configurez la signature électronique et l'envoi TTN"
+      },
+      "user_management": {
+        "title": "Gestion des utilisateurs",
+        "description": "Ajoutez et gérez les utilisateurs et leurs permissions"
+      },
+      "roles": {
+        "title": "Rôles",
+        "description": "Créez et gérez les rôles d'accès de l'application"
+      },
+      "permissions": {
+        "title": "Permissions",
+        "description": "Consultez et organisez les permissions disponibles"
+      },
+      "taxes": {
+        "title": "Taxes",
+        "description": "Configurez les taux de TVA et taxes personnalisées"
+      },
+      "activity_types": {
+        "title": "Types d'activité",
+        "description": "Organisez les activités utilisées dans l'application"
+      },
+      "payment_conditions": {
+        "title": "Conditions de paiement",
+        "description": "Définissez les conditions de paiement disponibles"
+      },
+      "withholding": {
+        "title": "Retenue à la source",
+        "description": "Gérez les taux et paramètres de retenue à la source"
+      },
+      "pdf_templates": {
+        "title": "Modèles PDF",
+        "description": "Gérez les modèles de documents PDF"
+      },
+      "price_lists": {
+        "title": "Listes de prix",
+        "description": "Créez et gérez les listes de prix des produits"
+      },
+      "documents": {
+        "title": "Documents",
+        "description": "Configurez les types de documents et paramètres"
+      },
+      "document_numbering": {
+        "title": "Numérotation des documents",
+        "description": "Configurez les séquences de numérotation"
+      },
+      "activity_logs": {
+        "title": "Logs d'activité",
+        "description": "Suivez les événements et actions de l'application"
+      },
+      "custom_fields": {
+        "title": "Champs personnalisés",
+        "description": "Ajoutez des champs personnalisés à vos documents"
+      },
+      "integrations": {
+        "title": "Intégrations",
+        "description": "Connectez des services tiers et APIs"
+      }
+    },
+    "messages": {
+      "coming_soon": "{{item}} sera bientôt disponible"
+    }
+  },
+  "profile": {
+    "title": "Paramètres du profil",
+    "description": "Mettez à jour vos informations personnelles et sécurisez l'accès à votre compte.",
+    "general_information": "Informations générales",
+    "security_information": "Sécurité et mot de passe",
+    "profile_information": "Informations du profil",
+    "picture": "Photo de profil",
+    "general_information_description": "Informations principales du compte et coordonnées.",
+    "security_information_description": "Modifiez votre mot de passe avec confirmation du mot de passe actuel.",
+    "profile_information_description": "Détails publics optionnels et préférences de confidentialité.",
+    "picture_description": "Image utilisée dans l'espace de travail.",
+    "email_verified": "Email vérifié",
+    "email_unverified": "Email non vérifié",
+    "email_fallback": "Aucune adresse email",
+    "role_fallback": "Utilisateur de l'espace",
+    "status": {
+      "saved": "Toutes les modifications sont enregistrées",
+      "saving": "Enregistrement...",
+      "unsaved": "Modifications non enregistrées"
+    },
+    "sections": {
+      "password": "Changer le mot de passe"
+    },
+    "attributes": {
+      "first_name": "Prénom",
+      "last_name": "Nom de famille",
+      "email": "Adresse e-mail",
+      "current_password": "Mot de passe actuel",
+      "new_password": "Nouveau mot de passe",
+      "confirm_password": "Confirmer le nouveau mot de passe",
+      "phone": "Téléphone",
+      "cin": "CIN",
+      "bio": "Biographie",
+      "gender": "Genre",
+      "gender_male": "Homme",
+      "gender_female": "Femme",
+      "is_private": "Profil privé",
+      "is_private_description": "Masquer votre profil aux autres utilisateurs"
+    },
+    "placeholders": {
+      "first_name": "Entrez votre prénom",
+      "last_name": "Entrez votre nom de famille",
+      "email": "Entrez votre adresse e-mail",
+      "current_password": "Entrez votre mot de passe actuel",
+      "new_password": "Entrez votre nouveau mot de passe",
+      "confirm_password": "Confirmez votre nouveau mot de passe",
+      "bio": "Parlez-nous de vous"
+    },
+    "actions": {
+      "update_profile": "Mettre à jour",
+      "update_password": "Changer le mot de passe"
+    },
+    "messages": {
+      "profile_update_success": "Profil mis à jour avec succès",
+      "profile_update_error": "Erreur lors de la mise à jour du profil",
+      "password_update_success": "Mot de passe modifié avec succès",
+      "password_update_error": "Erreur lors de la modification du mot de passe"
+    },
+    "validation": {
+      "first_name_required": "Veuillez saisir votre prénom",
+      "last_name_required": "Veuillez saisir votre nom de famille",
+      "invalid_username": "Le nom d'utilisateur doit contenir au moins 3 caractères",
+      "invalid_username_format": "Le nom d'utilisateur ne peut contenir que des lettres, chiffres et underscores",
+      "invalid_email": "Veuillez saisir une adresse e-mail valide",
+      "age_minimum": "Vous devez avoir au moins 13 ans",
+      "invalid_phone": "Veuillez saisir un numéro de téléphone valide",
+      "invalid_cin": "Le CIN doit contenir exactement 8 chiffres",
+      "current_password_required": "Veuillez saisir votre mot de passe actuel",
+      "new_password_min_length": "Le nouveau mot de passe doit contenir au moins 8 caractères",
+      "confirm_password_required": "Veuillez confirmer votre nouveau mot de passe",
+      "passwords_do_not_match": "Les mots de passe ne correspondent pas"
+    },
+    "errors": {
+      "invalid_current_password": "Le mot de passe actuel est incorrect",
+      "password_change_unavailable": "Le changement de mot de passe n'est pas disponible pour ce compte"
+    }
+  },
+  "modules_page": {
+    "title": "Modules",
+    "description": "Activez ou désactivez les modules visibles dans la navigation de l'application.",
+    "card_title": "Modules de l'application",
+    "card_description": "Contrôlez quels modules sont disponibles dans votre application. Les modules désactivés seront masqués de la navigation.",
+    "actions": {
+      "save": "Enregistrer les modifications"
+    },
+    "messages": {
+      "save_success": "Les modules ont été mis à jour"
+    },
+    "items": {
+      "selling": {
+        "title": "Ventes",
+        "description": "Gérer les devis, factures, bons de livraison et documents de vente"
+      },
+      "buying": {
+        "title": "Achats",
+        "description": "Gérer les commandes fournisseurs, factures et documents d'achat"
+      },
+      "payments": {
+        "title": "Paiements",
+        "description": "Suivre et gérer les paiements des clients et aux fournisseurs"
+      },
+      "treasury": {
+        "title": "Trésorerie",
+        "description": "Gérer les comptes de trésorerie, transactions, chèques et effets"
+      },
+      "suppliers": {
+        "title": "Fournisseurs",
+        "description": "Gérer vos fournisseurs et leurs informations"
+      },
+      "clients": {
+        "title": "Clients",
+        "description": "Gérer vos clients et leurs informations"
+      },
+      "articles": {
+        "title": "Articles",
+        "description": "Gérer votre catalogue de produits et tarification"
+      },
+      "ai_assistant": {
+        "title": "Assistant IA",
+        "description": "Accédez à l'assistant IA depuis le menu de navigation"
+      },
+      "ai_floating_button": {
+        "title": "Bouton IA flottant",
+        "description": "Afficher le bouton circulaire flottant pour accéder rapidement à l'assistant IA"
+      },
+      "withholding": {
+        "title": "Retenue à la source",
+        "description": "Gérer les certificats de retenue à la source pour les ventes et les achats"
+      }
+    }
+  },
+  "system": {
+    "singular": "Réglage du système",
+    "description": "Les réglage système fournit une interface centralisée permettant aux administrateurs de configurer et de gérer les paramètres système essentiels."
+  },
+  "user_management": {
+    "singular": "Gestion des Utilisateurs",
+    "description": "Gérez les comptes d'utilisateurs, les rôles et les autorisations sans effort pour garantir un contrôle d'accès sécurisé et efficace."
+  },
+  "pdf": {},
+  "cabinet": {
+    "title": "Paramètres de l'entreprise",
+    "description": "Gérez les informations, préférences et éléments visuels utilisés par votre entreprise.",
+    "general_information": "Informations générales",
+    "financial_information": "Information Comptable",
+    "assets": "Ressources",
+    "sections": {
+      "basic_information": "Informations de base",
+      "contact_information": "Informations de contact",
+      "preferences": "Préférences",
+      "billing_address": "Adresse de facturation",
+      "delivery_address": "Adresse de livraison",
+      "stamp": "Ajouter le cachet de l'entreprise",
+      "signature": "Ajouter la signature de l'entreprise"
+    },
+    "attributes": {
+      "name": "Nom du cabinet",
+      "enterprise_name": "Nom de l'entreprise",
+      "type": "Type",
+      "activity_types": "Types d'activité",
+      "phone": "Téléphone",
+      "phone_numbers": "Numéros de téléphone",
+      "email": "Adresse e-mail",
+      "website": "Site web",
+      "tax_number": "Numéro d'identification fiscale",
+      "currency": "Devise",
+      "country": "Pays",
+      "activity": "Activité",
+      "onboarding_activity": "Activité choisie à l'inscription",
+      "invoice_display_type": "Libellé du document de vente",
+      "address": "Adresse",
+      "city": "Ville",
+      "zip_code": "Code Postal",
+      "logo": "Logo",
+      "signature": "Signature",
+      "stamp": "Cachet"
+    },
+    "placeholders": {
+      "enterprise_name": "Saisissez le nom de l'entreprise",
+      "email": "example@entreprise.com",
+      "website": "https://www.entreprise.com",
+      "tax_number": "Saisissez le matricule fiscal",
+      "address": "Saisissez l'adresse",
+      "city": "Saisissez la ville",
+      "zip_code": "Saisissez le code postal",
+      "select_country": "Sélectionnez un pays",
+      "select_currency": "Sélectionnez une devise",
+      "select_activities": "Sélectionnez un ou plusieurs types d'activité",
+      "activities_selected": "{{count}} type(s) d'activité sélectionné(s)",
+      "search_activity": "Rechercher une activité...",
+      "no_activity": "Aucune activité trouvée"
+    },
+    "options": {
+      "company": "Personne morale",
+      "person": "Particulier",
+      "invoice": "Facture",
+      "honorary_note": "Note d'honoraires"
+    },
+    "status": {
+      "saved": "Toutes les modifications sont enregistrées",
+      "saving": "Enregistrement...",
+      "unsaved": "Modifications non enregistrées"
+    },
+    "hero": {
+      "active_workspace": "Espace de travail actif",
+      "tax_id": "Matricule fiscal"
+    },
+    "section_descriptions": {
+      "basic_information": "Identité légale, activités et logo de votre entreprise.",
+      "contact_information": "Coordonnées utilisées sur vos documents et communications.",
+      "preferences": "Devise, pays et format des documents de vente.",
+      "billing_address": "Adresse affichée sur vos factures et devis.",
+      "delivery_address": "Adresse utilisée pour les livraisons.",
+      "visual_assets": "Cachet et signature apposés sur vos documents officiels."
+    },
+    "actions": {
+      "update": "Mettre à jour",
+      "add_phone": "Ajouter un numéro de téléphone",
+      "choose_image": "Choisir une image",
+      "remove_image": "Retirer l'image"
+    },
+    "descriptions": {
+      "stamp": "Téléchargez le cachet de l'entreprise au format PNG ou JPG.",
+      "signature": "Téléchargez la signature utilisée sur vos documents au format PNG ou JPG."
+    },
+    "messages": {
+      "update_success": "Cabinet mis à jour avec succès",
+      "update_error": "Erreur lors de la mise à jour du cabinet",
+      "load_error": "Erreur lors du chargement du cabinet"
+    },
+    "errors": {
+      "enterprise_name_required": "Le nom de l'entreprise est obligatoire",
+      "invalid_email": "Veuillez saisir une adresse e-mail valide",
+      "invalid_website": "Veuillez saisir une adresse de site web valide",
+      "tax_number_required": "Le numéro d'identification fiscale est obligatoire",
+      "invoice_display_type_required": "Le libellé du document de vente est obligatoire",
+      "invoicing_address_required": "L'adresse de facturation est obligatoire",
+      "invoicing_address_zip_code_number": "Le code postal de l'adresse de facturation doit être un nombre",
+      "invoicing_address_zip_code_length": "Le code postal de l'adresse de facturation doit contenir au maximum 5 chiffres"
+    }
+  },
+  "bank_account": {
+    "title": "Comptes de Trésorerie",
+    "description": "Gérez vos caisses et comptes bancaires, puis suivez leur solde en temps réel depuis un seul écran.",
+    "action_add_failure": "Erreur lors de la création du compte de trésorerie",
+    "action_add_success": "Compte de trésorerie créé avec succès",
+    "action_edit_failure": "Erreur lors de la modification du compte de trésorerie",
+    "action_edit_success": "Compte de trésorerie modifié avec succès",
+    "action_remove_failure": "Erreur lors de la suppression du compte de trésorerie",
+    "action_remove_success": "Compte de trésorerie supprimé avec succès",
+    "action_promote_failure": "Erreur lors de la promotion du compte de trésorerie",
+    "action_promote_success": "Compte de trésorerie {{name}} promu avec succès",
+    "add_button_label": "Ajouter un Compte",
+    "actions": {
+      "view_transactions": "Voir les transactions",
+      "add_expense": "Ajouter une dépense",
+      "deposit": "Dépôt",
+      "transfer": "Transférer"
+    },
+    "attributes": {
+      "name": "Nom du Compte",
+      "type": "Type",
+      "type_cash": "Caisse",
+      "type_bank": "Compte Bancaire",
+      "agency": "Agence",
+      "bic": "BIC/SWIFT",
+      "currency": "Devise",
+      "rib": "RIB",
+      "iban": "IBAN",
+      "balance": "Solde",
+      "isMain": "Compte Principal"
+    },
+    "placeholders": {
+      "name": "Entrez le nom du compte",
+      "bic": "ABCCTNTTXXX",
+      "rib": "12345678901234567890",
+      "agency": "Entrez le nom de l'agence",
+      "iban": "TN59XXXXXXXXXXXXXXXXXXXXXX",
+      "currency": "Sélectionnez une devise"
+    },
+    "card_description": "Cette section permet de gérer les comptes de trésorerie et les mouvements qui impactent leur solde.",
+    "hints": {
+      "create_dialog_hint": "Choisissez le type de compte puis renseignez les informations nécessaires pour l'enregistrer.",
+      "update_dialog_hint": "Mettez à jour les informations du compte de trésorerie sélectionné.",
+      "internal_name": "Nom interne visible uniquement par vous",
+      "is_main": "Le compte principal est proposé par défaut dans les opérations.",
+      "first_account_main": "Le premier compte créé est automatiquement défini comme compte principal.",
+      "main_locked": "Ce compte est déjà principal. Promouvez un autre compte pour pouvoir lui retirer ce statut."
+    },
+    "new": "Créer un Compte de Trésorerie",
+    "update": "Modifier un Compte de Trésorerie",
+    "singular": "Compte de Trésorerie",
+    "plural": "Comptes de Trésorerie",
+    "pagination": {
+      "rows": "Lignes",
+      "page": "Page {{page}} sur {{total}}",
+      "range": "Affichage de {{start}} à {{end}} sur {{total}} résultats"
+    },
+    "errors": {
+      "name_required": "Nom du compte est obligatoire",
+      "name_min_length": "Nom du compte doit comporter au moins 3 caractères",
+      "currency_required": "Devise est obligatoire",
+      "bic_required": "BIC/SWIFT est obligatoire",
+      "rib_required": "RIB est obligatoire",
+      "agency_required": "Nom de l'agence est obligatoire",
+      "iban_required": "IBAN est obligatoire",
+      "main_required": "Le compte doit être principal",
+      "main_locked": "Vous devez promouvoir un autre compte principal avant de retirer ce statut."
+    },
+    "promote_prompt": "Êtes-vous sûr de vouloir promouvoir '<label>{{label}}</label>' comme compte principal ?",
+    "delete_dialog": {
+      "title": "Supprimer le compte de trésorerie",
+      "description": "Êtes-vous sûr de vouloir supprimer ce compte de trésorerie ? Cette action est irréversible.",
+      "account_label": "Compte"
+    },
+    "expense": {
+      "title": "Ajouter une Dépense",
+      "description": "Enregistrez une sortie manuelle qui met à jour immédiatement le solde du compte.",
+      "add_button_label": "Ajouter une Dépense",
+      "action_add_success": "Dépense ajoutée avec succès",
+      "action_add_failure": "Erreur lors de l'ajout de la dépense",
+      "default_label": "Dépense",
+      "fields": {
+        "account": "Compte",
+        "label": "Libellé",
+        "amount": "Montant",
+        "movementDate": "Date",
+        "notes": "Notes",
+        "category": "Catégorie de Dépense",
+        "withholding": "Appliquer une retenue à la source ?",
+        "project": "Projet (Optionnel)",
+        "reason": "Raison (Optionnel)",
+        "attachments": "Pièces jointes (Optionnel)"
+      },
+      "placeholders": {
+        "account": "Sélectionnez un compte",
+        "label": "Entrez le libellé de la dépense",
+        "notes": "Ajoutez une note interne si nécessaire",
+        "amount": "0",
+        "project": "Sélectionner un projet",
+        "no_project": "Aucun projet",
+        "reason": "Entrez la raison ou la description de la dépense"
+      },
+      "actions": {
+        "manage_categories": "Modifier les catégories de dépense",
+        "add_category": "Ajouter une Nouvelle Catégorie"
+      },
+      "categories": {
+        "salaries": "Salaires",
+        "taxes": "Impôts",
+        "rent": "Loyer",
+        "other": "Autre"
+      },
+      "category_dialog": {
+        "title": "Modifier les catégories de dépense"
+      },
+      "attachments": {
+        "upload_title": "Cliquez pour télécharger vos fichiers",
+        "helper": "Max {{count}} fichiers • PDF, JPEG, JPG, PNG"
+      },
+      "errors": {
+        "account_required": "Veuillez sélectionner un compte",
+        "amount_required": "Veuillez saisir un montant valide",
+        "label_required": "Veuillez saisir un libellé",
+        "date_required": "Veuillez sélectionner une date",
+        "unsupported_file": "Fichier \"{{name}}\" non supporté. Types acceptés : {{accepted}}",
+        "max_files": "Maximum {{count}} fichiers autorisés"
+      },
+      "currency_hint": "Cette dépense sera enregistrée en {{currency}}."
+    },
+    "deposit": {
+      "title": "Nouveau Dépôt",
+      "description": "Ajouter des fonds à votre compte",
+      "add_button_label": "Créer",
+      "action_add_success": "Dépôt ajouté avec succès",
+      "action_add_failure": "Erreur lors de l'ajout du dépôt",
+      "default_label": "Dépôt",
+      "fields": {
+        "amount": "Montant",
+        "movementDate": "Date",
+        "account": "Compte de Trésorerie",
+        "reason": "Raison"
+      },
+      "placeholders": {
+        "account": "Sélectionner le compte",
+        "reason": "Entrez la raison ou la description du dépôt"
+      },
+      "errors": {
+        "account_required": "Le compte est requis.",
+        "amount_required": "Le montant est requis et doit être valide.",
+        "date_required": "La date est requise."
+      }
+    },
+    "transfer": {
+      "title": "Nouveau Virement",
+      "description": "Créer un virement entre vos comptes de trésorerie",
+      "add_button_label": "Confirmer",
+      "action_add_success": "Virement effectué avec succès",
+      "action_add_failure": "Échec de l'enregistrement du virement",
+      "default_label": "Virement de trésorerie",
+      "fields": {
+        "amount": "Montant",
+        "movementDate": "Date",
+        "source_account": "Compte Source",
+        "destination_account": "Compte Destination",
+        "reason": "Raison",
+        "attachments": "Pièces jointes (Optionnel)"
+      },
+      "placeholders": {
+        "source_account": "Sélectionner le compte source",
+        "destination_account": "Sélectionner le compte destination",
+        "reason": "Entrez la raison ou la description du virement"
+      },
+      "attachments": {
+        "upload_title": "Cliquez pour télécharger vos fichiers",
+        "helper": "Max {{count}} fichiers • PDF, JPEG, JPG, PNG"
+      },
+      "errors": {
+        "source_account_required": "Le compte source est requis.",
+        "destination_account_required": "Le compte destination est requis.",
+        "same_account": "Les comptes source et destination doivent être différents.",
+        "amount_required": "Le montant est requis et doit être valide.",
+        "date_required": "La date est requise.",
+        "unsupported_file": "Fichier \"{{name}}\" non supporté. Types acceptés : {{accepted}}",
+        "max_files": "Maximum {{count}} fichiers autorisés"
+      }
+    }
+  },
+  "treasury_transaction": {
+    "title": "Transactions",
+    "description": "Consultez et gérez toutes les transactions de trésorerie",
+    "filters": {
+      "account": "Compte de Trésorerie",
+      "kind": "Type de transaction",
+      "date_start": "Date de début",
+      "date_end": "Date de fin",
+      "search": "Recherche",
+      "amount_range": "Montant Min - Max",
+      "advanced": "Filtres avancés"
+    },
+    "placeholders": {
+      "all_accounts": "Tous les Comptes",
+      "all_kinds": "Tous les Types",
+      "search": "Rechercher des transactions...",
+      "source_account": "Sélectionner le compte source",
+      "destination_account": "Sélectionner le compte destination",
+      "max_amount": "∞"
+    },
+    "table": {
+      "reference": "Référence",
+      "account": "Compte",
+      "debit": "Débit",
+      "credit": "Crédit",
+      "balance": "Solde",
+      "reason": "Motif"
+    },
+    "actions": {
+      "view": "Voir",
+      "view_receipt": "Voir le reçu",
+      "view_attachments": "Voir les pièces jointes",
+      "delete": "Supprimer",
+      "export": "Exporter",
+      "export_pdf": "Exporter en PDF",
+      "export_excel": "Exporter en Excel"
+    },
+    "toasts": {
+      "delete_success": "Transaction supprimée avec succès",
+      "delete_error": "Échec de la suppression de la transaction",
+      "export_pdf_success": "Export PDF généré avec succès",
+      "export_pdf_error": "Échec de l'export PDF",
+      "export_excel_success": "Export Excel généré avec succès",
+      "export_excel_error": "Échec de l'export Excel",
+      "export_empty": "Aucune transaction à exporter"
+    },
+    "pagination": {
+      "rows": "Lignes par page",
+      "page": "Page {{page}} sur {{total}}",
+      "range": "{{start}}-{{end}} sur {{total}}"
+    },
+    "empty": "Aucune transaction trouvée",
+    "kinds": {
+      "expense": "Dépense",
+      "income": "Revenu",
+      "transfer": "Virement",
+      "adjustment": "Ajustement"
+    },
+    "directions": {
+      "in": "Encaissement (Crédit)",
+      "out": "Décaissement (Débit)"
+    },
+    "delete_dialog": {
+      "title": "Supprimer la transaction",
+      "description": "Êtes-vous sûr de vouloir supprimer cette transaction ? Cette action est irréversible.",
+      "reference_label": "Référence"
+    },
+    "receipt": {
+      "title": "Reçu de transaction",
+      "window_title": "Reçu - {{reference}}",
+      "header_title": "REÇU DE TRANSACTION",
+      "reference_label": "Référence",
+      "date_label": "Date",
+      "amount_in_label": "Montant encaissé",
+      "amount_out_label": "Montant décaissé",
+      "details_title": "Détails de la transaction",
+      "account_label": "Compte de trésorerie",
+      "operation_date_label": "Date d'opération",
+      "type_label": "Type",
+      "credit_amount_label": "Montant crédit",
+      "debit_amount_label": "Montant débit",
+      "category_label": "Catégorie",
+      "reason_label": "Motif",
+      "payer_signature": "Signature du payeur",
+      "beneficiary_signature": "Signature du bénéficiaire",
+      "company_fallback": "Mon entreprise"
+    },
+    "export": {
+      "filename_prefix": "transactions_tresorerie",
+      "sheet_name": "Transactions Trésorerie",
+      "generated_at": "Généré le {{date}}",
+      "period": "Du: {{from}}   Au: {{to}}",
+      "account_scope": "Comptes: {{account}}",
+      "all_accounts": "Tous les comptes",
+      "total": "Total"
+    }
+  },
+  "treasury_checks_and_drafts": {
+    "title": "Chèques & Traites",
+    "description": "Gérez les chèques et les traites (dépôt/rejet)",
+    "tabs": {
+      "client": "Client",
+      "supplier": "Fournisseur"
+    },
+    "filters": {
+      "search": "Recherche",
+      "type": "Type",
+      "status": "Statut",
+      "account": "Compte de Trésorerie",
+      "due_start": "Date d'Échéance début",
+      "due_end": "Date d'Échéance fin"
+    },
+    "placeholders": {
+      "search": "Rechercher par référence, entité ou note...",
+      "all_types": "Tous les types",
+      "all_statuses": "Tous les statuts",
+      "all_accounts": "Tous les comptes"
+    },
+    "table": {
+      "type": "Type",
+      "reference": "Référence",
+      "entity": "Entité",
+      "amount": "Montant",
+      "due_date": "Date d'Échéance",
+      "account": "Compte de Trésorerie",
+      "status": "Statut",
+      "actions": "Actions"
+    },
+    "actions": {
+      "filters": "Filtres",
+      "view_details": "Voir les détails",
+      "deposit": "Déposer en compte bancaire",
+      "mark_paid": "Marquer comme payée",
+      "reject": "Marquer comme rejetée",
+      "cancel_deposit": "Annuler le dépôt"
+    },
+    "types": {
+      "check": "Chèque",
+      "bill_of_exchange": "Traite",
+      "unknown": "Instrument"
+    },
+    "statuses": {
+      "pending": "En attente",
+      "deposited": "Déposée en banque",
+      "paid": "Payée",
+      "rejected": "Rejetée",
+      "cancelled": "Annulée",
+      "deposited_supplier": "Déposée Fournisseur",
+      "paid_supplier": "Payée Fournisseur"
+    },
+    "directions": {
+      "in": "Encaissement",
+      "out": "Décaissement"
+    },
+    "empty": "Aucun chèque ou traite trouvé",
+    "pagination": {
+      "rows": "Lignes",
+      "page": "Page {{page}} sur {{totalPages}}",
+      "range": "Affichage de {{start}} à {{end}} sur {{total}} résultats"
+    },
+    "details": {
+      "description": "Consultez les informations du chèque ou de la traite.",
+      "entity": "Entité",
+      "reference": "Référence",
+      "due_date": "Date d'Échéance",
+      "emitter": "Émetteur",
+      "beneficiary": "Bénéficiaire",
+      "treasury_account": "Compte de Trésorerie",
+      "deposit_date": "Date de dépôt",
+      "payment_date": "Date de paiement",
+      "rejected_at": "Date de rejet",
+      "original_account": "Compte d'origine",
+      "date": "Date",
+      "mode": "Type",
+      "notes": "Notes",
+      "rejection_reason": "Motif de rejet"
+    },
+    "deposit_dialog": {
+      "title": "Déposer la {{type}} {{reference}}",
+      "description": "Sélectionnez le compte bancaire où cela sera déposé",
+      "bank_account": "Compte Bancaire",
+      "bank": "Banque: ",
+      "agency": "Agence: ",
+      "iban": "IBAN: ",
+      "rib": "RIB: ",
+      "empty_bank_accounts": "Aucun compte bancaire n'est disponible pour déposer cet instrument.",
+      "empty_matching_bank_accounts": "Aucun compte bancaire dans la même devise que cet instrument n'est disponible pour le dépôt.",
+      "conversion_notice": "Le montant sera converti en {{amount}} avec le taux {{rate}}.",
+      "missing_rate_notice": "Un taux de change valide est requis pour déposer cet instrument sur un compte bancaire d'une autre devise.",
+      "confirm": "Déposer"
+    },
+    "pay_dialog": {
+      "title": "Marquer comme Payée",
+      "description": "Êtes-vous sûr de vouloir marquer la {{type}} {{reference}} comme payée (encaissée) dans {{account}} ?",
+      "due_date_notice": "La date d'échéance est le {{dueDate}}. Vous pouvez tout de même enregistrer ce paiement dès maintenant.",
+      "currency_mismatch_notice": "Le compte bancaire de dépôt n'utilise pas la même devise que cet instrument. Annulez le dépôt puis choisissez un compte bancaire dans la même devise avant de le marquer comme payé.",
+      "conversion_notice": "Le paiement sera enregistré en {{amount}} sur ce compte bancaire avec le taux {{rate}}.",
+      "missing_rate_notice": "Un taux de change valide est requis pour marquer cet instrument comme payé sur un compte bancaire d'une autre devise."
+    },
+    "reject_dialog": {
+      "title": "Marquer comme Rejetée",
+      "description": "Êtes-vous sûr de vouloir marquer la {{type}} {{reference}} comme échouée ? Cette action est irréversible.",
+      "reason_label": "Motif de rejet (optionnel)",
+      "reason_placeholder": "Saisir le motif de rejet..."
+    },
+    "cancel_deposit_dialog": {
+      "title": "Annuler le Dépôt",
+      "description_deposited": "Êtes-vous sûr de vouloir annuler le dépôt de la {{type}} {{reference}} ? Cela la remettra en attente.",
+      "description_paid": "Êtes-vous sûr de vouloir annuler le dépôt de la {{type}} {{reference}} ? Cela annulera l'encaissement bancaire associé et la remettra en attente."
+    },
+    "toasts": {
+      "deposit_success": "Instrument déposé avec succès",
+      "deposit_error": "Échec du dépôt de l'instrument",
+      "mark_paid_success": "Instrument marqué comme payé avec succès",
+      "mark_paid_error": "Échec du marquage comme payé",
+      "reject_success": "Instrument marqué comme rejeté avec succès",
+      "reject_error": "Échec du rejet de l'instrument",
+      "cancel_deposit_success": "Dépôt annulé avec succès",
+      "cancel_deposit_error": "Échec de l'annulation du dépôt"
+    }
+  },
+  "default_condition": {
+    "action_edit_failure": "Erreur lors de la modification des conditions par défaut",
+    "action_edit_success": "Conditions par défaut mises à jour avec succès",
+    "card_description": "Cette section permet aux utilisateurs de gérer efficacement les conditions par défaut en effectuant les actions clés liées aux conditions enregistrés",
+    "elements": {
+      "quotation": "Devis",
+      "invoice": "Factures"
+    },
+    "not_set": "Aucune condition par défaut n'est définie. Veuillez les configurer dans le menu des paramètres",
+    "section": {
+      "selling": "Les Conditions par défaut de Vente",
+      "buying": "Les Conditions par défaut d'Achat"
+    },
+    "singular": "Conditions Par défaut"
+  },
+  "activity": {
+    "attributes": {
+      "id": "ID",
+      "label": "Etiquette"
+    },
+    "add_button_label": "Nouvelle Activité",
+    "card_description": "Cette section permet aux utilisateurs de gérer efficacement les activités en réalisant les principales actions liées aux activités enregistrées.",
+    "new": "Nouvelle Activité",
+    "singular": "Activité",
+    "plural": "Activités",
+    "messages": {
+      "create_success": "Activité ajoutée avec succès",
+      "create_error": "Erreur lors de la création de l'activité",
+      "update_success": "Activité modifiée avec succès",
+      "update_error": "Erreur lors de la modification de l'activité",
+      "delete_success": "Activité supprimée avec succès",
+      "delete_error": "Erreur lors de la suppression de l'activité"
+    }
+  },
+  "sequence": {
+    "action_update_failure": "Erreur lors de la mise à jour des séquences",
+    "action_update_success": "Séquences mises à jour avec succès",
+    "attributes": {
+      "prefix": "Préfixe",
+      "dynamic_sequence": "Séquence Dynamique",
+      "next": "Numéro Suivant"
+    },
+    "elements": {
+      "quotation": "Devis",
+      "invoice": "Factures",
+      "delivery_note": "Bons de livraison",
+      "goods_issue_note": "Bons de sortie",
+      "customer_order": "Commandes client",
+      "honorary_note": "Notes d'honoraires",
+      "credit_note": "Avoirs",
+      "return_note": "Bons de retour"
+    },
+    "card_description": "Cette section permet aux utilisateurs de gérer efficacement les séquences en effectuant les actions clés liées aux séquences prédéfinies",
+    "invoice_sequence": "Sequence des Factures",
+    "quotation_sequence": "Sequence des Devis",
+    "title": "Configuration des séquences de numérotation"
+  },
+  "payment_condition": {
+    "attributes": {
+      "label": "Etiquette",
+      "description": "Description"
+    },
+    "add_button_label": "Nouvelle Condition de Paiement",
+    "card_description": "Cette section permet aux utilisateurs de gérer efficacement les conditions de paiement en réalisant les principales actions liées aux conditions enregistrées.",
+    "new": "Nouvelle Condition de Paiement",
+    "singular": "Conditions de Paiement",
+    "plural": "Conditions de Paiement",
+    "messages": {
+      "create_success": "Condition de Paiement ajoutée avec succès",
+      "create_error": "Erreur lors de la création de la méthode de Paiement",
+      "update_success": "Condition de Paiement modifiée avec succès",
+      "update_error": "Erreur lors de la modification de la méthode de Paiement",
+      "delete_success": "Condition de Paiement supprimée avec succès",
+      "delete_error": "Erreur lors de la suppression de la condition de Paiement"
+    }
+  },
+  "price_lists": {
+    "title": "Paramètres de Liste de Prix",
+    "description": "Créez et gérez les listes de prix des produits",
+    "fields": {
+      "name": "Nom de la Liste de Prix",
+      "active": "Active"
+    },
+    "placeholders": {
+      "name": "Saisissez le nom de la liste de prix"
+    },
+    "hints": {
+      "name": "Saisissez un nom unique pour votre liste de prix",
+      "active": "Activer ou désactiver cette liste de prix"
+    },
+    "actions": {
+      "add": "Ajouter une Liste de Prix"
+    },
+    "table": {
+      "name": "Nom",
+      "status": "Statut",
+      "actions": "Actions",
+      "empty": "Aucune liste de prix trouvée"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "dialogs": {
+      "create_title": "Créer une Liste de Prix",
+      "create_description": "Ajoutez une liste de prix utilisable dans les fiches articles.",
+      "update_title": "Modifier une Liste de Prix",
+      "update_description": "Mettez à jour le nom ou le statut de cette liste de prix.",
+      "delete_title": "Supprimer une Liste de Prix",
+      "delete_description": "Voulez-vous vraiment supprimer \"{{name}}\" ? La suppression est bloquée si la liste est utilisée par des articles."
+    },
+    "pagination": {
+      "rows": "Lignes",
+      "page": "Page {{page}} sur {{pageCount}}",
+      "summary": "Affichage de {{first}} à {{last}} sur {{total}} résultats"
+    },
+    "messages": {
+      "create_success": "Liste de prix créée avec succès",
+      "create_error": "Erreur lors de la création de la liste de prix",
+      "update_success": "Liste de prix modifiée avec succès",
+      "update_error": "Erreur lors de la modification de la liste de prix",
+      "delete_success": "Liste de prix supprimée avec succès",
+      "delete_error": "Erreur lors de la suppression de la liste de prix",
+      "load_error": "Erreur lors du chargement des listes de prix"
+    },
+    "validation": {
+      "name_required": "Veuillez saisir un nom de liste de prix valide"
+    }
+  },
+  "withholding": {
+    "singular": "Retenue à la source",
+    "plural": "Retenues à la source",
+    "attributes": {
+      "label": "Etiquette",
+      "rate": "Taux"
+    },
+    "card_description": "Cette section permet aux utilisateurs de gérer efficacement les retenues à la source en réalisant les principales actions liées aux retenues",
+    "add_button_label": "Nouvelle Retenue à la source",
+    "messages": {
+      "create_success": "Retenue à la source ajoutée avec succès",
+      "create_error": "Erreur lors de la création de la retenue à la source",
+      "update_success": "Retenue à la source modifiée avec succès",
+      "update_error": "Erreur lors de la modification de la retenue à la source",
+      "delete_success": "Retenue à la source supprimée avec succès",
+      "delete_error": "Erreur lors de la suppression de la retenue à la source"
+    }
+  },
+  "pdf_templates": {
+    "title": "Modèles PDF",
+    "description": "Gérez les modèles de documents pour les ventes et les achats.",
+    "library": "Bibliothèque de modèles",
+    "search_placeholder": "Rechercher des modèles",
+    "all_document_types": "Tous les types de documents",
+    "all_statuses": "Tous les statuts",
+    "no_templates": "Aucun modèle trouvé",
+    "new_template": "Nouveau modèle",
+    "create_title": "Créer un modèle PDF",
+    "form": {
+      "name": "Nom",
+      "name_placeholder": "Nouveau modèle de facture",
+      "document_type": "Type de document",
+      "preset": "Préréglage",
+      "presets": {
+        "classic": {
+          "label": "Facture classique",
+          "description": "Facture commerciale structurée avec en-tête de tableau sombre"
+        },
+        "modern": {
+          "label": "Facture moderne",
+          "description": "Accent bleu épuré avec des blocs de documents souples"
+        },
+        "minimal": {
+          "label": "Facture minimale",
+          "description": "Mise en page monochrome sobre avec un style de tableau léger"
+        }
+      }
+    },
+    "table": {
+      "name": "Nom",
+      "type": "Type de document",
+      "status": "Statut",
+      "version": "Version",
+      "actions": "Actions"
+    },
+    "actions": {
+      "edit": "Modifier",
+      "duplicate": "Dupliquer",
+      "set_default": "Définir par défaut",
+      "delete": "Supprimer"
+    },
+    "badges": {
+      "default": "Par défaut"
+    },
+    "messages": {
+      "create_success": "Modèle créé avec succès",
+      "create_error": "Impossible de créer le modèle",
+      "duplicate_success": "Modèle dupliqué avec succès",
+      "duplicate_error": "Impossible de dupliquer le modèle",
+      "delete_success": "Modèle supprimé avec succès",
+      "delete_error": "Impossible de supprimer le modèle",
+      "set_default_success": "Modèle par défaut mis à jour",
+      "set_default_error": "Impossible de mettre à jour le modèle par défaut"
+    }
+  },
+  "pdf_editor": {
+    "builder_title": "Éditeur de modèles PDF",
+    "default_name": "Modèle PDF",
+    "unsaved": "Non enregistré",
+    "header": {
+      "preview": "Aperçu",
+      "generate": "Générer",
+      "set_default": "Par défaut",
+      "publish": "Publier",
+      "save": "Enregistrer",
+      "back": "Retour",
+      "tooltips": {
+        "save_before_generate": "Enregistrez avant de générer un PDF",
+        "generate_pdf": "Générer le PDF"
+      }
+    },
+    "left_panel": {
+      "elements": "Éléments",
+      "search_placeholder": "Rechercher des éléments",
+      "add": "Ajouter",
+      "sections": {
+        "elements": "Éléments",
+        "blocks": "Blocs de document"
+      },
+      "types": {
+        "text": "Texte",
+        "dynamic": "Dynamique",
+        "logo": "Logo",
+        "image": "Image",
+        "table": "Tableau",
+        "company_block": "Bloc Entreprise",
+        "client_block": "Bloc Client"
+      },
+      "descriptions": {
+        "text": "Étiquette statique ou paragraphe",
+        "dynamic": "Texte lié à une variable",
+        "logo": "Emplacement du logo de l'entreprise",
+        "image": "Emplacement d'image",
+        "table": "Tableau des articles",
+        "company_block": "Champs préparés de l'entreprise",
+        "client_block": "Champs préparés du client"
+      }
+    },
+    "right_panel": {
+      "tabs": {
+        "props": "Propriétés",
+        "vars": "Variables",
+        "layers": "Calques",
+        "history": "Historique"
+      },
+      "props": {
+        "sections": {
+          "basic": "Basique",
+          "content": "Contenu",
+          "position_size": "Position & Taille",
+          "typography": "Typographie",
+          "colors": "Couleurs",
+          "border": "Bordure",
+          "table_design": "Design du tableau",
+          "columns": "Colonnes",
+          "selection": "Sélection",
+          "move": "Déplacer",
+          "align": "Aligner",
+          "actions": "Actions"
+        },
+        "fields": {
+          "layer_name": "Nom du calque",
+          "visible": "Visible",
+          "locked": "Verrouillé",
+          "text_content": "Contenu texte",
+          "variable_binding": "Liaison variable",
+          "x": "X",
+          "y": "Y",
+          "width": "Largeur",
+          "height": "Hauteur",
+          "layer_depth": "Profondeur",
+          "font_size": "Taille police",
+          "weight": "Graisse",
+          "align": "Alignement",
+          "text_color": "Texte",
+          "fill_color": "Remplissage",
+          "border_color": "Couleur bordure",
+          "data_binding": "Liaison de données",
+          "header_fill": "Fond en-tête",
+          "header_text": "Texte en-tête",
+          "row_height": "Hauteur de ligne",
+          "padding": "Espacement",
+          "row_font": "Police ligne"
+        },
+        "options": {
+          "regular": "Normal",
+          "medium": "Moyen",
+          "semibold": "Demi-gras",
+          "bold": "Gras",
+          "left": "Gauche",
+          "center": "Centre",
+          "right": "Droite",
+          "top": "Haut",
+          "middle": "Milieu",
+          "bottom": "Bas"
+        },
+        "multi_selection": {
+          "elements_selected": "{{count}} éléments sélectionnés",
+          "status_summary": "{{visible}} visibles, {{locked}} verrouillés"
+        },
+        "no_selection": "Aucun élément sélectionné",
+        "select_to_edit": "Sélectionnez un élément pour modifier ses propriétés."
+      },
+      "vars": {
+        "title": "Variables",
+        "description": "Faites glisser une variable sur la page ou insérez-la comme texte dynamique.",
+        "insert": "Insérer",
+        "bind": "Lier",
+        "image_badge": "Image"
+      },
+      "layers": {
+        "title": "Calques",
+        "description": "Les calques supérieurs apparaissent en premier.",
+        "selected_count": "{{count}} calques sélectionnés",
+        "no_layers": "Ajoutez un élément pour le voir dans la pile des calques.",
+        "tooltips": {
+          "duplicate": "Dupliquer",
+          "delete": "Supprimer",
+          "lock": "Verrouiller",
+          "unlock": "Déverrouiller",
+          "hide": "Masquer",
+          "show": "Afficher",
+          "move_up": "Monter",
+          "move_down": "Descendre"
+        }
+      },
+      "history": {
+        "title": "Versions",
+        "description": "Restaurer une version précédente enregistrée.",
+        "no_history": "L'historique des versions apparaîtra après l'enregistrement.",
+        "restore": "Restaurer"
+      }
+    },
+    "toolbar": {
+      "portrait": "A4 portrait",
+      "landscape": "A4 paysage",
+      "grid": "Grille",
+      "fit_width": "Ajuster la largeur"
+    },
+    "messages": {
+      "save_success": "Modèle enregistré",
+      "save_error": "Impossible d'enregistrer le modèle",
+      "preview_error": "Impossible d'afficher l'aperçu du modèle",
+      "save_before_generate": "Enregistrez vos modifications avant de générer un PDF.",
+      "generate_success": "PDF généré",
+      "generate_error": "Impossible de générer le PDF",
+      "save_before_default": "Enregistrez vos modifications avant de définir ce modèle par défaut.",
+      "set_default_success": "Modèle par défaut mis à jour",
+      "set_default_error": "Impossible de définir le modèle par défaut",
+      "restore_success": "Version restaurée",
+      "restore_error": "Impossible de restaurer la version"
+    }
+  },
+  "tax": {
+    "attributes": {
+      "label": "Etiquette",
+      "label_description": "Saisissez un nom unique pour la taxe (par exemple, TVA, FODEC)",
+      "label_length_error": "L'étiquette doit comporter au moins 3 caractères",
+      "value": "Valeur",
+      "value_description": "Spécifiez le taux de taxe sous forme de nombre",
+      "value_interval_error": "La valeur doit être un nombre positif",
+      "type": "Type",
+      "type_description": "Choisissez un pourcentage ou une valeur fixe par transaction",
+      "is_special": "Spécial",
+      "is_special_description": "Une taxe spéciale est appliquée sur le montant après que les taxes normales ont déjà été calculées.",
+      "currency": "Devise",
+      "currency_description": "Choisissez la devise de la taxe",
+      "currency_checkbox": "Définir une devise spécifique pour cette taxe",
+      "applicable_on_all": "Applicable avec tous les devises"
+    },
+    "validation": {
+      "label_required": "Veuillez saisir un nom de taxe d'au moins 3 caractères",
+      "value_required": "Veuillez entrer un taux de taxe",
+      "value_positive": "Veuillez saisir une valeur fixe supérieure à 0",
+      "rate_range": "Veuillez saisir un taux valide entre 0 et 99",
+      "currency_required": "Veuillez sélectionner une devise pour la taxe"
+    },
+    "types": {
+      "rate": "Pourcentage",
+      "fixed": "Montant fixe"
+    },
+    "create_prompt": "Créer une taxe",
+    "create_dialog_description": "Veuillez introduire les valeurs nécessaires pour créer une nouvelle taxe.",
+    "update_prompt": "Mise à jour de la taxe",
+    "update_dialog_description": "Veuillez introduire les nouvelles valeurs pour mettre à jour la taxe existante.",
+    "delete_prompt": "Êtes-vous sûr de vouloir supprimer la taxe",
+    "delete_dialog_description": "Cette action est irréversible et ne pourra pas être annulée.",
+    "add_button_label": "Nouvelle Taxe",
+    "card_description": "Cette section permet aux utilisateurs de gérer efficacement les taxes en réalisant les principales actions liées aux taxes enregistrées.",
+    "new": "Nouvelle Taxe",
+    "singular": "Taxe",
+    "plural": "Taxes",
+    "tabs": {
+      "vat": "TVA",
+      "custom": "Taxes personnalisées"
+    },
+    "sections": {
+      "vat": "Paramètres TVA",
+      "custom": "Taxes personnalisées"
+    },
+    "table": {
+      "rate": "Taux",
+      "name": "Nom",
+      "value": "Valeur",
+      "scope": "Type",
+      "status": "Statut",
+      "actions": "Actions",
+      "empty_vat": "Aucun taux de TVA disponible.",
+      "empty_custom": "Aucune taxe personnalisée disponible."
+    },
+    "status": {
+      "active": "Actif",
+      "inactive": "Inactif"
+    },
+    "scope": {
+      "template": "Template global",
+      "private": "Privée"
+    },
+    "actions": {
+      "add_vat": "Ajouter une TVA",
+      "add_custom": "Ajouter une Taxe"
+    },
+    "vat_form": {
+      "create_title": "Créer un taux de TVA",
+      "create_description": "Ajoutez un taux de TVA privé pour l'entreprise courante.",
+      "rate_label": "Taux de TVA (%)",
+      "rate_placeholder": "ex. 20",
+      "rate_hint": "Saisissez uniquement la valeur numérique du taux. Le libellé sera généré automatiquement.",
+      "rate_error": "Veuillez saisir un taux de TVA valide entre 0 et 99."
+    },
+    "custom_form": {
+      "create_title": "Créer une taxe personnalisée",
+      "create_description": "Ajoutez une taxe privée pour l'entreprise courante.",
+      "update_title": "Modifier une taxe personnalisée",
+      "update_description": "Mettez à jour les informations de cette taxe privée.",
+      "name_label": "Nom / libellé de la taxe",
+      "name_placeholder": "ex. Timbre fiscal, FODEC 1%",
+      "name_hint": "Ce nom sera utilisé dans les listes et les documents.",
+      "type_label": "Type de taxe",
+      "value_label": "Valeur de la taxe",
+      "value_rate_placeholder": "ex. 1",
+      "value_fixed_placeholder": "ex. 1.000",
+      "apply_timing_label": "Appliqué quand",
+      "apply_before_vat": "Avant TVA",
+      "apply_after_vat": "Après TVA",
+      "specific_currency_label": "Définir une devise spécifique",
+      "currency_placeholder": "Sélectionnez une devise"
+    },
+    "messages": {
+      "load_error": "Erreur lors du chargement des taxes",
+      "create_success": "Taxe ajoutée avec succès",
+      "create_error": "Erreur lors de la création de la taxe",
+      "update_success": "Taxe modifiée avec succès",
+      "update_error": "Erreur lors de la modification de la taxe",
+      "delete_success": "Taxe supprimée avec succès",
+      "delete_error": "Erreur lors de la suppression de la taxe"
+    }
+  },
+  "users": {
+    "singular": "Utilisateur",
+    "plural": "Utilisateurs",
+    "description": "Affichez, gérez et personnalisez les comptes utilisateurs pour rationaliser l'accès et garantir la sécurité.",
+    "portal_description": "Ajoutez, modifiez et gérez les utilisateurs de vos entreprises.",
+    "attributes": {
+      "general": "Informations générales",
+      "account": "Informations sur le compte",
+      "id": "ID",
+      "username": "Nom d'utilisateur",
+      "email": "Adresse e-mail",
+      "first_name": "Prénom",
+      "no_first_name": "Prénom manquant",
+      "last_name": "Nom",
+      "no_last_name": "Nom manquant",
+      "date_of_birth": "Date de naissance",
+      "no_date_of_birth": "Date de naissance manquante",
+      "role": "Rôle",
+      "no_role": "Aucun rôle assigné",
+      "active": "Actif",
+      "password": "Mot de passe",
+      "confirm_password": "Confirmer le mot de passe",
+      "phone": "Numéro de Téléphone",
+      "enterprises": "Entreprises"
+    },
+    "add_button_label": "Nouvel Utilisateur",
+    "new": "Nouvel Utilisateur",
+    "update": "Mise à jour d'un Utilisateur",
+    "update_password": "Changer le mot de passe",
+    "activate": "Activation d'un Utilisateur",
+    "deactivate": "Désactiver l'utilisateur",
+    "hints": {
+      "create_dialog_hint": "Entrez les détails pour créer un nouvel utilisateur. Assurez-vous que tous les champs obligatoires sont remplis avant de sauvegarder.",
+      "update_dialog_hint": "Entrez les détails pour mettre à jour l'utilisateur. Assurez-vous que tous les champs obligatoires sont remplis avant de sauvegarder.",
+      "activate_dialog_hint": "Cette action réactivera l'utilisateur et restaurera ses rôles et autorisations associés. Assurez-vous que cette action correspond aux modifications que vous souhaitez apporter.",
+      "deactivate_dialog_hint": "Cette action est irréversible et permanente. La désactivation de l'utilisateur supprimera tous les rôles et connexions associés, affectant ainsi son accès et ses autorisations. Veuillez procéder avec prudence.",
+      "update_password_hint": "Cochez cette option si vous souhaitez modifier le mot de passe de {{name}} {{surname}}",
+      "password": "Minimum 8 caractères avec lettres et chiffres",
+      "admin_multi_enterprise": "L'admin peut être affecté à plusieurs entreprises.",
+      "single_enterprise": "Le collaborateur et le rôle personnalisé sont limités à une seule entreprise."
+    },
+    "require_password": "Exiger la mise à jour du mot de passe",
+    "require_password_hint": "Les utilisateurs seront invités à mettre à jour leur mot de passe lors de leur prochaine connexion.",
+    "sections": {
+      "basic_information": "Informations de Base",
+      "user_role": "Rôle de l'Utilisateur",
+      "permissions": "Permissions"
+    },
+    "actions": {
+      "add_user": "Ajouter un Utilisateur",
+      "new_user": "Nouvel utilisateur",
+      "edit_user": "Modifier l'utilisateur",
+      "hide_permissions": "Masquer les permissions",
+      "show_permissions": "Afficher les permissions",
+      "select_all": "Tout Sélectionner"
+    },
+    "placeholders": {
+      "first_name": "Saisissez le prénom",
+      "last_name": "Saisissez le nom",
+      "email": "Saisissez l'adresse email",
+      "password": "Saisissez le mot de passe",
+      "select_enterprise": "Sélectionnez une entreprise",
+      "select_enterprises": "Sélectionnez une ou plusieurs entreprises",
+      "search_enterprise": "Rechercher une entreprise",
+      "no_enterprise": "Aucune entreprise trouvée"
+    },
+    "list": {
+      "columns": {
+        "name": "Nom",
+        "role": "Rôle",
+        "phone": "Numéro de Téléphone",
+        "enterprises": "Entreprises",
+        "actions": "Actions"
+      },
+      "empty": "Aucun utilisateur trouvé",
+      "range": "Affichage de {{start}} à {{end}} sur {{total}} résultats"
+    },
+    "roles": {
+      "admin": "Admin",
+      "collaborator": "Collaborateur",
+      "custom": "Rôle personnalisé",
+      "principal_admin": "Admin principal"
+    },
+    "role_cards": {
+      "admin": {
+        "title": "Admin",
+        "description": "Accès complet"
+      },
+      "collaborator": {
+        "title": "Collaborateur",
+        "description": "Accès standard pour les employés"
+      },
+      "custom": {
+        "title": "Rôle personnalisé",
+        "description": "Configurez des permissions personnalisées"
+      },
+      "custom_role_description": "Rôle personnalisé pour {{email}}"
+    },
+    "permissions": {
+      "enterprise_selector": "Sélectionner une Entreprise",
+      "columns": {
+        "resource": "Ressource",
+        "read": "Lire",
+        "create": "Créer",
+        "update": "Modifier",
+        "delete": "Supprimer",
+        "all": "Tous"
+      }
+    },
+    "permission_resources": {
+      "dashboard": "Tableau de Bord",
+      "enterprise": "Entreprise",
+      "selling_documents": "Documents de Vente",
+      "buying_documents": "Documents d'Achat",
+      "payments": "Paiements",
+      "suppliers": "Fournisseurs",
+      "clients": "Clients",
+      "products": "Produits",
+      "treasury": "Trésorerie",
+      "price_lists": "Listes de Prix",
+      "taxes": "Taxes",
+      "document_settings": "Paramètres des Documents"
+    },
+    "messages": {
+      "create_success": "Utilisateur créé avec succès",
+      "create_error": "Erreur lors de la création de l'utilisateur",
+      "update_success": "Utilisateur mis à jour avec succès",
+      "update_error": "Erreur lors de la mise à jour de l'utilisateur",
+      "activate_success": "Utilisateur activé avec succès",
+      "activate_error": "Erreur lors de l'activation de l'utilisateur",
+      "deactivate_success": "Utilisateur désactivé avec succès",
+      "deactivate_error": "Erreur lors de la désactivation de l'utilisateur",
+      "delete_success": "Utilisateur supprimé avec succès",
+      "delete_error": "Erreur lors de la suppression de l'utilisateur",
+      "access_denied": "Vous n'avez pas accès à cette section.",
+      "admin_permissions_locked": "Un administrateur possède automatiquement toutes les permissions du cabinet."
+    },
+    "validation": {
+      "first_name_required": "Veuillez saisir le prénom",
+      "last_name_required": "Veuillez saisir le nom",
+      "invalid_email": "Veuillez saisir une adresse email valide",
+      "password_min_length": "Le mot de passe doit contenir au moins 8 caractères",
+      "enterprise_required": "Veuillez sélectionner au moins une entreprise",
+      "single_enterprise_required": "Seul l'admin peut être affecté à plusieurs entreprises",
+      "admin_role_missing": "Le rôle Admin est introuvable",
+      "collaborator_role_missing": "Le rôle Collaborateur est introuvable"
+    }
+  },
+  "rbac": {
+    "requiredPermissionsAutoAdded": "Certaines permissions nécessaires ont été ajoutées automatiquement pour éviter les erreurs d’accès.",
+    "optionalPermissionsRecommended": "Permissions recommandées pour une expérience complète : {{permissions}}.",
+    "permissionRemovalBlocked": "Cette permission est requise par une autre permission active et ne peut pas être supprimée.",
+    "contextualPermissionsInfo": "Certaines données nécessaires seront accessibles uniquement dans le contexte de ce module."
+  },
+  "roles": {
+    "singular": "Rôle",
+    "plural": "Rôles",
+    "description": "Définissez et attribuez des rôles pour rationaliser les autorisations et le contrôle d'accès pour les utilisateurs.",
+    "attributes": {
+      "label": "Etiquette",
+      "description": "Description",
+      "no_description": "Aucune Description",
+      "permissions": "Permissions",
+      "no_permissions": "Aucune Permission"
+    },
+    "add_button_label": "Nouveau Rôle",
+    "new": "Nouveau Rôle",
+    "update": "Mise à jour d'un Rôle",
+    "delete": "Supprimer le rôle",
+    "duplicate": "Dupliquer le rôle",
+    "hints": {
+      "create_dialog_hint": "Entrez les détails pour créer un nouveau rôle. Assurez-vous que tous les champs obligatoires sont remplis avant de sauvegarder.",
+      "update_dialog_hint": "Entrez les détails pour mettre à jour le rôle. Assurez-vous que tous les champs obligatoires sont remplis avant de sauvegarder.",
+      "delete_dialog_hint": "Cette action est permanente et ne peut pas être annulée. Toutes les associations avec ce rôle seront également supprimées.",
+      "duplicate_dialog_hint": "Cette action dupliquera le rôle, y compris toutes ses associations. Vous pouvez annuler cette action ultérieurement si nécessaire."
+    }
+  },
+  "permissions": {
+    "singular": "Permission",
+    "plural": "Permissions",
+    "description": "Définissez et gérez les autorisations pour contrôler l'accès aux fonctionnalités et aux ressources de manière sécurisée et efficace.",
+    "attributes": {
+      "label": "Etiquette",
+      "description": "Description",
+      "no_description": "Aucune Description"
+    }
+  }
+}
